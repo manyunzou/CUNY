@@ -1,5 +1,6 @@
 .years-container{
     width: 100%;
+    margin-left: 10%;
 }
 
 .year{
@@ -11,9 +12,22 @@
     padding-right: 10px;
 }
 
-.timeline-container{
-    width: 100%;
+.timeline-billname {
+    width: 10%;
     height: 100%;
+    float: left;
+    margin-top: 2.5%;
+
+}
+
+.billname {
+    margin-bottom: 100px;
+}
+
+.timeline-container{
+    width: 90%;
+    height: 100%;
+    float: left;
 }
 
 .line {
@@ -185,9 +199,9 @@
     padding: 10px;
     background: #fff;
     font-size: 15px;
-    top: 80px;
     width: 20%;
-    top: 170px;
+    top: 150px;
 }
+
 
 
