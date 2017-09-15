@@ -559,5 +559,467 @@
 }
 
 
+/* 4th line */
+
+.line4 {
+    width: 95%;
+    height: 6px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-left: 10%;
+    top: 350px;
+    position: relative;
+    z-index:-1;
+}
+
+.circle4_1 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 3px solid orange;
+    float: left;
+    margin-left: -29.5%;
+    margin-top: 19%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle4_2 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 3px solid orange;
+    float: left;
+    margin-left: 25%;
+    margin-top: 8%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.law-title-4_1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid orange;
+    color: #fff;
+    background: orange;
+    font-size: 20px;
+    padding: 10px;
+    top: 80px;
+    width: 20%;
+}
+
+.law-title-4_1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-200px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: orange;
+    border-top: 0;
+}
+
+.law-details-4_1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    top: 150px;
+}
+
+.law-title-4_2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid orange;
+    background: orange;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    top: 110px;
+    width: 20%;
+}
+
+.law-title-4_2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: orange;
+    border-top: 0;
+}
+
+.law-details-4_2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    top: 80px;
+    width: 20%;
+    top: 170px;
+}
+
+/* 5th line */
+
+.line5 {
+    width: 95%;
+    height: 6px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-left: 10%;
+    top: 463px;
+    position: relative;
+    z-index:-1;
+}
+
+.circle5_1 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 3px solid orange;
+    float: left;
+    margin-left: -43.6%;
+    margin-top: 18.8%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle5_2 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 3px solid orange;
+    float: left;
+    margin-left: -29.5%;
+    margin-top: 18.9%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle5_3 {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 3px solid orange;
+    float: left;
+    margin-left: 10.8%;
+    margin-top: 8.5%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.law-title-5_1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid orange;
+    color: #fff;
+    background: orange;
+    font-size: 20px;
+    padding: 10px;
+    top: 80px;
+    width: 20%;
+}
+
+.law-title-5_1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-200px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: orange;
+    border-top: 0;
+}
+
+.law-details-5_1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    top: 150px;
+}
+
+.law-title-5_2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid orange;
+    background: orange;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    top: 110px;
+    width: 20%;
+}
+
+.law-title-5_2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: orange;
+    border-top: 0;
+}
+
+.law-details-5_2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    top: 80px;
+    width: 20%;
+    top: 170px;
+}
+
+.law-title-5_3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #999;
+    background: #999;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    top: 110px;
+    width: 20%;
+}
+
+.law-title-5_3::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #999;
+    border-top: 0;
+}
+
+.law-details-5_3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    top: 150px;
+}
+
+/* 6th line */
+
+.line6 {
+    width: 95%;
+    height: 6px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-left: 10%;
+    top: 575px;
+    position: relative;
+    z-index:-1;
+}
+
+.circle6_1 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 3px solid orange;
+    float: left;
+    margin-left: -58%;
+    margin-top: 19%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle6_2 {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 3px solid orange;
+    float: left;
+    margin-left: 24.4%;
+    margin-top: 19%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.law-title-6_1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid orange;
+    color: #fff;
+    background: orange;
+    font-size: 20px;
+    padding: 10px;
+    top: 80px;
+    width: 20%;
+}
+
+.law-title-6_1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-200px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: orange;
+    border-top: 0;
+}
+
+.law-details-6_1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    top: 150px;
+}
+
+.law-title-6_2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid orange;
+    background: orange;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    top: 110px;
+    width: 20%;
+}
+
+.law-title-6_2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: orange;
+    border-top: 0;
+}
+
+.law-details-6_2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    top: 80px;
+    width: 20%;
+    top: 170px;
+}
+
+.law-title-6_3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #999;
+    background: #999;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    top: 110px;
+    width: 20%;
+}
+
+.law-title-6_3::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #999;
+    border-top: 0;
+}
+
+.law-details-6_3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    top: 150px;
+}
+
+
+
 
 
