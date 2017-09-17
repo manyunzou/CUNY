@@ -214,7 +214,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 108px;
+    margin-top: 10%;
     position: relative;
     z-index:-1;
 }
@@ -228,7 +228,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: 18.5%;
-    margin-top: 8%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -242,7 +242,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: 25.5%;
-    margin-top: 8%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -256,7 +256,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: 11%;
-    margin-top: 8%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -391,7 +391,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 200px;
+    margin-top: 8%;
     position: relative;
     z-index:-1;
 }
@@ -404,8 +404,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: -29.5%;
-    margin-top: 16.5%;
+    margin-left: 4.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -418,8 +418,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: 25%;
-    margin-top: 8.25%;
+    margin-left: 25.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -432,8 +432,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: 11.5%;
-    margin-top: 8.25%;
+    margin-left: 25%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -568,7 +568,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 295px;
+    margin-top: 8.5%;
     position: relative;
     z-index:-1;
 }
@@ -581,8 +581,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: -29.5%;
-    margin-top: 18.75%;
+    margin-left: 29.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -595,8 +595,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: 25%;
-    margin-top: 8.25%;
+    margin-left: 25.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -690,7 +690,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 390px;
+    margin-top: 8.5%;
     position: relative;
     z-index:-1;
 }
@@ -703,8 +703,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: -43.6%;
-    margin-top: 19%;
+    margin-left: 15.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -717,8 +717,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: -29.5%;
-    margin-top: 19%;
+    margin-left: 25.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -731,8 +731,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: 10.8%;
-    margin-top: 8.4%;
+    margin-left: 40.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -866,7 +866,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 485px;
+    margin-top: 8.5%;
     position: relative;
     z-index:-1;
 }
@@ -879,8 +879,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: -58%;
-    margin-top: 19%;
+    margin-left: 43.5%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -893,8 +893,8 @@
     border-radius: 15px;
     border: 3px solid orange;
     float: left;
-    margin-left: 24.4%;
-    margin-top: 19%;
+    margin-left: 25%;
+    margin-top: -1.5%;
     z-index: 1;
     cursor: pointer;
 }
