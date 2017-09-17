@@ -214,7 +214,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 127px;
+    top: 108px;
     position: relative;
     z-index:-1;
 }
@@ -391,7 +391,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 240px;
+    top: 200px;
     position: relative;
     z-index:-1;
 }
@@ -405,7 +405,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: -29.5%;
-    margin-top: 18.5%;
+    margin-top: 16.5%;
     z-index: 1;
     cursor: pointer;
 }
@@ -419,7 +419,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: 25%;
-    margin-top: 8.5%;
+    margin-top: 8.25%;
     z-index: 1;
     cursor: pointer;
 }
@@ -433,7 +433,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: 11.5%;
-    margin-top: 8.5%;
+    margin-top: 8.25%;
     z-index: 1;
     cursor: pointer;
 }
@@ -568,7 +568,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 350px;
+    top: 295px;
     position: relative;
     z-index:-1;
 }
@@ -582,7 +582,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: -29.5%;
-    margin-top: 19%;
+    margin-top: 18.75%;
     z-index: 1;
     cursor: pointer;
 }
@@ -596,7 +596,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: 25%;
-    margin-top: 8%;
+    margin-top: 8.25%;
     z-index: 1;
     cursor: pointer;
 }
@@ -690,7 +690,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 463px;
+    top: 390px;
     position: relative;
     z-index:-1;
 }
@@ -704,7 +704,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: -43.6%;
-    margin-top: 18.8%;
+    margin-top: 19%;
     z-index: 1;
     cursor: pointer;
 }
@@ -718,7 +718,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: -29.5%;
-    margin-top: 18.9%;
+    margin-top: 19%;
     z-index: 1;
     cursor: pointer;
 }
@@ -732,7 +732,7 @@
     border: 3px solid orange;
     float: left;
     margin-left: 10.8%;
-    margin-top: 8.5%;
+    margin-top: 8.4%;
     z-index: 1;
     cursor: pointer;
 }
@@ -866,7 +866,7 @@
     background-color: #999;
     border-radius: 5px;
     margin-left: 10%;
-    top: 575px;
+    top: 485px;
     position: relative;
     z-index:-1;
 }
@@ -1038,6 +1038,43 @@
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+#billdetail02 {
+    margin-top: 14%;
+    margin-left: 10%;
+    width: 95%;
+    display: none;
+}
+
+#billdetail03 {
+    margin-top: 22%;
+    margin-left: 10%;
+    width: 95%;
+    display: none;
+}
+
+#billdetail04 {
+    margin-top: 30%;
+    margin-left: 10%;
+    width: 95%;
+    display: none;
+}
+
+#billdetail05 {
+    margin-top: 39%;
+    margin-left: 10%;
+    width: 95%;
+    display: none;
+}
+
+#billdetail06 {
+    margin-top: 48%;
+    margin-left: 10%;
+    width: 95%;
+    display: none;
+}
+
+
 
 
 

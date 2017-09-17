@@ -69,6 +69,14 @@ $(function(){
         $(".law-details-2_3").hide();
     });
 
+    //2nd timeline details expand
+    $(".bill02").click(function(){
+        $("#billdetail02").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+
     //3rd timeline
     $(".circle3_1").mouseover(function() {
         $(".law-title-3_1").show();
@@ -98,5 +106,33 @@ $(function(){
     $(".circle3_3").mouseout(function() {
         $(".law-title-3_3").hide();
         $(".law-details-3_3").hide();
+    });
+
+    //3rd timeline expand
+    $(".bill03").click(function(){
+        $("#billdetail03").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //4th timeline expand
+     $(".bill04").click(function(){
+        $("#billdetail04").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+     //5th timeline expand
+    $(".bill05").click(function(){
+        $("#billdetail05").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+     //6th timeline expand
+    $(".bill06").click(function(){
+        $("#billdetail06").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
     });
 });
