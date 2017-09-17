@@ -31,11 +31,25 @@ $(function(){
         $(".law-details-3").hide();
     });
 
+    //Bill name
+    bill01 = $(".bill01");
+    bill02 = $(".bill02");
+    bill03 = $(".bill03");
+    bill04 = $(".bill04");
+    bill05 = $(".bill05");
+    bill06 = $(".bill06");
+
     //1st timeline details expand
     $(".bill01").click(function(){
         $("#billdetail01").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+
+        if(bill02.css("margin-top") === "16px") {
+            bill02.css("margin-top", "577px");
+        } else if (bill02.css("margin-top") === "577px"){
+            bill02.css("margin-top", "16px");
+        };
     })
 
     //2nd timeline
@@ -74,6 +88,12 @@ $(function(){
         $("#billdetail02").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+
+        // if(bill03.css("margin-top") === "16px") {
+        //     bill03.css("margin-top", "577px");
+        // } else if (bill03.css("margin-top") === "577px"){
+        //     bill03.css("margin-top", "16px");
+        // };
     });
 
 
