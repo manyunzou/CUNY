@@ -89,11 +89,11 @@ $(function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
 
-        // if(bill03.css("margin-top") === "16px") {
-        //     bill03.css("margin-top", "577px");
-        // } else if (bill03.css("margin-top") === "577px"){
-        //     bill03.css("margin-top", "16px");
-        // };
+        if(bill03.css("margin-top") === "16px") {
+            bill03.css("margin-top", "570px");
+        } else if (bill03.css("margin-top") === "570px"){
+            bill03.css("margin-top", "16px");
+        };
     });
 
 
@@ -133,6 +133,12 @@ $(function(){
         $("#billdetail03").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+
+        if(bill04.css("margin-top") === "16px") {
+            bill04.css("margin-top", "570px");
+        } else if (bill04.css("margin-top") === "570px"){
+            bill04.css("margin-top", "16px");
+        };
     });
 
     //4th timeline expand
@@ -140,6 +146,12 @@ $(function(){
         $("#billdetail04").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+
+        if(bill05.css("margin-top") === "16px") {
+            bill05.css("margin-top", "570px");
+        } else if (bill05.css("margin-top") === "570px"){
+            bill05.css("margin-top", "16px");
+        };
     });
 
      //5th timeline expand
@@ -147,6 +159,11 @@ $(function(){
         $("#billdetail05").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        if(bill06.css("margin-top") === "16px") {
+            bill06.css("margin-top", "570px");
+        } else if (bill06.css("margin-top") === "570px"){
+            bill06.css("margin-top", "16px");
+        };
     });
 
      //6th timeline expand
