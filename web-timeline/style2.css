@@ -21,6 +21,7 @@
 
 .billname {
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 .timeline-container{
@@ -269,7 +270,7 @@
     background: orange;
     font-size: 20px;
     padding: 10px;
-    top: 80px;
+    top: 225px;
     width: 20%;
 }
 
@@ -277,7 +278,7 @@
     content: "";
     position: absolute;
     left: 10px;
-    top:-200px;
+    top: -9px;
     display: block;
     width: 0;
     height: 0;
@@ -297,7 +298,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    top: 150px;
+    top: 265px;
 }
 
 .law-title-2_2 {
@@ -309,7 +310,7 @@
     color: #fff;
     font-size: 20px;
     padding: 10px;
-    top: 110px;
+    top: 225px;
     width: 20%;
 }
 
@@ -317,7 +318,7 @@
     content: "";
     position: absolute;
     left: 10px;
-    top:-9px;
+    top: -9px;
     display: block;
     width: 0;
     height: 0;
@@ -338,7 +339,7 @@
     font-size: 15px;
     top: 80px;
     width: 20%;
-    top: 170px;
+    top: 310px;
 }
 
 .law-title-2_3 {
@@ -350,7 +351,7 @@
     color: #fff;
     font-size: 20px;
     padding: 10px;
-    top: 110px;
+    top: 225px;
     width: 20%;
 }
 
@@ -358,7 +359,7 @@
     content: "";
     position: absolute;
     left: 10px;
-    top:-9px;
+    top: -9px;
     display: block;
     width: 0;
     height: 0;
@@ -378,7 +379,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    top: 150px;
+    top: 265px;
 }
 
 
@@ -446,7 +447,7 @@
     background: orange;
     font-size: 20px;
     padding: 10px;
-    top: 80px;
+    top: 343px;
     width: 20%;
 }
 
@@ -454,7 +455,7 @@
     content: "";
     position: absolute;
     left: 10px;
-    top:-200px;
+    top:-9px;
     display: block;
     width: 0;
     height: 0;
@@ -474,7 +475,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    top: 150px;
+    top: 380px;
 }
 
 .law-title-3_2 {
@@ -1017,6 +1018,25 @@
     font-size: 15px;
     width: 20%;
     top: 150px;
+}
+
+/* Bill expanded area */
+#billdetail01 {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 95%;
+    display: none;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    text-align: center;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 
