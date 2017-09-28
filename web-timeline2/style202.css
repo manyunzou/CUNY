@@ -12,6 +12,17 @@ body {
     display: inline-block;
     margin-left: 8.2%;
     background: #4CC2FF;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.year-notyet {
+    display: inline-block;
+    margin-left: 8.2%;
+    background: #999;
+    border-radius: 5px;
     color: #fff;
     padding-left: 10px;
     padding-right: 10px;
@@ -23,9 +34,11 @@ body {
 }
 
 .item-text {
-    width: 100px;
+    width: 120px;
     float: left;
     padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .item-text p {
@@ -33,12 +46,12 @@ body {
 }
 
 .item-timeline {
-    margin-left: 125px;
+    margin-left: 140px;
 }
 
 .item-line {
     width: 95%;
-    height: 5px;
+    height: 2px;
     background-color: #999;
     border-radius: 5px;
     margin-top: 40px;
@@ -48,14 +61,75 @@ body {
 }
 
 .item-billbrief {
-    width: 500px;
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
 }
 
 .item-learnmore {
     color: #4CC2FF;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+.item-learnmore:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+/* First line */
+
+.circle1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle1::after {
+    background: #fff;
+}
+
+.circle2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
 
 
 /* ... New Code */
@@ -79,46 +153,6 @@ body {
 }
 
 /* 1st line */
-
-.circle1 {
-    width: 20px;
-    height: 20px;
-    background-color: orange;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid orange;
-    float: left;
-    margin-left: 4.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-
-.circle2 {
-    width: 20px;
-    height: 20px;
-    background-color: orange;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid orange;
-    float: left;
-    margin-left: 25.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle3 {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid orange;
-    float: left;
-    margin-left: 39%;
-    z-index: 1;
-    cursor: pointer;
-}
 
 
 .law-title-1 {
