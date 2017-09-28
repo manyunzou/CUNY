@@ -17,6 +17,49 @@ body {
     padding-right: 10px;
 }
 
+.timeline-item {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text {
+    width: 100px;
+    float: left;
+    padding-top: 15px;
+}
+
+.item-text p {
+    margin-bottom: 0px;
+}
+
+.item-timeline {
+    margin-left: 125px;
+}
+
+.item-line {
+    width: 95%;
+    height: 5px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief {
+    width: 500px;
+}
+
+.item-learnmore {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* ... New Code */
+
 .timeline-billname {
     width: 10%;
     height: 100%;
@@ -36,19 +79,6 @@ body {
 }
 
 /* 1st line */
-
-.line {
-    width: 95%;
-    height: 6px;
-    background-color: #999;
-    border-radius: 5px;
-    margin-top: 40px;
-    margin-left: 10%;
-    top: 15px;
-    position: relative;
-    z-index:-1;
-}
-
 
 .circle1 {
     width: 20px;
