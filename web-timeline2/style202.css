@@ -1,3 +1,5 @@
+/* Style for all*/
+
 body {
     height: 900px;
 }
@@ -28,12 +30,14 @@ body {
     padding-right: 10px;
 }
 
-.timeline-item {
+/* 1st item */
+
+.timeline-item1 {
     width: 100%;
     overflow: hidden;
 }
 
-.item-text {
+.item-text1 {
     width: 120px;
     float: left;
     padding-top: 15px;
@@ -41,15 +45,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.item-text p {
+.item-text1 p {
     margin-bottom: 0px;
 }
 
-.item-timeline {
+.item-timeline1 {
     margin-left: 140px;
 }
 
-.item-line {
+.item-line1 {
     width: 95%;
     height: 2px;
     background-color: #999;
@@ -60,29 +64,27 @@ body {
     z-index:-1;
 }
 
-.item-billbrief {
+.item-billbrief1 {
     width: 300px;
     font-size: 11px;
     font-family: 'Lora', serif;
     color: #999;
 }
 
-.item-learnmore {
+.item-learnmore1 {
     color: #4CC2FF;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.item-learnmore:hover {
+.item-learnmore1:hover {
     color: #4CC2FF;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 1px dotted #4CC2FF;
     cursor: pointer;
 }
-
-/* First line */
 
 .circle1 {
     width: 18px;
@@ -130,27 +132,549 @@ body {
     cursor: pointer;
 }
 
-
-
-/* ... New Code */
-
-.timeline-billname {
-    width: 10%;
-    height: 100%;
-    float: left;
-    margin-top: 2.5%;
+/* 1st Bill expanded area */
+#billdetail01 {
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
 }
 
-.billname {
-    margin-bottom: 100px;
+#billdetail01 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail01 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #999;
+    margin-left: 95%;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
-.timeline-container{
-    width: 90%;
-    height: 100%;
-    margin-left: 20px;
+#tri-collapse1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 95%;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
+
+
+/* 2nd item */
+
+.timeline-item2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text2 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text2 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline2 {
+    margin-left: 140px;
+}
+
+.item-line2 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief2 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore2 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore2:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle2-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle2-1::after {
+    background: #fff;
+}
+
+.circle2-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle2-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 2nd Bill expanded area */
+#billdetail02 {
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail02 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail02 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #999;
+    margin-left: 95%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#tri-collapse2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 95%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+/* 3rd item */
+
+.timeline-item3 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text3 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text3 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline3 {
+    margin-left: 140px;
+}
+
+.item-line3 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief3 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore3 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore3:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle3-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle3-1::after {
+    background: #fff;
+}
+
+.circle3-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle3-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 3rd Bill expanded area */
+#billdetail03 {
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail03 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail03 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse3 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #999;
+    margin-left: 95%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#tri-collapse3:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 95%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+/* 4th item */
+
+.timeline-item4 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text4 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text4 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline4 {
+    margin-left: 140px;
+}
+
+.item-line4 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief4 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore4 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore4:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle4-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle4-1::after {
+    background: #fff;
+}
+
+.circle4-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle4-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 4th Bill expanded area */
+#billdetail04 {
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail04 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail04 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse4 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #999;
+    margin-left: 95%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#tri-collapse4:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 95%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* ... New Code */
+
 
 /* 1st line */
 
@@ -1083,67 +1607,6 @@ body {
     font-size: 15px;
     width: 20%;
     margin-top: 6%;
-}
-
-/* Bill expanded area */
-#billdetail01 {
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 95%;
-    border: 1px #999 solid;
-    display: none;
-}
-
-.billNo {
-    background-color: #999;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 0;
-}
-
-.billTitle {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-#billdetail02 {
-    margin-top: 4%;
-    margin-left: 10%;
-    width: 95%;
-    border: 1px #999 solid;
-    display: none;
-}
-
-#billdetail03 {
-    margin-top: 4%;
-    margin-left: 10%;
-    width: 95%;
-    border: 1px #999 solid;
-    display: none;
-}
-
-#billdetail04 {
-    margin-top: 4%;
-    margin-left: 10%;
-    width: 95%;
-    border: 1px #999 solid;
-    display: none;
-}
-
-#billdetail05 {
-    margin-top: 4%;
-    margin-left: 10%;
-    width: 95%;
-    border: 1px #999 solid;
-    display: none;
-}
-
-#billdetail06 {
-    margin-top: 4%;
-    margin-left: 10%;
-    width: 95%;
-    border: 1px #999 solid;
-    display: none;
 }
 
 

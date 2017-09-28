@@ -40,17 +40,21 @@ $(function(){
     bill06 = $(".bill06");
 
     //1st timeline details expand
-    $(".bill01").click(function(){
+    $(".item-learnmore1").click(function(){
         $("#billdetail01").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
 
-        if(bill02.css("margin-top") === "16px") {
-            bill02.css("margin-top", "577px");
-        } else if (bill02.css("margin-top") === "577px"){
-            bill02.css("margin-top", "16px");
-        };
-    })
+        $(".item-billbrief1").hide();
+    });
+
+    $("#tri-collapse1").click(function(){
+        $("#billdetail01").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief1").show();
+    });
 
     //2nd timeline
     $(".circle2_1").mouseover(function() {
@@ -84,16 +88,20 @@ $(function(){
     });
 
     //2nd timeline details expand
-    $(".bill02").click(function(){
+    $(".item-learnmore2").click(function(){
         $("#billdetail02").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
 
-        if(bill03.css("margin-top") === "16px") {
-            bill03.css("margin-top", "570px");
-        } else if (bill03.css("margin-top") === "570px"){
-            bill03.css("margin-top", "16px");
-        };
+        $(".item-billbrief2").hide();
+    });
+
+    $("#tri-collapse2").click(function(){
+        $("#billdetail02").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief2").show();
     });
 
 
@@ -213,29 +221,37 @@ $(function(){
 
 
     //3rd timeline expand
-    $(".bill03").click(function(){
+    $(".item-learnmore3").click(function(){
         $("#billdetail03").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
 
-        if(bill04.css("margin-top") === "16px") {
-            bill04.css("margin-top", "570px");
-        } else if (bill04.css("margin-top") === "570px"){
-            bill04.css("margin-top", "16px");
-        };
+        $(".item-billbrief3").hide();
+    });
+
+    $("#tri-collapse3").click(function(){
+        $("#billdetail03").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief3").show();
     });
 
     //4th timeline expand
-     $(".bill04").click(function(){
+     $(".item-learnmore4").click(function(){
         $("#billdetail04").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
 
-        if(bill05.css("margin-top") === "16px") {
-            bill05.css("margin-top", "570px");
-        } else if (bill05.css("margin-top") === "570px"){
-            bill05.css("margin-top", "16px");
-        };
+        $(".item-billbrief4").hide();
+    });
+
+    $("#tri-collapse4").click(function(){
+        $("#billdetail04").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief4").show();
     });
 
      //5th timeline expand
@@ -243,11 +259,6 @@ $(function(){
         $("#billdetail05").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
-        if(bill06.css("margin-top") === "16px") {
-            bill06.css("margin-top", "570px");
-        } else if (bill06.css("margin-top") === "570px"){
-            bill06.css("margin-top", "16px");
-        };
     });
 
      //6th timeline expand
