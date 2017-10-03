@@ -137,6 +137,7 @@ body {
     margin-top: 30px;
     margin-left: 15%;
     width: 78%;
+    height: 640px;
     border: 3px #999 solid;
     display: none;
 }
@@ -155,7 +156,7 @@ body {
 }
 
 #billprogress01 {
-    width:50%;
+    width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
 }
@@ -163,9 +164,17 @@ body {
 .billNo {
     background-color: #999;
     color: #ffffff;
-    text-align: center;
+    height: 30px;
     margin-top: 0;
+    margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 35%;
+    float: left;
 }
 
 .billTitle {
@@ -179,9 +188,9 @@ body {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 15px solid #999;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -191,8 +200,8 @@ body {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid #5b5b5b;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -368,9 +377,17 @@ body {
 .billNo {
     background-color: #999;
     color: #ffffff;
-    text-align: center;
+    height: 30px;
     margin-top: 0;
+    margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
 }
 
 .billTitle {
@@ -384,9 +401,9 @@ body {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 15px solid #999;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -396,8 +413,8 @@ body {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid #5b5b5b;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -529,9 +546,17 @@ body {
 .billNo {
     background-color: #999;
     color: #ffffff;
-    text-align: center;
+    height: 30px;
     margin-top: 0;
+    margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
 }
 
 .billTitle {
@@ -545,9 +570,9 @@ body {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 15px solid #999;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -557,8 +582,8 @@ body {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid #5b5b5b;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -690,9 +715,17 @@ body {
 .billNo {
     background-color: #999;
     color: #ffffff;
-    text-align: center;
+    height: 30px;
     margin-top: 0;
+    margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
 }
 
 .billTitle {
@@ -706,9 +739,9 @@ body {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 15px solid #999;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -718,8 +751,8 @@ body {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid #5b5b5b;
-    margin-left: 95%;
-    margin-bottom: 10px;
+    margin-left: 5%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
