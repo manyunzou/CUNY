@@ -30,6 +30,42 @@ body {
     padding-right: 10px;
 }
 
+/* Legend box style */
+.timeline-legend {
+    height: 150px;
+    width: 380px;
+    background-color: #fff;
+    border: 1px solid #999;
+    margin-bottom: 40px;
+}
+
+.circle-senate {
+    width: 18px;
+    height: 18px;
+    background-color: #ed6f1d;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+}
+
+.circle-assembly {
+    width: 18px;
+    height: 18px;
+    background-color: #168DC5;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+}
+
+
 /* 1st item */
 
 .timeline-item1 {
@@ -89,7 +125,7 @@ body {
 .circle1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -107,7 +143,7 @@ body {
 .circle2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -300,7 +336,7 @@ body {
 .circle2-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -314,7 +350,7 @@ body {
 .circle2-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -328,7 +364,7 @@ body {
 .circle2-3 {
     width: 18px;
     height: 18px;
-    background-color: #FAE809;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -492,7 +528,7 @@ body {
 .circle3-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -510,7 +546,7 @@ body {
 .circle3-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -662,7 +698,7 @@ body {
 .circle4-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -680,7 +716,7 @@ body {
 .circle4-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -838,7 +874,7 @@ body {
 .circle5-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -856,7 +892,7 @@ body {
 .circle5-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1014,7 +1050,7 @@ body {
 .circle6-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1032,7 +1068,7 @@ body {
 .circle6-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1190,7 +1226,7 @@ body {
 .circle7-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1208,7 +1244,7 @@ body {
 .circle7-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1367,7 +1403,7 @@ body {
 .circle8-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1385,7 +1421,7 @@ body {
 .circle8-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1547,7 +1583,7 @@ body {
 .circle9-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1565,7 +1601,7 @@ body {
 .circle9-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1723,7 +1759,7 @@ body {
 .circle10-1 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1741,7 +1777,7 @@ body {
 .circle10-2 {
     width: 18px;
     height: 18px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1867,9 +1903,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
+    border: 1px solid #ed6f1d;
     color: #fff;
-    background: orange;
+    background: #ed6f1d;
     font-size: 20px;
     padding: 10px;
     top: 110px;
@@ -1885,7 +1921,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -1907,8 +1943,8 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
-    background: orange;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -1925,7 +1961,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -1989,10 +2025,10 @@ body {
 .circle2_1 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 18.5%;
     margin-top: -1.5%;
@@ -2003,10 +2039,10 @@ body {
 .circle2_2 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 25.5%;
     margin-top: -1.5%;
@@ -2020,7 +2056,7 @@ body {
     background-color: #fff;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 11%;
     margin-top: -1.5%;
@@ -2032,9 +2068,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
+    border: 1px solid #ed6f1d;
     color: #fff;
-    background: orange;
+    background: #ed6f1d;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2050,7 +2086,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2072,8 +2108,8 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
-    background: orange;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -2090,7 +2126,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2153,10 +2189,10 @@ body {
 .circle3_1 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 4.5%;
     margin-top: -1.5%;
@@ -2167,10 +2203,10 @@ body {
 .circle3_2 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 25.5%;
     margin-top: -1.5%;
@@ -2184,7 +2220,7 @@ body {
     background-color: #fff;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 25%;
     margin-top: -1.5%;
@@ -2196,9 +2232,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
+    border: 1px solid #ed6f1d;
     color: #fff;
-    background: orange;
+    background: #ed6f1d;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2214,7 +2250,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2236,8 +2272,8 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
-    background: orange;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -2254,7 +2290,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2319,10 +2355,10 @@ body {
 .circle4_1 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 32.3%;
     margin-top: -1.5%;
@@ -2333,10 +2369,10 @@ body {
 .circle4_2 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 25%;
     margin-top: -1.5%;
@@ -2348,9 +2384,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
+    border: 1px solid #ed6f1d;
     color: #fff;
-    background: orange;
+    background: #ed6f1d;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2366,7 +2402,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2388,8 +2424,8 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
-    background: orange;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -2406,7 +2442,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2430,10 +2466,10 @@ body {
 .circle5_1 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 15.5%;
     margin-top: -1.5%;
@@ -2444,10 +2480,10 @@ body {
 .circle5_2 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 25.5%;
     margin-top: -1.5%;
@@ -2461,7 +2497,7 @@ body {
     background-color: #fff;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 40.5%;
     margin-top: -1.5%;
@@ -2473,9 +2509,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
+    border: 1px solid #ed6f1d;
     color: #fff;
-    background: orange;
+    background: #ed6f1d;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2491,7 +2527,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2513,8 +2549,8 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
-    background: orange;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -2531,7 +2567,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2595,10 +2631,10 @@ body {
 .circle6_1 {
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 43.5%;
     margin-top: -1.5%;
@@ -2612,7 +2648,7 @@ body {
     background-color: #fff;
     /* Key to set a circle */
     border-radius: 15px;
-    border: 3px solid orange;
+    border: 3px solid #ed6f1d;
     float: left;
     margin-left: 25%;
     margin-top: -1.5%;
@@ -2624,9 +2660,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
+    border: 1px solid #ed6f1d;
     color: #fff;
-    background: orange;
+    background: #ed6f1d;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2642,7 +2678,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
@@ -2664,8 +2700,8 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid orange;
-    background: orange;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -2682,7 +2718,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: orange;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
