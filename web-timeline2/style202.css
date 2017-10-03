@@ -134,7 +134,7 @@ body {
 
 /* 1st Bill expanded area */
 #billdetail01 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 15%;
     width: 78%;
     height: 640px;
@@ -210,6 +210,7 @@ body {
     display: inline-block;
     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
     margin-left: 20px;
+    cursor: default;
 }
 
 .billRecomm01_bottom {
@@ -354,9 +355,10 @@ body {
 
 /* 2nd Bill expanded area */
 #billdetail02 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 15%;
     width: 78%;
+    height: 660px;
     border: 3px #999 solid;
     display: none;
 }
@@ -372,6 +374,12 @@ body {
 #billdetail02 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+#billprogress02 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .billNo {
@@ -453,6 +461,12 @@ body {
     z-index:-1;
 }
 
+#billprogress03 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 .item-billbrief3 {
     width: 300px;
     font-size: 11px;
@@ -523,9 +537,10 @@ body {
 
 /* 3rd Bill expanded area */
 #billdetail03 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 15%;
     width: 78%;
+    height: 530px;
     border: 3px #999 solid;
     display: none;
 }
@@ -692,9 +707,10 @@ body {
 
 /* 4th Bill expanded area */
 #billdetail04 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 15%;
     width: 78%;
+    height: 500px;
     border: 3px #999 solid;
     display: none;
 }
@@ -710,6 +726,12 @@ body {
 #billdetail04 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+#billprogress04 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .billNo {
@@ -755,6 +777,1085 @@ body {
     padding-top: 5px;
     cursor: pointer;
 }
+
+
+/* 5th item */
+
+.timeline-item5 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text5 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text5 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline5 {
+    margin-left: 140px;
+}
+
+.item-line5 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief5 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore5 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore5:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle5-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle5-1::after {
+    background: #fff;
+}
+
+.circle5-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle5-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 5th Bill expanded area */
+#billdetail05 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 580px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail05 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail05 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress05 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse5 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse5:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* 6th item */
+
+.timeline-item6 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text6 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text6 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline6 {
+    margin-left: 140px;
+}
+
+.item-line6 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief6 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore6 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore6:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle6-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle6-1::after {
+    background: #fff;
+}
+
+.circle6-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle6-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 6th Bill expanded area */
+#billdetail06 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 580px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail06 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail06 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress06 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse6 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse6:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* 7th item */
+
+.timeline-item7 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text7 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text7 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline7 {
+    margin-left: 140px;
+}
+
+.item-line7 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief7 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore7 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore7:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle7-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle7-1::after {
+    background: #fff;
+}
+
+.circle7-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle7-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 7th Bill expanded area */
+#billdetail07 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 730px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail07 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail07 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress07 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse7 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse7:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+
+/* 8th item */
+
+.timeline-item8 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text8 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text8 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline8 {
+    margin-left: 140px;
+}
+
+.item-line8 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief8 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore8 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore8:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle8-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle8-1::after {
+    background: #fff;
+}
+
+.circle8-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle8-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 7th Bill expanded area */
+#billdetail08 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 540px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail08 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail08 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress08 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse8 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse8:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* 9th item */
+
+.item-nonbillname {
+    color: #6B6B6B;
+}
+
+.timeline-item9 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text9 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text9 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline9 {
+    margin-left: 140px;
+}
+
+.item-line9 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief9 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore9 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore9:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle9-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle9-1::after {
+    background: #fff;
+}
+
+.circle9-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle9-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 9th Bill expanded area */
+#billdetail09 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 350px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail09 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail09 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress09 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse9 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse9:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* 10th item */
+
+.timeline-item10 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-text10 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text10 p {
+    margin-bottom: 0px;
+}
+
+.item-timeline10 {
+    margin-left: 140px;
+}
+
+.item-line10 {
+    width: 95%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-billbrief10 {
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmore10 {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmore10:hover {
+    color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circle10-1 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle10-1::after {
+    background: #fff;
+}
+
+.circle10-2 {
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle10-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 32.5%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* 10th Bill expanded area */
+#billdetail10 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 1080px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail10 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail10 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress10 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse10 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse10:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ... New Code */
 
@@ -884,17 +1985,6 @@ body {
 }
 
 /* 2nd line */
-
-.line2 {
-    width: 95%;
-    height: 6px;
-    background-color: #999;
-    border-radius: 5px;
-    margin-left: 10%;
-    margin-top: 10%;
-    position: relative;
-    z-index:-1;
-}
 
 .circle2_1 {
     width: 20px;
@@ -1060,18 +2150,6 @@ body {
 
 
 /* 3rd line */
-
-.line3 {
-    width: 95%;
-    height: 6px;
-    background-color: #999;
-    border-radius: 5px;
-    margin-left: 10%;
-    margin-top: 8%;
-    position: relative;
-    z-index:-1;
-}
-
 .circle3_1 {
     width: 20px;
     height: 20px;
@@ -1237,16 +2315,6 @@ body {
 
 /* 4th line */
 
-.line4 {
-    width: 95%;
-    height: 6px;
-    background-color: #999;
-    border-radius: 5px;
-    margin-left: 10%;
-    margin-top: 8.5%;
-    position: relative;
-    z-index:-1;
-}
 
 .circle4_1 {
     width: 20px;
@@ -1358,16 +2426,6 @@ body {
 
 /* 5th line */
 
-.line5 {
-    width: 95%;
-    height: 6px;
-    background-color: #999;
-    border-radius: 5px;
-    margin-left: 10%;
-    margin-top: 8.5%;
-    position: relative;
-    z-index:-1;
-}
 
 .circle5_1 {
     width: 20px;
@@ -1533,16 +2591,6 @@ body {
 
 /* 6th line */
 
-.line6 {
-    width: 95%;
-    height: 6px;
-    background-color: #999;
-    border-radius: 5px;
-    margin-left: 10%;
-    margin-top: 8.5%;
-    position: relative;
-    z-index:-1;
-}
 
 .circle6_1 {
     width: 20px;

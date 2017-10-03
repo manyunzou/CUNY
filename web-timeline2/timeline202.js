@@ -255,16 +255,108 @@ $(function(){
     });
 
      //5th timeline expand
-    $(".bill05").click(function(){
+    $(".item-learnmore5").click(function(){
         $("#billdetail05").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+
+        $(".item-billbrief5").hide();
+    });
+
+    $("#tri-collapse5").click(function(){
+        $("#billdetail05").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief5").show();
     });
 
      //6th timeline expand
-    $(".bill06").click(function(){
+    $(".item-learnmore6").click(function(){
         $("#billdetail06").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+
+        $(".item-billbrief6").hide();
     });
+
+    $("#tri-collapse6").click(function(){
+        $("#billdetail06").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief6").show();
+    });
+
+    //7th timeline expand
+    $(".item-learnmore7").click(function(){
+        $("#billdetail07").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief7").hide();
+    });
+
+    $("#tri-collapse7").click(function(){
+        $("#billdetail07").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief7").show();
+    });
+
+    //8th timeline expand
+    $(".item-learnmore8").click(function(){
+        $("#billdetail08").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief8").hide();
+    });
+
+    $("#tri-collapse8").click(function(){
+        $("#billdetail08").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief8").show();
+    });
+
+    //9th timeline expand
+    $(".item-learnmore9").click(function(){
+        $("#billdetail09").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief9").hide();
+    });
+
+    $("#tri-collapse9").click(function(){
+        $("#billdetail09").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief9").show();
+    });
+
+    //10th timeline expand
+    $(".item-learnmore10").click(function(){
+        $("#billdetail10").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief10").hide();
+    });
+
+    $("#tri-collapse10").click(function(){
+        $("#billdetail10").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+
+        $(".item-billbrief10").show();
+    });
+
+
+
+
 });
