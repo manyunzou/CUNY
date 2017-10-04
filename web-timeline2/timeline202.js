@@ -21,16 +21,6 @@ $(function(){
         $(".law-details-2").hide();
     });
 
-    $(".circle3").mouseover(function(){
-        $(".law-title-3").show();
-        $(".law-details-3").show();
-    });
-
-    $(".circle3").mouseout(function() {
-        $(".law-title-3").hide();
-        $(".law-details-3").hide();
-    });
-
     //Bill name
     bill01 = $(".bill01");
     bill02 = $(".bill02");

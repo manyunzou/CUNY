@@ -32,37 +32,11 @@ body {
 
 /* Legend box style */
 .timeline-legend {
-    height: 150px;
+    height: 120px;
     width: 380px;
     background-color: #fff;
     border: 1px solid #999;
     margin-bottom: 40px;
-}
-
-.circle-senate {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
-}
-
-.circle-assembly {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
 }
 
 
@@ -125,7 +99,7 @@ body {
 .circle1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -336,7 +310,7 @@ body {
 .circle2-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -350,7 +324,7 @@ body {
 .circle2-2 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -364,7 +338,7 @@ body {
 .circle2-3 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #ed6f1d;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -528,7 +502,7 @@ body {
 .circle3-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -537,10 +511,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle3-1::after {
-    background: #fff;
 }
 
 .circle3-2 {
@@ -552,20 +522,6 @@ body {
     border: 5px solid #ffffff;
     float: left;
     margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle3-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
     /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
@@ -698,7 +654,7 @@ body {
 .circle4-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -707,10 +663,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle4-1::after {
-    background: #fff;
 }
 
 .circle4-2 {
@@ -727,19 +679,6 @@ body {
     cursor: pointer;
 }
 
-.circle4-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 4th Bill expanded area */
 #billdetail04 {
@@ -874,7 +813,7 @@ body {
 .circle5-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -883,10 +822,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle5-1::after {
-    background: #fff;
 }
 
 .circle5-2 {
@@ -898,20 +833,6 @@ body {
     border: 5px solid #ffffff;
     float: left;
     margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle5-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
     /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
@@ -1050,7 +971,7 @@ body {
 .circle6-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1059,10 +980,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle6-1::after {
-    background: #fff;
 }
 
 .circle6-2 {
@@ -1074,20 +991,6 @@ body {
     border: 5px solid #ffffff;
     float: left;
     margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle6-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
     /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
@@ -1226,7 +1129,7 @@ body {
 .circle7-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1235,10 +1138,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle7-1::after {
-    background: #fff;
 }
 
 .circle7-2 {
@@ -1250,20 +1149,6 @@ body {
     border: 5px solid #ffffff;
     float: left;
     margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle7-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
     /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
@@ -1403,7 +1288,7 @@ body {
 .circle8-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1412,10 +1297,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle8-1::after {
-    background: #fff;
 }
 
 .circle8-2 {
@@ -1432,19 +1313,6 @@ body {
     cursor: pointer;
 }
 
-.circle8-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 7th Bill expanded area */
 #billdetail08 {
@@ -1580,51 +1448,6 @@ body {
     cursor: pointer;
 }
 
-.circle9-1 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle9-1::after {
-    background: #fff;
-}
-
-.circle9-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle9-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 9th Bill expanded area */
 #billdetail09 {
@@ -1759,7 +1582,7 @@ body {
 .circle10-1 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1768,10 +1591,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle10-1::after {
-    background: #fff;
 }
 
 .circle10-2 {
@@ -1788,19 +1607,6 @@ body {
     cursor: pointer;
 }
 
-.circle10-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 10th Bill expanded area */
 #billdetail10 {
@@ -1876,39 +1682,20 @@ body {
 }
 
 
+/* Circles style */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ... New Code */
-
-
-/* 1st line */
-
-
+/* 1th */
 .law-title-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #ed6f1d;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #ed6f1d;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
-    top: 110px;
+    top: 320px;
     width: 20%;
 }
 
@@ -1921,7 +1708,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -1929,14 +1716,14 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
-    top: 150px;
+    top: 360px;
 }
 
 .law-title-2 {
@@ -1948,7 +1735,7 @@ body {
     color: #fff;
     font-size: 20px;
     padding: 10px;
-    top: 110px;
+    top: 320px;
     width: 20%;
 }
 
@@ -1969,102 +1756,19 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
+    border-left: 1px solid #ed6f1d;
+    border-bottom: 1px solid #ed6f1d;
+    border-right: 1px solid #ed6f1d;
     padding: 10px;
     background: #fff;
     font-size: 15px;
-    top: 80px;
+    top: 360px;
     width: 20%;
-    top: 170px;
-}
-
-.law-title-3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #999;
-    background: #999;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    top: 110px;
-    width: 20%;
-}
-
-.law-title-3::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top:-9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #999;
-    border-top: 0;
-}
-
-.law-details-3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    top: 150px;
 }
 
 /* 2nd line */
 
-.circle2_1 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 18.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle2_2 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 25.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle2_3 {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 11%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.law-title-2_1 {
+.law-title-2-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2077,7 +1781,7 @@ body {
     width: 20%;
 }
 
-.law-title-2_1::before {
+.law-title-2-1::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2090,7 +1794,7 @@ body {
     border-top: 0;
 }
 
-.law-details-2_1 {
+.law-details-2-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2104,7 +1808,7 @@ body {
     margin-top: 6%;
 }
 
-.law-title-2_2 {
+.law-title-2-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2117,7 +1821,7 @@ body {
     width: 20%;
 }
 
-.law-title-2_2::before {
+.law-title-2-2::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2130,7 +1834,7 @@ body {
     border-top: 0;
 }
 
-.law-details-2_2 {
+.law-details-2-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2144,7 +1848,7 @@ body {
     width: 20%;
 }
 
-.law-title-2_3 {
+.law-title-2-3 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2157,7 +1861,7 @@ body {
     width: 20%;
 }
 
-.law-title-2_3::before {
+.law-title-2-3::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2170,7 +1874,7 @@ body {
     border-top: 0;
 }
 
-.law-details-2_3 {
+.law-details-2-3 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2186,49 +1890,8 @@ body {
 
 
 /* 3rd line */
-.circle3_1 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 4.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
 
-.circle3_2 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 25.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle3_3 {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 25%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.law-title-3_1 {
+.law-title-3-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2241,7 +1904,7 @@ body {
     width: 20%;
 }
 
-.law-title-3_1::before {
+.law-title-3-1::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2254,7 +1917,7 @@ body {
     border-top: 0;
 }
 
-.law-details-3_1 {
+.law-details-3-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2268,7 +1931,7 @@ body {
     margin-top: 6%;
 }
 
-.law-title-3_2 {
+.law-title-3-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2281,7 +1944,7 @@ body {
     width: 20%;
 }
 
-.law-title-3_2::before {
+.law-title-3-2::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2294,7 +1957,7 @@ body {
     border-top: 0;
 }
 
-.law-details-3_2 {
+.law-details-3-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2308,79 +1971,11 @@ body {
     margin-top: 6%;
 }
 
-.law-title-3_3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #999;
-    background: #999;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-3_3::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top:-9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #999;
-    border-top: 0;
-}
-
-.law-details-3_3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 6%;
-}
 
 
 /* 4th line */
 
-
-.circle4_1 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 32.3%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle4_2 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 25%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.law-title-4_1 {
+.law-title-4-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2393,7 +1988,7 @@ body {
     width: 20%;
 }
 
-.law-title-4_1::before {
+.law-title-4-1::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2406,7 +2001,7 @@ body {
     border-top: 0;
 }
 
-.law-details-4_1 {
+.law-details-4-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2420,7 +2015,7 @@ body {
     margin-top: 6%;
 }
 
-.law-title-4_2 {
+.law-title-4-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2433,7 +2028,7 @@ body {
     width: 20%;
 }
 
-.law-title-4_2::before {
+.law-title-4-2::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2446,7 +2041,7 @@ body {
     border-top: 0;
 }
 
-.law-details-4_2 {
+.law-details-4-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2463,49 +2058,7 @@ body {
 /* 5th line */
 
 
-.circle5_1 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 15.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle5_2 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 25.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle5_3 {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 40.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.law-title-5_1 {
+.law-title-5-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2518,7 +2071,7 @@ body {
     width: 20%;
 }
 
-.law-title-5_1::before {
+.law-title-5-1::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2531,7 +2084,7 @@ body {
     border-top: 0;
 }
 
-.law-details-5_1 {
+.law-details-5-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2545,7 +2098,7 @@ body {
     margin-top: 6%;
 }
 
-.law-title-5_2 {
+.law-title-5-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2558,7 +2111,7 @@ body {
     width: 20%;
 }
 
-.law-title-5_2::before {
+.law-title-5-2::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2571,7 +2124,7 @@ body {
     border-top: 0;
 }
 
-.law-details-5_2 {
+.law-details-5-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2585,78 +2138,10 @@ body {
     margin-top: 6%;
 }
 
-.law-title-5_3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #999;
-    background: #999;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-5_3::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #999;
-    border-top: 0;
-}
-
-.law-details-5_3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 6%;
-}
 
 /* 6th line */
 
-
-.circle6_1 {
-    width: 20px;
-    height: 20px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 43.5%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle6_2 {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 3px solid #ed6f1d;
-    float: left;
-    margin-left: 25%;
-    margin-top: -1.5%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.law-title-6_1 {
+.law-title-6-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2669,7 +2154,7 @@ body {
     width: 20%;
 }
 
-.law-title-6_1::before {
+.law-title-6-1::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2682,7 +2167,7 @@ body {
     border-top: 0;
 }
 
-.law-details-6_1 {
+.law-details-6-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2696,7 +2181,7 @@ body {
     margin-top: 6%;
 }
 
-.law-title-6_2 {
+.law-title-6-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2709,7 +2194,7 @@ body {
     width: 20%;
 }
 
-.law-title-6_2::before {
+.law-title-6-2::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2722,7 +2207,7 @@ body {
     border-top: 0;
 }
 
-.law-details-6_2 {
+.law-details-6-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2736,20 +2221,23 @@ body {
     width: 20%;
 }
 
-.law-title-6_3 {
+
+/* 7th line */
+
+.law-title-7-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
-    background: #999;
+    border: 1px solid #ed6f1d;
     color: #fff;
+    background: #ed6f1d;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
     width: 20%;
 }
 
-.law-title-6_3::before {
+.law-title-7-1::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2758,11 +2246,11 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #ed6f1d;
     border-top: 0;
 }
 
-.law-details-6_3 {
+.law-details-7-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2774,6 +2262,212 @@ body {
     font-size: 15px;
     width: 20%;
     margin-top: 6%;
+}
+
+.law-title-7-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-7-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ed6f1d;
+    border-top: 0;
+}
+
+.law-details-7-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    margin-top: 6%;
+    width: 20%;
+}
+
+
+/* 8th line */
+
+.law-title-8-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ed6f1d;
+    color: #fff;
+    background: #ed6f1d;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-8-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ed6f1d;
+    border-top: 0;
+}
+
+.law-details-8-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-8-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-8-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ed6f1d;
+    border-top: 0;
+}
+
+.law-details-8-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    margin-top: 6%;
+    width: 20%;
+}
+
+
+/* 10th line */
+
+.law-title-10-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ed6f1d;
+    color: #fff;
+    background: #ed6f1d;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-10-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ed6f1d;
+    border-top: 0;
+}
+
+.law-details-10-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-10-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ed6f1d;
+    background: #ed6f1d;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-10-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ed6f1d;
+    border-top: 0;
+}
+
+.law-details-10-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    margin-top: 6%;
+    width: 20%;
 }
 
 
