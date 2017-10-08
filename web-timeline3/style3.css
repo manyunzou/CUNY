@@ -30,6 +30,11 @@ body {
     padding-right: 10px;
 }
 
+.passedGraphic {
+    width: 120px;
+    margin-left: 2%;
+}
+
 /* Legend box style */
 .timeline-legend {
     height: 140px;
