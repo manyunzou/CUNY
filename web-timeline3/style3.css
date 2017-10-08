@@ -143,16 +143,16 @@ body {
 }
 
 /* 1st Bill expanded area */
-#billdetail01 {
+#billdetail01-1 {
     margin-top: 10px;
     margin-left: 15%;
     width: 78%;
-    height: 640px;
+    height: 450px;
     border: 3px #999 solid;
     display: none;
 }
 
-#billdetail01 p {
+#billdetail01-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -160,12 +160,12 @@ body {
     line-height: 20px;
 }
 
-#billdetail01 h4 {
+#billdetail01-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogress01 {
+#billprogress01-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -215,40 +215,60 @@ body {
     cursor: pointer;
 }
 
-.billRecomm01 {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+/* 1-2 */
+
+#billdetail01-2 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 1200px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail01-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail01-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress01-2 {
+    width:30%;
     margin-left: 20px;
-    cursor: default;
+    margin-bottom: 10px;
 }
 
-.billRecomm01_bottom {
-    border-bottom: 1px dotted #4CC2FF;
+#tri-collapse1-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
 }
 
-.Recomm_tooltiptext01 {
-    visibility: hidden;
-    width: 120px;
-    background-color: #FFF;
-    color: #000000;
-    text-align: center;
-    padding: 5px 0;
-    border: 1px solid #4CC2FF;
-    border-radius: 6px;
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
+#tri-collapse1-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
 }
 
-.billRecomm01:hover .Recomm_tooltiptext01 {
-    visibility: visible;
-    opacity: 1;
-}
+
+
 
 
 /* 2nd item */
@@ -1258,7 +1278,6 @@ body {
     background-color: #999;
     border-radius: 5px;
     margin-top: 40px;
-    top: 15px;
     position: relative;
     z-index:-1;
 }
@@ -1430,6 +1449,20 @@ body {
     cursor: pointer;
 }
 
+.circle9-1 {
+    width: 18px;
+    height: 18px;
+    background-color: #999;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
 
 /* 9th Bill expanded area */
 #billdetail09 {
@@ -1575,8 +1608,22 @@ body {
     cursor: pointer;
 }
 
+.circle10-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #999;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 20%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
 /* 10th Bill expanded area */
-#billdetail10 {
+#billdetail10-1 {
     margin-top: 10px;
     margin-left: 15%;
     width: 78%;
@@ -1585,7 +1632,7 @@ body {
     display: none;
 }
 
-#billdetail10 p {
+#billdetail10-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -1593,12 +1640,12 @@ body {
     line-height: 20px;
 }
 
-#billdetail10 h4 {
+#billdetail10-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogress10 {
+#billprogress10-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -1626,7 +1673,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#tri-collapse10 {
+#tri-collapse10-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -1637,7 +1684,7 @@ body {
     cursor: pointer;
 }
 
-#tri-collapse10:hover {
+#tri-collapse10-1:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -1647,6 +1694,59 @@ body {
     padding-top: 5px;
     cursor: pointer;
 }
+
+
+/* 10th Bill expanded area 2 */
+#billdetail10-2 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 1080px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail10-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail10-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress10-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapse10-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse10-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
 
 
 /* Circles style */
@@ -1662,8 +1762,8 @@ body {
     background: #168DC5;
     font-size: 20px;
     padding: 10px;
-    top: 340px;
     width: 20%;
+    margin-top: 3%;
 }
 
 .law-title-1::before {
@@ -1689,8 +1789,8 @@ body {
     padding: 10px;
     background: #fff;
     font-size: 15px;
+    margin-top: 6%;
     width: 20%;
-    top: 380px;
 }
 
 .law-title-2 {
@@ -1702,7 +1802,7 @@ body {
     color: #fff;
     font-size: 20px;
     padding: 10px;
-    top: 340px;
+    margin-top: 3%;
     width: 20%;
 }
 
@@ -1729,7 +1829,7 @@ body {
     padding: 10px;
     background: #fff;
     font-size: 15px;
-    top: 380px;
+    margin-top: 6%;
     width: 20%;
 }
 
@@ -2315,6 +2415,49 @@ body {
 }
 
 
+/* 9th line */
+.law-title-9-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #999;
+    color: #fff;
+    background: #999;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-9-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #999;
+    border-top: 0;
+}
+
+.law-details-9-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+
 /* 10th line */
 
 .law-title-10-1 {
@@ -2344,6 +2487,46 @@ body {
 }
 
 .law-details-10-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-10-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #999;
+    color: #fff;
+    background: #999;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-10-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #999;
+    border-top: 0;
+}
+
+.law-details-10-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
