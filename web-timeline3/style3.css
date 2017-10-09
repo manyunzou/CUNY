@@ -122,30 +122,17 @@ body {
 .circle2 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 18%;
+    margin-left: 25%;
     /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
 
-.circle3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 1st Bill expanded area */
 #billdetail01-1 {
@@ -340,50 +327,8 @@ body {
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 31%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle2-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle2-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 0%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle2-4 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 29.9%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -527,27 +472,13 @@ body {
 .circle3-1 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 17%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle3-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -690,21 +621,6 @@ body {
     cursor: pointer;
 }
 
-.circle4-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-
 /* 4th Bill expanded area */
 #billdetail04 {
     margin-top: 10px;
@@ -845,20 +761,6 @@ body {
     float: left;
     margin-left: 3.5%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle5-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -1007,20 +909,6 @@ body {
     cursor: pointer;
 }
 
-.circle6-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
 /* 6th Bill expanded area */
 #billdetail06 {
     margin-top: 10px;
@@ -1154,27 +1042,13 @@ body {
 .circle7-1 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
     margin-left: 3.5%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle7-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -1457,12 +1331,12 @@ body {
 .circle9-1 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 16%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1602,12 +1476,12 @@ body {
 .circle10-1 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #CCCCCC;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 28%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1616,13 +1490,11 @@ body {
 .circle10-2 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #CCCCCC;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 20%;
-    /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
 }
