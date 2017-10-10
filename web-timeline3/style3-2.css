@@ -541,8 +541,7 @@
     height: 2px;
     background-color: #999;
     border-radius: 5px;
-    margin-top: 40px;
-    top: 15px;
+    margin-top: 45px;
     position: relative;
     z-index:-1;
 }
@@ -579,20 +578,6 @@
     float: left;
     margin-left: 3.5%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle14-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -672,7 +657,7 @@
 }
 
 
-/* 5th item */
+/* 15th item */
 
 .timeline-item15 {
     width: 100%;
@@ -745,13 +730,27 @@
 .circle15-2 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
+    margin-left: 20%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle15-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #cccccc;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 5;
+    /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -889,7 +888,7 @@
 .circle16-1 {
     width: 18px;
     height: 18px;
-    background-color: #EAEFB1;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -903,13 +902,13 @@
 .circle16-2 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -1058,19 +1057,6 @@
     cursor: pointer;
 }
 
-.circle7-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 17th Bill expanded area */
 #billdetail17 {
@@ -1206,7 +1192,7 @@
 .circle18-1 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #ED6F1D;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1216,6 +1202,21 @@
     z-index: 1;
     cursor: pointer;
 }
+
+.circle18-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #168DC5;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
 
 
 /* 18th Bill expanded area */
@@ -1351,7 +1352,63 @@
 .circle19-1 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle19-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle19-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #CCCCCC;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle19-4 {
+    width: 18px;
+    height: 18px;
+    background-color: #CCCCCC;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle19-5 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1496,7 +1553,7 @@
 .circle20-1 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1705,86 +1762,6 @@
     font-size: 15px;
     width: 20%;
     margin-top: 6%;
-}
-
-.law-title-12-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #168DC5;
-    background: #168DC5;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-12-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #168DC5;
-    border-top: 0;
-}
-
-.law-details-12-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    margin-top: 6%;
-    width: 20%;
-}
-
-.law-title-12-3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-12-3::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-12-3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top:6%;
 }
 
 
@@ -2001,8 +1978,8 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
+    border: 1px solid #999;
+    background: #999;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -2019,7 +1996,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
+    border-bottom-color: #999;
     border-top: 0;
 }
 
@@ -2027,9 +2004,49 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-15-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #999;
+    background: #999;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-15-3::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #999;
+    border-top: 0;
+}
+
+.law-details-15-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2044,9 +2061,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #EAEFB1;
+    border: 1px solid #999;
     color: #fff;
-    background: #EAEFB1;
+    background: #999;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2062,7 +2079,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #EAEFB1;
+    border-bottom-color: #999;
     border-top: 0;
 }
 
@@ -2070,9 +2087,50 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #EAEFB1;
-    border-bottom: 1px solid #EAEFB1;
-    border-right: 1px solid #EAEFB1;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+.law-title-16-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #168DC5;
+    color: #fff;
+    background: #168DC5;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-16-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #168DC5;
+    border-top: 0;
+}
+
+.law-details-16-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2210,9 +2268,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #ED6F1D;
     color: #fff;
-    background: #999;
+    background: #ED6F1D;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2228,7 +2286,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #ED6F1D;
     border-top: 0;
 }
 
@@ -2236,9 +2294,49 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-18-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #168DC5;
+    color: #fff;
+    background: #168DC5;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-18-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #168DC5;
+    border-top: 0;
+}
+
+.law-details-18-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2252,9 +2350,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #ED6F1D;
     color: #fff;
-    background: #999;
+    background: #ED6F1D;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2270,7 +2368,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #ED6F1D;
     border-top: 0;
 }
 
@@ -2278,9 +2376,169 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-19-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-19-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-19-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-19-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    color: #fff;
+    background: #cccccc;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-19-3::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #cccccc;
+    border-top: 0;
+}
+
+.law-details-19-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-19-4 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    color: #fff;
+    background: #cccccc;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-19-4::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #cccccc;
+    border-top: 0;
+}
+
+.law-details-19-4 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-19-5 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-19-5::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-19-5 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2289,15 +2547,16 @@
 }
 
 
+
 /* 20th line */
 
 .law-title-20-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #cccccc;
     color: #fff;
-    background: #999;
+    background: #cccccc;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2313,7 +2572,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #cccccc;
     border-top: 0;
 }
 
@@ -2321,9 +2580,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
     padding: 10px;
     background: #fff;
     font-size: 15px;
