@@ -274,53 +274,12 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 31%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
 }
 
-.circle12-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle12-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 0%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle12-4 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 29.9%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 12th Bill expanded area */
 #billdetail12 {
