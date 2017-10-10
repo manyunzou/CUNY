@@ -54,167 +54,123 @@ $(function(){
         alert("Research findings indicate a positive relationship between employment and employment services for people with HIV, and access to care, treatment adherence, improved physical and behavioral health, and reductions in viral load and health risk behavior. Expanding access to certified benefits advisors equipped to address client needs is urged, including initial economic security, housing and health care program eligibility, individualized benefits enrollment and work incentives counseling and advisement. Likewise, current HIV service providers need to develop programs to better address economic stability, vocational development and full community inclusion of people with HIV, including identification of employment related information, resources and service needs, encouraging employment interests and supporting well-informed employment decision-making. These efforts should include building current HIV service capacity to address identified employment needs/interests of consumers through direct service provision, developing an HIV services system implementing trauma-informed care focused on vocational self-determination, continuing/improving economic, housing and health care stability, securing living wage employment, increasing adult literacy, and completing other adult and higher education to strengthen individuals’ position in the labor market. In addition, development of HIV employment programs is urged, including targeted services for transgender individuals (especially transgender women of color) without regard to HIV status; people with HIV returning to the community from or with a history of incarceration; homeless youth (especially black and Hispanic/Latino MSM and transgender women) without regard to HIV status; and HIV peer workforce education, credentialing and employment.");
     });
 
-
-     //12th timeline
-    $(".circle12-1").mouseover(function() {
-        $(".law-title-12-1").show();
-        $(".law-details-12-1").show();
+    //21th timeline
+    $(".circle21-1").mouseover(function() {
+        $(".law-title-21-1").show();
+        $(".law-details-21-1").show();
     });
 
-    $(".circle12-1").mouseout(function() {
-        $(".law-title-12-1").hide();
-        $(".law-details-12-1").hide();
+    $(".circle21-1").mouseout(function() {
+        $(".law-title-21-1").hide();
+        $(".law-details-21-1").hide();
     });
 
-    //13th timeline
-    $(".circle13-1").mouseover(function() {
-        $(".law-title-13-1").show();
-        $(".law-details-13-1").show();
+
+     //22th timeline
+
+    //23th timeline
+    $(".circle23-1").mouseover(function() {
+        $(".law-title-23-1").show();
+        $(".law-details-23-1").show();
     });
 
-    $(".circle13-1").mouseout(function() {
-        $(".law-title-13-1").hide();
-        $(".law-details-13-1").hide();
+    $(".circle23-1").mouseout(function() {
+        $(".law-title-23-1").hide();
+        $(".law-details-23-1").hide();
     });
 
-    //14th timeline
-
-
-    //15th timeline
-    $(".circle15-1").mouseover(function() {
-        $(".law-title-15-1").show();
-        $(".law-details-15-1").show();
+    $(".circle23-2").mouseover(function() {
+        $(".law-title-23-2").show();
+        $(".law-details-23-2").show();
     });
 
-    $(".circle15-1").mouseout(function() {
-        $(".law-title-15-1").hide();
-        $(".law-details-15-1").hide();
-    });
-    $(".circle15-2").mouseover(function() {
-        $(".law-title-15-2").show();
-        $(".law-details-15-2").show();
+    $(".circle23-2").mouseout(function() {
+        $(".law-title-23-2").hide();
+        $(".law-details-23-2").hide();
     });
 
-    $(".circle15-3").mouseout(function() {
-        $(".law-title-15-3").hide();
-        $(".law-details-15-3").hide();
+    //24th timeline
+    $(".circle24-1").mouseover(function() {
+        $(".law-title-24-1").show();
+        $(".law-details-24-1").show();
     });
 
-    //16th timeline
-    $(".circle16-1").mouseover(function() {
-        $(".law-title-16-1").show();
-        $(".law-details-16-1").show();
+    $(".circle24-1").mouseout(function() {
+        $(".law-title-24-1").hide();
+        $(".law-details-24-1").hide();
     });
 
-    $(".circle16-1").mouseout(function() {
-        $(".law-title-16-1").hide();
-        $(".law-details-16-1").hide();
+
+    //25th timeline
+    $(".circle25-1").mouseover(function() {
+        $(".law-title-25-1").show();
+        $(".law-details-25-1").show();
     });
 
-    $(".circle16-2").mouseover(function() {
-        $(".law-title-16-2").show();
-        $(".law-details-16-2").show();
+    $(".circle25-1").mouseout(function() {
+        $(".law-title-25-1").hide();
+        $(".law-details-25-1").hide();
     });
 
-    $(".circle16-2").mouseout(function() {
-        $(".law-title-16-2").hide();
-        $(".law-details-16-2").hide();
+
+    //26th timeline
+    $(".circle26-1").mouseover(function() {
+        $(".law-title-26-1").show();
+        $(".law-details-26-1").show();
     });
 
-    //17th timeline
-    $(".circle17-1").mouseover(function() {
-        $(".law-title-17-1").show();
-        $(".law-details-17-1").show();
+    $(".circle26-1").mouseout(function() {
+        $(".law-title-26-1").hide();
+        $(".law-details-26-1").hide();
     });
 
-    $(".circle17-1").mouseout(function() {
-        $(".law-title-17-1").hide();
-        $(".law-details-17-1").hide();
+    $(".circle26-2").mouseover(function() {
+        $(".law-title-26-2").show();
+        $(".law-details-26-2").show();
     });
 
-    //18th timeline
-    $(".circle18-1").mouseover(function() {
-        $(".law-title-18-1").show();
-        $(".law-details-18-1").show();
+    $(".circle26-2").mouseout(function() {
+        $(".law-title-26-2").hide();
+        $(".law-details-26-2").hide();
     });
 
-    $(".circle18-1").mouseout(function() {
-        $(".law-title-18-1").hide();
-        $(".law-details-18-1").hide();
+    $(".circle26-3").mouseover(function() {
+        $(".law-title-26-3").show();
+        $(".law-details-26-3").show();
     });
 
-    $(".circle18-2").mouseover(function() {
-        $(".law-title-18-2").show();
-        $(".law-details-18-2").show();
+    $(".circle26-3").mouseout(function() {
+        $(".law-title-26-3").hide();
+        $(".law-details-26-3").hide();
     });
 
-    $(".circle18-2").mouseout(function() {
-        $(".law-title-18-2").hide();
-        $(".law-details-18-2").hide();
+    //27th timeline
+    
+    //28th timeline
+    
+
+    //29th timeline
+    $(".circle29-1").mouseover(function() {
+        $(".law-title-29-1").show();
+        $(".law-details-29-1").show();
     });
 
-    //19th timeline
-    $(".circle19-1").mouseover(function() {
-        $(".law-title-19-1").show();
-        $(".law-details-19-1").show();
-    });
-
-    $(".circle19-1").mouseout(function() {
-        $(".law-title-19-1").hide();
-        $(".law-details-19-1").hide();
-    });
-
-    $(".circle19-2").mouseover(function() {
-        $(".law-title-19-2").show();
-        $(".law-details-19-2").show();
-    });
-
-    $(".circle19-2").mouseout(function() {
-        $(".law-title-19-2").hide();
-        $(".law-details-19-2").hide();
-    });
-
-    $(".circle19-3").mouseover(function() {
-        $(".law-title-19-3").show();
-        $(".law-details-19-3").show();
-    });
-
-    $(".circle19-3").mouseout(function() {
-        $(".law-title-19-3").hide();
-        $(".law-details-19-3").hide();
-    });
-
-    $(".circle19-4").mouseover(function() {
-        $(".law-title-19-4").show();
-        $(".law-details-19-4").show();
-    });
-
-    $(".circle19-4").mouseout(function() {
-        $(".law-title-19-4").hide();
-        $(".law-details-19-4").hide();
-    });
-
-    $(".circle19-5").mouseover(function() {
-        $(".law-title-19-5").show();
-        $(".law-details-19-5").show();
-    });
-
-    $(".circle19-5").mouseout(function() {
-        $(".law-title-19-5").hide();
-        $(".law-details-19-5").hide();
+    $(".circle29-1").mouseout(function() {
+        $(".law-title-29-1").hide();
+        $(".law-details-29-1").hide();
     });
 
 
 
-    //20th timeline
-    $(".circle20-1").mouseover(function() {
-        $(".law-title-20-1").show();
-        $(".law-details-20-1").show();
+    //30th timeline
+    $(".circle30-1").mouseover(function() {
+        $(".law-title-30-1").show();
+        $(".law-details-30-1").show();
     });
 
-    $(".circle20-1").mouseout(function() {
-        $(".law-title-20-1").hide();
-        $(".law-details-20-1").hide();
+    $(".circle30-1").mouseout(function() {
+        $(".law-title-30-1").hide();
+        $(".law-details-30-1").hide();
     });
 
 

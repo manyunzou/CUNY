@@ -70,37 +70,7 @@
     cursor: pointer;
 }
 
-.circleG1-1::after {
-    background: #fff;
-}
 
-.circleG1-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circleG1-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* G1 Bill expanded area */
 #billdetailG1 {
@@ -281,47 +251,6 @@
     cursor: pointer;
 }
 
-.circleG2-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circleG2-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 0%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circleG2-4 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 29.9%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 22th Bill expanded area */
 #billdetailG2 {
@@ -473,19 +402,7 @@
     cursor: pointer;
 }
 
-.circleG3-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
+
 
 /* G3rd Bill expanded area */
 #billdetailG3 {
@@ -621,20 +538,6 @@
     float: left;
     margin-left: 3.5%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circleG4-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -784,19 +687,6 @@
     cursor: pointer;
 }
 
-.circleG5-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* G5th Bill expanded area */
 #billdetailG5 {
@@ -898,10 +788,10 @@
 .item-lineG6 {
     width: 95%;
     height: 2px;
-    background-color: #999;
+    /*background-color: #999;*/
+    border-bottom: 3px dotted #999;
     border-radius: 5px;
     margin-top: 40px;
-    top: 15px;
     position: relative;
     z-index:-1;
 }
@@ -928,33 +818,6 @@
     cursor: pointer;
 }
 
-.circleG6-1 {
-    width: 18px;
-    height: 18px;
-    background-color: #EAEFB1;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circleG6-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* G6th Bill expanded area */
 #billdetailG6 {
@@ -1089,7 +952,7 @@
 .circleG7-1 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #ED6F1D;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1100,19 +963,6 @@
     cursor: pointer;
 }
 
-.circleG7-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* G7th Bill expanded area */
 #billdetailG7 {

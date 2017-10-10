@@ -59,7 +59,7 @@
 .circle21-1 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -72,34 +72,6 @@
 
 .circle21-1::after {
     background: #fff;
-}
-
-.circle21-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle21-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
 }
 
 /* 1st Bill expanded area */
@@ -237,10 +209,10 @@
 .item-line22 {
     width: 95%;
     height: 2px;
-    background-color: #999;
+    /*background-color: #999;*/
+    border-bottom: 3px dotted #999;
     border-radius: 5px;
     margin-top: 40px;
-    top: 15px;
     position: relative;
     z-index:-1;
 }
@@ -267,61 +239,6 @@
     cursor: pointer;
 }
 
-.circle22-1 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle22-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle22-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 0%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle22-4 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 29.9%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 22th Bill expanded area */
 #billdetail22 {
@@ -476,7 +393,7 @@
 .circle23-2 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -555,7 +472,7 @@
 }
 
 
-/* 4th item */
+/* 24th item */
 
 .timeline-item24 {
     width: 100%;
@@ -621,20 +538,6 @@
     float: left;
     margin-left: 3.5%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle24-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -773,27 +676,13 @@
 .circle25-1 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
     margin-left: 3.5%;
     /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle25-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
     z-index: 1;
     cursor: pointer;
 }
@@ -931,7 +820,7 @@
 .circle26-1 {
     width: 18px;
     height: 18px;
-    background-color: #EAEFB1;
+    background-color: #168DC5;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -945,7 +834,21 @@
 .circle26-2 {
     width: 18px;
     height: 18px;
-    background-color: #ed6f1d;
+    background-color: #cccccc;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle26-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1056,10 +959,10 @@
 .item-line27 {
     width: 95%;
     height: 2px;
-    background-color: #999;
+    /*background-color: #999;*/
+    border-bottom: 3px dotted #999;
     border-radius: 5px;
     margin-top: 40px;
-    top: 15px;
     position: relative;
     z-index:-1;
 }
@@ -1086,33 +989,6 @@
     cursor: pointer;
 }
 
-.circle27-1 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle27-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 17th Bill expanded area */
 #billdetail27 {
@@ -1215,10 +1091,10 @@
 .item-line28 {
     width: 95%;
     height: 2px;
-    background-color: #999;
+    /*background-color: #999;*/
+    border-bottom: 3px dotted #999;
     border-radius: 5px;
     margin-top: 40px;
-    top: 15px;
     position: relative;
     z-index:-1;
 }
@@ -1242,20 +1118,6 @@
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 1px dotted #4CC2FF;
-    cursor: pointer;
-}
-
-.circle28-1 {
-    width: 18px;
-    height: 18px;
-    background-color: #999;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
     cursor: pointer;
 }
 
@@ -1393,7 +1255,7 @@
 .circle29-1 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #ED6F1D;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1538,7 +1400,7 @@
 .circle30-1 {
     width: 18px;
     height: 18px;
-    background-color: #999;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1626,14 +1488,14 @@
 /* Circles style */
 
 
-/* 1th */
+/* 21th */
 .law-title-21-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #168DC5;
+    border: 1px solid #999;
     color: #fff;
-    background: #168DC5;
+    background: #999;
     font-size: 20px;
     padding: 10px;
     top: 340px;
@@ -1649,7 +1511,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #168DC5;
+    border-bottom-color: #999;
     border-top: 0;
 }
 
@@ -1657,177 +1519,17 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
     top: 380px;
-}
-
-.law-title-21-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    top: 340px;
-    width: 20%;
-}
-
-.law-title-21-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top:-9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-21-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    top: 380px;
-    width: 20%;
 }
 
 /* 22nd line */
-
-.law-title-22-1 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #168DC5;
-    color: #fff;
-    background: #168DC5;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-22-1::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #168DC5;
-    border-top: 0;
-}
-
-.law-details-22-1 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 6%;
-}
-
-.law-title-22-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #168DC5;
-    background: #168DC5;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-22-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #168DC5;
-    border-top: 0;
-}
-
-.law-details-22-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    margin-top: 6%;
-    width: 20%;
-}
-
-.law-title-22-3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-22-3::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-22-3 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top:6%;
-}
 
 
 /* 23rd line */
@@ -1876,8 +1578,8 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
+    border: 1px solid #168DC5;
+    background: #168DC5;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -1894,7 +1596,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -1902,9 +1604,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -1956,45 +1658,7 @@
     margin-top: 6%;
 }
 
-.law-title-24-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
 
-.law-title-24-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-24-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 6%;
-}
 
 /* 25th line */
 
@@ -2003,9 +1667,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #168DC5;
+    border: 1px solid #999999;
     color: #fff;
-    background: #168DC5;
+    background: #999999;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2021,7 +1685,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #168DC5;
+    border-bottom-color: #999999;
     border-top: 0;
 }
 
@@ -2029,49 +1693,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 6%;
-}
-
-.law-title-25-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-25-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-25-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
+    border-left: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2086,9 +1710,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #EAEFB1;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #EAEFB1;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2104,94 +1728,11 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #EAEFB1;
-    border-top: 0;
-}
-
-.law-details-26-1 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #EAEFB1;
-    border-bottom: 1px solid #EAEFB1;
-    border-right: 1px solid #EAEFB1;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 6%;
-}
-
-/*.law-title-6-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-6-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-6-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    margin-top: 6%;
-    width: 20%;
-}
-*/
-
-/* 27th line */
-
-.law-title-27-1 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #168DC5;
-    color: #fff;
-    background: #168DC5;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-27-1::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
     border-bottom-color: #168DC5;
     border-top: 0;
 }
 
-.law-details-27-1 {
+.law-details-26-1 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2205,50 +1746,8 @@
     margin-top: 6%;
 }
 
-.law-title-27-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
 
-.law-title-27-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: -9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-27-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    margin-top: 6%;
-    width: 20%;
-}
-
-
-/* 28th line */
-
-.law-title-28-1 {
+.law-title-26-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2261,7 +1760,7 @@
     width: 20%;
 }
 
-.law-title-28-1::before {
+.law-title-26-2::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2274,7 +1773,7 @@
     border-top: 0;
 }
 
-.law-details-28-1 {
+.law-details-26-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
@@ -2288,15 +1787,66 @@
     margin-top: 6%;
 }
 
-/* 29th line */
 
-.law-title-29-1 {
+.law-title-26-3 {
     display: none;
     position: absolute;
     border-radius: 3px;
     border: 1px solid #999;
     color: #fff;
     background: #999;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-26-3::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #999;
+    border-top: 0;
+}
+
+.law-details-26-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+
+/* 27th line */
+
+
+
+
+/* 28th line */
+
+
+/* 29th line */
+
+.law-title-29-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6E1D;
+    color: #fff;
+    background: #ED6E1D;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2312,7 +1862,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #ED6E1D;
     border-top: 0;
 }
 
@@ -2320,9 +1870,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #ED6E1D;
+    border-bottom: 1px solid #ED6E1D;
+    border-right: 1px solid #ED6E1D;
     padding: 10px;
     background: #fff;
     font-size: 15px;
