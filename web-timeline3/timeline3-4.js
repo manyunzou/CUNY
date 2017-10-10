@@ -39,5 +39,71 @@ $(function(){
         alert("Competent minors, who are already able to consent to both STI and HIV testing without parental consent, also should be guaranteed the right to consent to HIV treatment and ARV prophylaxis. A process or policy must be in place that allows for young adults and youth, including transgender youth, to gain access to HIV and STI treatment, as well as prevention services, such as PrEP and nPEP and immunization for HPV, without parental consent so that confidentiality is preserved. Protections must be in place to ensure that insurance information, such as “explanation of benefits” (EOB) documents, are sent to the patient (i.e. young adult or minor) rather than to the policy holder (i.e. the parents) if that young person is using parental insurance to support HIV treatment or prevention services, such as ARV-P services.");
     });
 
+    //G1 timeline details expand first circle
+    $(".circleG1-1").mouseover(function() {
+        $(".law-title-G1-1").show();
+        $(".law-details-G1-1").show();
+    });
+
+    $(".circleG1-1").mouseout(function() {
+        $(".law-title-G1-1").hide();
+        $(".law-details-G1-1").hide();
+    });
+
+    //G2 timeline details expand first circle
+    $(".circleG2-1").mouseover(function() {
+        $(".law-title-G2-1").show();
+        $(".law-details-G2-1").show();
+    });
+
+    $(".circleG2-1").mouseout(function() {
+        $(".law-title-G2-1").hide();
+        $(".law-details-G2-1").hide();
+    });
+
+    //G3 timeline details expand first circle
+    $(".circleG3-1").mouseover(function() {
+        $(".law-title-G3-1").show();
+        $(".law-details-G3-1").show();
+    });
+
+    $(".circleG3-1").mouseout(function() {
+        $(".law-title-G3-1").hide();
+        $(".law-details-G3-1").hide();
+    });
+
+    //G4 timeline details expand first circle
+    $(".circleG4-1").mouseover(function() {
+        $(".law-title-G4-1").show();
+        $(".law-details-G4-1").show();
+    });
+
+    $(".circleG4-1").mouseout(function() {
+        $(".law-title-G4-1").hide();
+        $(".law-details-G4-1").hide();
+    });
+
+    //G5 timeline details expand first circle
+    $(".circleG5-1").mouseover(function() {
+        $(".law-title-G5-1").show();
+        $(".law-details-G5-1").show();
+    });
+
+    $(".circleG5-1").mouseout(function() {
+        $(".law-title-G5-1").hide();
+        $(".law-details-G5-1").hide();
+    });
+
+    //G7 timeline details expand first circle
+    $(".circleG7-1").mouseover(function() {
+        $(".law-title-G7-1").show();
+        $(".law-details-G7-1").show();
+    });
+
+    $(".circleG7-1").mouseout(function() {
+        $(".law-title-G7-1").hide();
+        $(".law-details-G7-1").hide();
+    });
+
 
 })
