@@ -61,6 +61,16 @@ $(function(){
         $(".law-details-G2-1").hide();
     });
 
+    $(".circleG2-2").mouseover(function() {
+        $(".law-title-G2-2").show();
+        $(".law-details-G2-2").show();
+    });
+
+    $(".circleG2-2").mouseout(function() {
+        $(".law-title-G2-2").hide();
+        $(".law-details-G2-2").hide();
+    });
+
     //G3 timeline details expand first circle
     $(".circleG3-1").mouseover(function() {
         $(".law-title-G3-1").show();

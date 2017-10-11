@@ -56,51 +56,6 @@
     cursor: pointer;
 }
 
-.circle11-1 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle11-1::after {
-    background: #fff;
-}
-
-.circle11-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-.circle11-3 {
-    width: 18px;
-    height: 18px;
-    background-color: #eee;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 32.5%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
 
 /* 1st Bill expanded area */
 #billdetail11 {
@@ -426,27 +381,13 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 16%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
 }
 
-.circle13-2 {
-    width: 18px;
-    height: 18px;
-    background-color: #ed6f1d;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 18%;
-    /*margin-top: 5px;*/
-    z-index: 1;
-    cursor: pointer;
-}
-
-/* 3rd Bill expanded area */
+/* 13rd Bill expanded area */
 #billdetail13 {
     margin-top: 10px;
     margin-left: 15%;
@@ -567,20 +508,6 @@
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 1px dotted #4CC2FF;
-    cursor: pointer;
-}
-
-.circle14-1 {
-    width: 18px;
-    height: 18px;
-    background-color: #168DC5;
-    /* Key to set a circle */
-    border-radius: 15px;
-    border: 5px solid #ffffff;
-    float: left;
-    margin-left: 3.5%;
-    /*margin-top: 1px;*/
-    z-index: 1;
     cursor: pointer;
 }
 
@@ -723,7 +650,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 31%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -737,7 +664,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 20%;
+    margin-left: 4%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -751,7 +678,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 5;
+    margin-left: 4%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -895,7 +822,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 31%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -909,7 +836,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 4%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1053,7 +980,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 44%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1199,7 +1126,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 31%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1213,7 +1140,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 10.5%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1373,7 +1300,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 25%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1387,7 +1314,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 0%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1401,7 +1328,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 0%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1415,7 +1342,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 5.5%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -1560,7 +1487,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 3.5%;
+    margin-left: 44%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
