@@ -1733,47 +1733,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
-}
-
-.law-title-13-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 3%;
-    width: 20%;
-}
-
-.law-title-13-2::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top:-9px;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
-    border-top: 0;
-}
-
-.law-details-13-2 {
-    display: none;
-    position: absolute;
-    border-radius: 3px;
-    border-left: 1px solid #ed6f1d;
-    border-bottom: 1px solid #ed6f1d;
-    border-right: 1px solid #ed6f1d;
-    padding: 10px;
-    background: #fff;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -1940,7 +1900,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 .law-title-15-3 {
@@ -1980,7 +1940,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -2023,7 +1983,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -2064,7 +2024,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 /*.law-title-6-2 {
@@ -2312,7 +2272,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 .law-title-19-2 {
@@ -2432,7 +2392,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 .law-title-19-5 {
@@ -2472,7 +2432,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -2516,5 +2476,5 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }

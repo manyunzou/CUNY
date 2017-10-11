@@ -1498,7 +1498,7 @@
     background: #999;
     font-size: 20px;
     padding: 10px;
-    top: 340px;
+    margin-top: 3%;
     width: 20%;
 }
 
@@ -1506,7 +1506,7 @@
     content: "";
     position: absolute;
     left: 10px;
-    top:-9px;
+    top: -9px;
     display: block;
     width: 0;
     height: 0;
@@ -1526,7 +1526,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    top: 380px;
+    margin-top: 8%;
 }
 
 /* 22nd line */
@@ -1571,7 +1571,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 .law-title-23-2 {
@@ -1611,7 +1611,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -1700,7 +1700,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -1784,7 +1784,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -1825,7 +1825,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -1920,5 +1920,5 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
