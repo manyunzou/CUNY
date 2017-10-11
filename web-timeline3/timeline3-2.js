@@ -237,6 +237,31 @@ $(function(){
     });
 
 
+    //18th timeline details expand first circle
+    $(".circle18-1").click(function(){
+        $("#billdetail18-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse18-1").click(function(){
+        $("#billdetail18-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle18-2").click(function(){
+        $("#billdetail18-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse18-2").click(function(){
+        $("#billdetail18-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
 
 
 

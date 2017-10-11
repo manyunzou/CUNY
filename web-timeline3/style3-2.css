@@ -1149,7 +1149,7 @@
 
 
 /* 18th Bill expanded area */
-#billdetail18 {
+#billdetail18-1 {
     margin-top: 10px;
     margin-left: 15%;
     width: 78%;
@@ -1158,7 +1158,7 @@
     display: none;
 }
 
-#billdetail18 p {
+#billdetail18-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -1166,12 +1166,12 @@
     line-height: 20px;
 }
 
-#billdetail18 h4 {
+#billdetail18-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogress18 {
+#billprogress18-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -1199,7 +1199,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#tri-collapse18 {
+#tri-collapse18-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -1210,7 +1210,80 @@
     cursor: pointer;
 }
 
-#tri-collapse18:hover {
+#tri-collapse18-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/* 18th Bill expanded area 2*/
+#billdetail18-2 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    height: 400px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetail18-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetail18-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogress18-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapse18-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapse18-2:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
