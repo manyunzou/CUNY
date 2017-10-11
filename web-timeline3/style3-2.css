@@ -376,7 +376,7 @@
 .circle13-1 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -645,7 +645,7 @@
 .circle15-1 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #cccccc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -673,7 +673,7 @@
 .circle15-3 {
     width: 18px;
     height: 18px;
-    background-color: #cccccc;
+    background-color: #73badc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -831,7 +831,7 @@
 .circle16-2 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #73badc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1135,7 +1135,7 @@
 .circle18-2 {
     width: 18px;
     height: 18px;
-    background-color: #168DC5;
+    background-color: #73badc;
     /* Key to set a circle */
     border-radius: 15px;
     border: 5px solid #ffffff;
@@ -1700,9 +1700,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #168DC5;
+    border: 1px solid #999999;
     color: #fff;
-    background: #168DC5;
+    background: #999999;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1718,7 +1718,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #168DC5;
+    border-bottom-color: #999999;
     border-top: 0;
 }
 
@@ -1726,14 +1726,14 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
+    border-left: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 
@@ -1827,9 +1827,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #168DC5;
+    border: 1px solid #999;
     color: #fff;
-    background: #168DC5;
+    background: #999;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1845,7 +1845,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #168DC5;
+    border-bottom-color: #999;
     border-top: 0;
 }
 
@@ -1853,9 +1853,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -1907,8 +1907,8 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
-    background: #999;
+    border: 1px solid #44a3d0;
+    background: #44a3d0;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -1925,7 +1925,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #44a3d0;
     border-top: 0;
 }
 
@@ -1933,9 +1933,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -1991,9 +1991,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #168DC5;
+    border: 1px solid #44a3d0;
     color: #fff;
-    background: #168DC5;
+    background: #44a3d0;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2009,7 +2009,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #168DC5;
+    border-bottom-color: #44a3d0;
     border-top: 0;
 }
 
@@ -2017,9 +2017,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2197,9 +2197,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #168DC5;
+    border: 1px solid #44a3d0;
     color: #fff;
-    background: #168DC5;
+    background: #44a3d0;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2215,7 +2215,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #168DC5;
+    border-bottom-color: #44a3d0;
     border-top: 0;
 }
 
@@ -2223,9 +2223,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #168DC5;
-    border-bottom: 1px solid #168DC5;
-    border-right: 1px solid #168DC5;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2392,7 +2392,7 @@
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .law-title-19-5 {
@@ -2443,9 +2443,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #cccccc;
+    border: 1px solid #999;
     color: #fff;
-    background: #cccccc;
+    background: #999;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2461,7 +2461,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #cccccc;
+    border-bottom-color: #999;
     border-top: 0;
 }
 
@@ -2469,12 +2469,12 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 8%;
+    margin-top: 6%;
 }
