@@ -5,6 +5,8 @@ body {
 }
 
 
+/* Year Section */
+
 .years-container{
     width: 100%;
     margin-left: 8%;
@@ -30,10 +32,24 @@ body {
     padding-right: 10px;
 }
 
-.passedGraphic {
-    width: 250px;
-    margin-left: 2%;
+/* Timeline Intro */
+
+.timeline-introText {
+    margin-top: 0px; 
+    width: 60%; 
+    font-family: 'Roboto', sans-serif;
 }
+
+.timeline-UpdateText{
+    margin-bottom: 50px; 
+    margin-top: 0px; 
+    width: 60%; 
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Timeline Collapse Area */
 
 .timeline-bp-title {
     font-weight: bold;
@@ -103,6 +119,11 @@ body {
 
 
 /* 1st item */
+.passedGraphic {
+    width: 250px;
+    margin-left: 2%;
+}
+
 
 .timeline-item1 {
     width: 100%;
