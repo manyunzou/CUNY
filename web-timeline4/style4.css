@@ -1,7 +1,7 @@
 /* Style for all*/
 
 body {
-    height: 900px;
+    margin-left: 30px;
 }
 
 
@@ -33,6 +33,63 @@ body {
 .passedGraphic {
     width: 250px;
     margin-left: 2%;
+}
+
+.timeline-bp-title {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #4C4C4C;
+    /*text-transform: uppercase;*/
+    margin-bottom: 0px;
+    float: left;
+}
+
+.timeline-GTZ-title {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #4C4C4C;
+    /*text-transform: uppercase;*/
+    margin-bottom: 0px;
+    float: left;
+    clear: left;
+}
+
+#timeline-bp{
+    visibility: hidden;
+    height: 0;
+}
+
+#timeline-GTZ {
+    visibility: hidden;
+    height: 0;
+}
+
+#timeline-bp-plusSign {
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 16px;
+    float: left;
+}
+
+#timeline-GTZ-plusSign {
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 16px;
+    float: left;
+}
+
+#timeline-bp-colla{
+    margin-top: 20px;
+}
+
+#timeline-bp-colla:hover {
+    cursor: pointer;
+}
+
+#timeline-GTZ-colla:hover {
+    cursor: pointer;
 }
 
 /* Legend box style */

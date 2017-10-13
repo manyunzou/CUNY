@@ -8,11 +8,15 @@
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
 
+        <!-- For expanding and collapsing content -->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
         <link rel="stylesheet" type="text/css" href="style4.css">
         <link rel="stylesheet" type="text/css" href="style4-2.css">
         <link rel="stylesheet" type="text/css" href="style4-3.css">
         <link rel="stylesheet" type="text/css" href="style4-4.css">
 
+        <script src="timeline-expand.js"></script>
         <script src="timeline4.js"></script>
         <script src="timeline4-2.js"></script>
         <script src="timeline4-3.js"></script>
@@ -28,787 +32,803 @@
             <div class="year">2014</div><div class="year">2015</div><div class="year">2016</div><div class="year">2017</div><div class="year-notyet">2018</div><div class="year-notyet">2019</div><div class="year-notyet">2020</div>
         </div>
 
+
+
 <!-- Timeline starts here -->
-        <div class="timeline-item1">
-            <div class="item-text1">
-                <p class="item-bpname">Blueprint Recommendation 1</p>
-            </div>
-            <div class="item-timeline1">
-                    <div class="item-line1"></div>
-                <div class="circle1">
-                    <div class="law-title-1">Legislation Enacted in 2014</div> 
-                    <div class="law-details-1">Improves HIV Testing.</div>
+    <!-- Begin of BP timeline -->
+<div id="timeline-bp-colla">
+     <p class="timeline-bp-title">Blueprint Recommendation Timeline</p>
+     <img id="timeline-bp-plusSign" src="img/plus-sign.png" />
+ </div>
+        <div id="timeline-bp">
+            <div class="timeline-item1">
+                <div class="item-text1">
+                    <p class="item-bpname">Blueprint Recommendation 1</p>
                 </div>
-                <div class="circle2">
-                    <span class="law-title-2">Legislation Enacted in 2016</span> 
-                    <span class="law-details-2">Relates to HIV-Related Testing.</span>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief1">Make routine HIV testing truly routine. <span class="item-learnmore1">LEARN MORE</span></p>
-        <div id="billdetail01-1">
-            <div class="billNo">
-                <h3>Improves HIV Testing</h3>
-                <div id="tri-collapse1"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-enacted.png"></img>
-
-            <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs.</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">2014-15 NYS Executive Budget, Health and Mental
-            Hygiene Article VII Legislation</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to simplify consent requirements for HIV related testing consistent with Centers for Disease Control and Prevention (CDC) guidelines.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-        <div id="billdetail01-2">
-            <div class="billNo">
-                <h3>Improves HIV Testing</h3>
-                <div id="tri-collapse1-2"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-enacted.png"></img>
-            
-            <p class="billContent">Relates to HIV-related testing and to screening for certain diseases. </p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">S8129. A10724 (Governor's Program Bill #30)</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">This legislation amends Public Health Law (PHL) § 2781 to streamline routine HIV testing. The amendments would require that, at a minimum, the individual be advised that an HIV related test is going to being performed, and that any objection by the individual be noted in the individual's medical record. The legislation also amends PHL to eliminate the existing upper age limit for purposes of offering an HIV related test. Previous statute limited the mandatory offering to individuals between thirteen and sixty-four years of age.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance">If not identified and treated early, HIV infection progresses and escalates to AIDS. Individuals who are infected but not on treatment are more likely to transmit the virus. Indeed, almost half of all new infections are thought to be from individuals who are unaware of their HIV status. In recognition of this fact, the first point of the Governor's three point plan is to identify persons with HIV who remain undiagnosed and to link them to care. Since 2010, New York State has required that health care providers offer HIV testing to all patients between the ages of 13 and 64 as a routine part of health care services. However, a 2015 review of hospital implementation of the requirement showed that too many New Yorkers are still not taking advantage of available testing. This bill takes steps to remove any barriers to individuals being able to voluntarily accept HIV testing by reducing administrative hurdles, and by educating individuals about their HIV status and options for accessing treatment.
-            <br/>
-            <br/>
-            HIV testing must be made available to more New Yorkers. Half of all people living with diagnosed HIV infection in this State are age 50 and older, and approximately 200 cases of HIV are diagnosed each year in persons age 60 and older. This bill removes the upper age limit of 64 on the requirement of offering an HIV test, mandating that an HIV test be offered to all adults, regardless of age. There is no scientific basis justifying a 64 year age limit, and people over such age remain exposed to multiple risk factors. In addition, with the advent of new medications, persons over the age of 64 diagnosed with HIV are now able to live average life spans. However, early diagnosis and access to treatment remain essential, and this legislation furthers that goal.
-            <br/>
-            <br/>
-            STD rates are increasing in New York State. There are more than 100,000 cases of syphilis, gonorrhea, and chlamydia in New York State, with rates of syphilis in particular having increased substantially. To address this problem, STD screening and sexual health care must become a routine health care service. This bill amends the New York State Education Law to allow registered nurses to screen persons at increased risk for syphilis, gonorrhea and chlamydia, pursuant to a non-patient specific order. Expanding the existing nursing scope of practice to allow for registered nurses to screen persons at increased risk for these STDs will increase the number of people being diagnosed and treated, and will reduce the overall risks for HIV. This bill is consistent with the Ending the Epidemic Blueprint, which recognizes that sexually transmit-ted diseases put people at greater risk of HIV infection, and with U.S. Preventive Services (LISPS) recommendations.
-            <br/>
-            <br/>
-            PEP (Post-Exposure Prophylaxis) is an HIV prevention method that only works if used within a short period of time after exposure to the virus. Specifically, PEP should be used within 72 hours of exposure, and is recommended within 36 hours of exposure - with optimal intake being within 2 hours. Currently, in order to obtain PEP, most patients must go to an emergency room. By enabling pharmacists to dispense a seven day starter kit of PEP pursuant to a non-patient specific order, this bill provides a cost-effective way of significantly increasing HIV prevention. Expanding access to PEP also strengthens consumer understanding and awareness, improves referral and coordination with doctors and other health professionals for follow-up to PEP, and increases individual assessment for other HIV prevention measures.</p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance">Press release on Governor signing Ending the Epidemic legislation: https: //www.governor.ny. gov/news/governor- cuomo-announces- series-groundbreaking- new-initiatives-end- aids-epidemic-new- york-state</p>
-        </div>
-
-
-
-<!-- 2nd -->
-        <div class="timeline-item2">
-            <div class="item-text2">
-                <p class="item-bpname">Blueprint Recommendation 2</p>
-            </div>
-            <div class="item-timeline2">
-                    <div class="item-line2"></div>
-                <div class="circle2-1">
-                    <div class="law-title-2-1">Legislation Enacted in 2016</div> 
-                    <div class="law-details-2-1">Relates to HIV-Related Testing.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief2">Expand targeted testing. <span class="item-learnmore2">LEARN MORE</span></p>
-         <div id="billdetail02">
-            <div class="billNo">
-                <h3>Relates to HIV-Related Testing</h3>
-                <div id="tri-collapse2"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-enacted.png"></img>
-            
-            <p class="billContent">Relates to HIV-related testing and to screening for certain diseases. </p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">S8129, A10724 (Governor's Program Bill #30)</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">The legislation amends Education Law to allow registered nurses to conduct STD screenings.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-
-<!-- 3rd -->
-        <div class="timeline-item3">
-            <div class="item-text3">
-                <p class="item-bpname">Blueprint Recommendation 3</p>
-            </div>
-            <div class="item-timeline3">
-                    <div class="item-line3"></div>
-                <div class="circle3-1">
-                    <div class="law-title-3-1">Policy Change</div> 
-                    <div class="law-details-3-1">Clinical Guidelines Updated in 2015</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief3">Address acute HIV infection. <span class="item-learnmore3">LEARN MORE</span></p>
-         <div id="billdetail03">
-            <div class="billNo">
-                <h3>Update Acute Infection Guidelines</h3>
-                <div id="tri-collapse3"></div>
-            </div>
-
-            <img class="passedGraphic" src="policy-change.png"></img>
-            
-            <p class="billContent">Update to the Diagnosis and Management of Acute Infection Guidelines.</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">NYS DOH, Medical Care Criteria Committee (September 2015)</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">The Diagnosis and Management of Acute Infection guidelines were updated in the summer of 2015. The guideline is intended to increase the identification and assessment of acute HIV infection, and supports initiating antiretroviral therapy (ART) for those patients. The guideline also revises the recommended testing methods to be used to diagnose infection. The updated guideline is being widely disseminated using a variety of program contacts and media.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-
-<!-- 4th -->
-        <div class="timeline-item4">
-            <div class="item-text4">
-                <p class="item-bpname">Blueprint Recommendation 4</p>
-            </div>
-            <div class="item-timeline4">
-                    <div class="item-line4"></div>
-                <div class="circle4-1">
-                    <div class="law-title-4-1">Legislation Enacted in 2014</div> 
-                    <div class="law-details-4-1">Changes the General Public Health Work program.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief4">Improve referral and engagement. <span class="item-learnmore4">LEARN MORE</span></p>
-        <div id="billdetail04">
-            <div class="billNo">
-                <h3>Changes the General Public Health Work program</h3>
-                <div id="tri-collapse4"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-enacted.png"></img>
-            
-            <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs...</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">2014-15 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to allow for enhanced data sharing among health care providers and health departments to maintain patient linkages and improve continuity and retention in care.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-
-<!-- 5th -->
-        <div class="timeline-item5">
-            <div class="item-text5">
-                <p class="item-bpname">Blueprint Recommendation 5</p>
-            </div>
-            <div class="item-timeline5">
-                    <div class="item-line5"></div>
-                <div class="circle5-1">
-                    <div class="law-title-5-1">Legislation Enacted in 2014</div> 
-                    <div class="law-details-5-1">Changes the General Public Health Work Program.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief5">Continuously act to monitor and improve rates of viral suppression. <span class="item-learnmore5">LEARN MORE</span></p>
-        <div id="billdetail05">
-            <div class="billNo">
-                <h3>Changes the General Public Health Work program</h3>
-                <div id="tri-collapse5"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-enacted.png"></img>
-            
-            <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs...</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">2014-15 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to allow for enhanced data sharing among health care providers and health departments to maintain patient linkages and improve continuity and retention in care.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-<!-- 6th -->
-        <div class="timeline-item6">
-            <div class="item-text6">
-                <p class="item-bpname">Blueprint Recommendation 6</p>
-            </div>
-            <div class="item-timeline6">
-                    <div class="item-line6"></div>
-                <div class="circle6-1">
-                    <div class="law-title-6-1">(Not sure if we are including this)</div> 
-                    <div class="law-details-6-1">(...)</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief6">Incentivize performance. <span class="item-learnmore6">LEARN MORE</span></p>
-        <!-- <div id="billdetail06">
-            <div class="billNo">
-                <h3>Minor's Consent for HIV Treatment and Prevention</h3>
-                <div id="tri-collapse6"></div>
-            </div>
-
-            <svg id="billprogress06" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806.82 105.48">
-            <defs><style>.cls-1{fill:#fbb13a;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:#eee;stroke-miterlimit:10;}.cls-2{fill:#fcce84;}.cls-3{fill:#feebcd;}.cls-4{fill:#fa9e09;}</style></defs>
-            <title>progress-bar</title>
-            <polygon class="cls-1" points="191.11 0.5 259.64 52.18 191.11 104.98 351.76 104.98 424.78 52.18 361.87 0.5 191.11 0.5"/><polygon class="cls-2" points="381.72 0.5 450.25 52.18 381.72 104.98 542.37 104.98 615.39 52.18 552.48 0.5 381.72 0.5"/><polygon class="cls-3" points="572.33 0.5 640.86 52.18 572.33 104.98 732.98 104.98 806 52.18 743.09 0.5 572.33 0.5"/><polygon class="cls-4" points="0.5 0.5 0.5 104.98 161.15 104.98 234.17 52.18 171.26 0.5 0.5 0.5"/>
-           </svg>
-
-            <p class="billContent">Expansion of minor consent for HIV treatment access and prevention.</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billSum">New Rule Adopted on April 12, 2017, amending Section 23.1 and 23.2 of Title 10 NYCRR to add HIV to Group B of the existing list of sexually transmitted diseases (STDs) enabling minors to consent to HIV treatment and prevention without parental consent. </p>
-
-            <h4 class="billTitle">Importance for Ending the AIDS Epidemic</h4>
-            <p class="billImportance">Data support the critical importance of access to HIV prevention and treatment for young people. According to the U.S. Centers for Disease Control and Prevention (CDC), in 2014, 22% of new HIV infections were diagnosed among youth ages 13-24 years old. Most of these newly diagnosed infections occurred among young gay and bisexual males. Young black/African American and Hispanic/Latino gay and bisexual males are especially affected. Youth with HIV are the least likely out of any age group to be linked to care. Addressing HIV in youth requires that we give youth the tools they need to reduce their risk, make healthy decisions, get treatment and care if needed, and communicate effectively with others. In New York State, more than 30% of new HIV diagnoses in 2014 were among individuals under 24 years of age.  In New York City in 2015, 39% of persons newly diagnosed with HIV were under the age of 29, and persons living with HIV under the age of 24 had the lowest rate of viral load suppression of any group. </p>
-            
-            <h4 class="billTitle">ETE Blueprint Recommendation</h4>
-            <div class="billRecomm01"><span class="billRecomm01_bottom">GTZ 7</span>
-                <span class="Recomm_tooltiptext01">[Explanation]</span>
-            </div>
-        </div>
- -->
-
-<!-- 7th -->
-        <div class="timeline-item7">
-            <div class="item-text7">
-                <p class="item-bpname">Blueprint Recommendation 7</p>
-            </div>
-            <div class="item-timeline7">
-                    <div class="item-line7"></div>
-                <div class="circle7-1">
-                    <div class="law-title-7-1">Legislation Enacted in 2014</div> 
-                    <div class="law-details-7-1">Changes the General Public Health Work Program.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief7">Use client-level data to identify and assist patients lost to care or not virally suppressed. <span class="item-learnmore7">LEARN MORE</span></p>
-        <div id="billdetail07">
-            <div class="billNo">
-                <h3>Changes the General Public Health Work program</h3>
-                <div id="tri-collapse7"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-enacted.png"></img>
-            
-            <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs...</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">2014-15 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to allow for enhanced data sharing among health care providers and health departments to maintain patient linkages and improve continuity and retention in care.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-<!-- 8th -->
-        <div class="timeline-item8">
-            <div class="item-text8">
-                <p class="item-bpname">Blueprint Recommendation 8</p>
-            </div>
-            <div class="item-timeline8">
-                    <div class="item-line8"></div>
-            </div>
-        </div>
-        <p class="item-bpbrief8">Enhance and streamline services to support the non-medical needs of all persons with HIV. <span class="item-learnmore8">LEARN MORE</span></p>
-<!--         <div id="billdetail08">
-            <div class="billNo">
-                <h3>Raising the Age for Access to Youth Shelters</h3>
-                <div id="tri-collapse8"></div>
-            </div>
-
-            <svg id="billprogress08" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806.82 105.48">
-            <defs><style>.cls-1{fill:#fbb13a;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:#eee;stroke-miterlimit:10;}.cls-2{fill:#fcce84;}.cls-3{fill:#feebcd;}.cls-4{fill:#fa9e09;}</style></defs>
-            <title>progress-bar</title>
-            <polygon class="cls-1" points="191.11 0.5 259.64 52.18 191.11 104.98 351.76 104.98 424.78 52.18 361.87 0.5 191.11 0.5"/><polygon class="cls-2" points="381.72 0.5 450.25 52.18 381.72 104.98 542.37 104.98 615.39 52.18 552.48 0.5 381.72 0.5"/><polygon class="cls-3" points="572.33 0.5 640.86 52.18 572.33 104.98 732.98 104.98 806 52.18 743.09 0.5 572.33 0.5"/><polygon class="cls-4" points="0.5 0.5 0.5 104.98 161.15 104.98 234.17 52.18 171.26 0.5 0.5 0.5"/>
-           </svg>
-
-            <p class="billContent">Raising the Age for Access to Youth Shelters.</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billSum">The New York State FY2018 Enacted Budget include legislation to expand the application of the New York State Runaway and Homeless Youth Act to include individuals age 24 and younger who need services and are without a place of shelter where supervision and care are available, an increase from the upper limit of 21. The new legislation also allows municipalities to significantly extend the length of stay in Runaway and Homeless Youth (RHY) crisis and transitional beds.</p>
-
-            <h4 class="billTitle">Importance for Ending the AIDS Epidemic</h4>
-            <p class="billImportance">Homeless youth are at high risk for HIV infection. Several factors place homeless youth at risk for HIV including survival sex (trading sex for basic needs), having multiple sexual partners, low frequency of condom use, and injection drug use. The early start of sexual activity and the large number of sexual partners also place some homeless youth at risk for HIV infection. In one study of New York City street youth, 21 percent of males and 24 percent of females reported having had more than 100 lifetime partners. </p>
-            
-            <h4 class="billTitle">ETE Blueprint Recommendation</h4>
-            <div class="billRecomm01"><span class="billRecomm01_bottom">BP17</span>
-                <span class="Recomm_tooltiptext01">[Explanation]</span>
-            </div>
-        </div> -->
-
-<!-- 9th -->
-        <div class="timeline-item9">
-            <div class="item-text9">
-                <p class="item-bpname">Blueprint Recommendation 9</p>
-            </div>
-            <div class="item-timeline9">
-                    <div class="item-line9"></div>
-                    <div class="circle9-1">
-                        <div class="law-title-9-1">Legislation Enacted in 2015</div> 
-                        <div class="law-details-9-1">Modify Various Provisions of Law.</div>
+                <div class="item-timeline1">
+                        <div class="item-line1"></div>
+                    <div class="circle1">
+                        <div class="law-title-1">Legislation Enacted in 2014</div> 
+                        <div class="law-details-1">Improves HIV Testing.</div>
                     </div>
+                    <div class="circle2">
+                        <span class="law-title-2">Legislation Enacted in 2016</span> 
+                        <span class="law-details-2">Relates to HIV-Related Testing.</span>
+                    </div>
+                </div>
             </div>
+            <p class="item-bpbrief1">Make routine HIV testing truly routine. <span class="item-learnmore1">LEARN MORE</span></p>
+            <div id="billdetail01-1">
+                <div class="billNo">
+                    <h3>Improves HIV Testing</h3>
+                    <div id="tri-collapse1"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-enacted.png"></img>
+
+                <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs.</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">2014-15 NYS Executive Budget, Health and Mental
+                Hygiene Article VII Legislation</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to simplify consent requirements for HIV related testing consistent with Centers for Disease Control and Prevention (CDC) guidelines.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+            <div id="billdetail01-2">
+                <div class="billNo">
+                    <h3>Improves HIV Testing</h3>
+                    <div id="tri-collapse1-2"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-enacted.png"></img>
+                
+                <p class="billContent">Relates to HIV-related testing and to screening for certain diseases. </p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">S8129. A10724 (Governor's Program Bill #30)</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">This legislation amends Public Health Law (PHL) § 2781 to streamline routine HIV testing. The amendments would require that, at a minimum, the individual be advised that an HIV related test is going to being performed, and that any objection by the individual be noted in the individual's medical record. The legislation also amends PHL to eliminate the existing upper age limit for purposes of offering an HIV related test. Previous statute limited the mandatory offering to individuals between thirteen and sixty-four years of age.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance">If not identified and treated early, HIV infection progresses and escalates to AIDS. Individuals who are infected but not on treatment are more likely to transmit the virus. Indeed, almost half of all new infections are thought to be from individuals who are unaware of their HIV status. In recognition of this fact, the first point of the Governor's three point plan is to identify persons with HIV who remain undiagnosed and to link them to care. Since 2010, New York State has required that health care providers offer HIV testing to all patients between the ages of 13 and 64 as a routine part of health care services. However, a 2015 review of hospital implementation of the requirement showed that too many New Yorkers are still not taking advantage of available testing. This bill takes steps to remove any barriers to individuals being able to voluntarily accept HIV testing by reducing administrative hurdles, and by educating individuals about their HIV status and options for accessing treatment.
+                <br/>
+                <br/>
+                HIV testing must be made available to more New Yorkers. Half of all people living with diagnosed HIV infection in this State are age 50 and older, and approximately 200 cases of HIV are diagnosed each year in persons age 60 and older. This bill removes the upper age limit of 64 on the requirement of offering an HIV test, mandating that an HIV test be offered to all adults, regardless of age. There is no scientific basis justifying a 64 year age limit, and people over such age remain exposed to multiple risk factors. In addition, with the advent of new medications, persons over the age of 64 diagnosed with HIV are now able to live average life spans. However, early diagnosis and access to treatment remain essential, and this legislation furthers that goal.
+                <br/>
+                <br/>
+                STD rates are increasing in New York State. There are more than 100,000 cases of syphilis, gonorrhea, and chlamydia in New York State, with rates of syphilis in particular having increased substantially. To address this problem, STD screening and sexual health care must become a routine health care service. This bill amends the New York State Education Law to allow registered nurses to screen persons at increased risk for syphilis, gonorrhea and chlamydia, pursuant to a non-patient specific order. Expanding the existing nursing scope of practice to allow for registered nurses to screen persons at increased risk for these STDs will increase the number of people being diagnosed and treated, and will reduce the overall risks for HIV. This bill is consistent with the Ending the Epidemic Blueprint, which recognizes that sexually transmit-ted diseases put people at greater risk of HIV infection, and with U.S. Preventive Services (LISPS) recommendations.
+                <br/>
+                <br/>
+                PEP (Post-Exposure Prophylaxis) is an HIV prevention method that only works if used within a short period of time after exposure to the virus. Specifically, PEP should be used within 72 hours of exposure, and is recommended within 36 hours of exposure - with optimal intake being within 2 hours. Currently, in order to obtain PEP, most patients must go to an emergency room. By enabling pharmacists to dispense a seven day starter kit of PEP pursuant to a non-patient specific order, this bill provides a cost-effective way of significantly increasing HIV prevention. Expanding access to PEP also strengthens consumer understanding and awareness, improves referral and coordination with doctors and other health professionals for follow-up to PEP, and increases individual assessment for other HIV prevention measures.</p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance">Press release on Governor signing Ending the Epidemic legislation: https: //www.governor.ny. gov/news/governor- cuomo-announces- series-groundbreaking- new-initiatives-end- aids-epidemic-new- york-state</p>
+            </div>
+
+
+
+    <!-- 2nd -->
+            <div class="timeline-item2">
+                <div class="item-text2">
+                    <p class="item-bpname">Blueprint Recommendation 2</p>
+                </div>
+                <div class="item-timeline2">
+                        <div class="item-line2"></div>
+                    <div class="circle2-1">
+                        <div class="law-title-2-1">Legislation Enacted in 2016</div> 
+                        <div class="law-details-2-1">Relates to HIV-Related Testing.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief2">Expand targeted testing. <span class="item-learnmore2">LEARN MORE</span></p>
+             <div id="billdetail02">
+                <div class="billNo">
+                    <h3>Relates to HIV-Related Testing</h3>
+                    <div id="tri-collapse2"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-enacted.png"></img>
+                
+                <p class="billContent">Relates to HIV-related testing and to screening for certain diseases. </p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">S8129, A10724 (Governor's Program Bill #30)</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">The legislation amends Education Law to allow registered nurses to conduct STD screenings.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+
+    <!-- 3rd -->
+            <div class="timeline-item3">
+                <div class="item-text3">
+                    <p class="item-bpname">Blueprint Recommendation 3</p>
+                </div>
+                <div class="item-timeline3">
+                        <div class="item-line3"></div>
+                    <div class="circle3-1">
+                        <div class="law-title-3-1">Policy Change</div> 
+                        <div class="law-details-3-1">Clinical Guidelines Updated in 2015</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief3">Address acute HIV infection. <span class="item-learnmore3">LEARN MORE</span></p>
+             <div id="billdetail03">
+                <div class="billNo">
+                    <h3>Update Acute Infection Guidelines</h3>
+                    <div id="tri-collapse3"></div>
+                </div>
+
+                <img class="passedGraphic" src="policy-change.png"></img>
+                
+                <p class="billContent">Update to the Diagnosis and Management of Acute Infection Guidelines.</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">NYS DOH, Medical Care Criteria Committee (September 2015)</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">The Diagnosis and Management of Acute Infection guidelines were updated in the summer of 2015. The guideline is intended to increase the identification and assessment of acute HIV infection, and supports initiating antiretroviral therapy (ART) for those patients. The guideline also revises the recommended testing methods to be used to diagnose infection. The updated guideline is being widely disseminated using a variety of program contacts and media.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+
+    <!-- 4th -->
+            <div class="timeline-item4">
+                <div class="item-text4">
+                    <p class="item-bpname">Blueprint Recommendation 4</p>
+                </div>
+                <div class="item-timeline4">
+                        <div class="item-line4"></div>
+                    <div class="circle4-1">
+                        <div class="law-title-4-1">Legislation Enacted in 2014</div> 
+                        <div class="law-details-4-1">Changes the General Public Health Work program.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief4">Improve referral and engagement. <span class="item-learnmore4">LEARN MORE</span></p>
+            <div id="billdetail04">
+                <div class="billNo">
+                    <h3>Changes the General Public Health Work program</h3>
+                    <div id="tri-collapse4"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-enacted.png"></img>
+                
+                <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs...</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">2014-15 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to allow for enhanced data sharing among health care providers and health departments to maintain patient linkages and improve continuity and retention in care.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+
+    <!-- 5th -->
+            <div class="timeline-item5">
+                <div class="item-text5">
+                    <p class="item-bpname">Blueprint Recommendation 5</p>
+                </div>
+                <div class="item-timeline5">
+                        <div class="item-line5"></div>
+                    <div class="circle5-1">
+                        <div class="law-title-5-1">Legislation Enacted in 2014</div> 
+                        <div class="law-details-5-1">Changes the General Public Health Work Program.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief5">Continuously act to monitor and improve rates of viral suppression. <span class="item-learnmore5">LEARN MORE</span></p>
+            <div id="billdetail05">
+                <div class="billNo">
+                    <h3>Changes the General Public Health Work program</h3>
+                    <div id="tri-collapse5"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-enacted.png"></img>
+                
+                <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs...</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">2014-15 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to allow for enhanced data sharing among health care providers and health departments to maintain patient linkages and improve continuity and retention in care.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+    <!-- 6th -->
+            <div class="timeline-item6">
+                <div class="item-text6">
+                    <p class="item-bpname">Blueprint Recommendation 6</p>
+                </div>
+                <div class="item-timeline6">
+                        <div class="item-line6"></div>
+                    <div class="circle6-1">
+                        <div class="law-title-6-1">(Not sure if we are including this)</div> 
+                        <div class="law-details-6-1">(...)</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief6">Incentivize performance. <span class="item-learnmore6">LEARN MORE</span></p>
+            <!-- <div id="billdetail06">
+                <div class="billNo">
+                    <h3>Minor's Consent for HIV Treatment and Prevention</h3>
+                    <div id="tri-collapse6"></div>
+                </div>
+
+                <svg id="billprogress06" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806.82 105.48">
+                <defs><style>.cls-1{fill:#fbb13a;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:#eee;stroke-miterlimit:10;}.cls-2{fill:#fcce84;}.cls-3{fill:#feebcd;}.cls-4{fill:#fa9e09;}</style></defs>
+                <title>progress-bar</title>
+                <polygon class="cls-1" points="191.11 0.5 259.64 52.18 191.11 104.98 351.76 104.98 424.78 52.18 361.87 0.5 191.11 0.5"/><polygon class="cls-2" points="381.72 0.5 450.25 52.18 381.72 104.98 542.37 104.98 615.39 52.18 552.48 0.5 381.72 0.5"/><polygon class="cls-3" points="572.33 0.5 640.86 52.18 572.33 104.98 732.98 104.98 806 52.18 743.09 0.5 572.33 0.5"/><polygon class="cls-4" points="0.5 0.5 0.5 104.98 161.15 104.98 234.17 52.18 171.26 0.5 0.5 0.5"/>
+               </svg>
+
+                <p class="billContent">Expansion of minor consent for HIV treatment access and prevention.</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billSum">New Rule Adopted on April 12, 2017, amending Section 23.1 and 23.2 of Title 10 NYCRR to add HIV to Group B of the existing list of sexually transmitted diseases (STDs) enabling minors to consent to HIV treatment and prevention without parental consent. </p>
+
+                <h4 class="billTitle">Importance for Ending the AIDS Epidemic</h4>
+                <p class="billImportance">Data support the critical importance of access to HIV prevention and treatment for young people. According to the U.S. Centers for Disease Control and Prevention (CDC), in 2014, 22% of new HIV infections were diagnosed among youth ages 13-24 years old. Most of these newly diagnosed infections occurred among young gay and bisexual males. Young black/African American and Hispanic/Latino gay and bisexual males are especially affected. Youth with HIV are the least likely out of any age group to be linked to care. Addressing HIV in youth requires that we give youth the tools they need to reduce their risk, make healthy decisions, get treatment and care if needed, and communicate effectively with others. In New York State, more than 30% of new HIV diagnoses in 2014 were among individuals under 24 years of age.  In New York City in 2015, 39% of persons newly diagnosed with HIV were under the age of 29, and persons living with HIV under the age of 24 had the lowest rate of viral load suppression of any group. </p>
+                
+                <h4 class="billTitle">ETE Blueprint Recommendation</h4>
+                <div class="billRecomm01"><span class="billRecomm01_bottom">GTZ 7</span>
+                    <span class="Recomm_tooltiptext01">[Explanation]</span>
+                </div>
+            </div>
+     -->
+
+    <!-- 7th -->
+            <div class="timeline-item7">
+                <div class="item-text7">
+                    <p class="item-bpname">Blueprint Recommendation 7</p>
+                </div>
+                <div class="item-timeline7">
+                        <div class="item-line7"></div>
+                    <div class="circle7-1">
+                        <div class="law-title-7-1">Legislation Enacted in 2014</div> 
+                        <div class="law-details-7-1">Changes the General Public Health Work Program.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief7">Use client-level data to identify and assist patients lost to care or not virally suppressed. <span class="item-learnmore7">LEARN MORE</span></p>
+            <div id="billdetail07">
+                <div class="billNo">
+                    <h3>Changes the General Public Health Work program</h3>
+                    <div id="tri-collapse7"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-enacted.png"></img>
+                
+                <p class="billContent">Changes the General Public Health Work program, improves HIV testing, restructures certain health research and education programs...</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">2014-15 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">The 2014-15 enacted NYS budget amended Public Health Law to allow for enhanced data sharing among health care providers and health departments to maintain patient linkages and improve continuity and retention in care.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+    <!-- 8th -->
+            <div class="timeline-item8">
+                <div class="item-text8">
+                    <p class="item-bpname">Blueprint Recommendation 8</p>
+                </div>
+                <div class="item-timeline8">
+                        <div class="item-line8"></div>
+                </div>
+            </div>
+            <p class="item-bpbrief8">Enhance and streamline services to support the non-medical needs of all persons with HIV. <span class="item-learnmore8">LEARN MORE</span></p>
+    <!--         <div id="billdetail08">
+                <div class="billNo">
+                    <h3>Raising the Age for Access to Youth Shelters</h3>
+                    <div id="tri-collapse8"></div>
+                </div>
+
+                <svg id="billprogress08" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806.82 105.48">
+                <defs><style>.cls-1{fill:#fbb13a;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:#eee;stroke-miterlimit:10;}.cls-2{fill:#fcce84;}.cls-3{fill:#feebcd;}.cls-4{fill:#fa9e09;}</style></defs>
+                <title>progress-bar</title>
+                <polygon class="cls-1" points="191.11 0.5 259.64 52.18 191.11 104.98 351.76 104.98 424.78 52.18 361.87 0.5 191.11 0.5"/><polygon class="cls-2" points="381.72 0.5 450.25 52.18 381.72 104.98 542.37 104.98 615.39 52.18 552.48 0.5 381.72 0.5"/><polygon class="cls-3" points="572.33 0.5 640.86 52.18 572.33 104.98 732.98 104.98 806 52.18 743.09 0.5 572.33 0.5"/><polygon class="cls-4" points="0.5 0.5 0.5 104.98 161.15 104.98 234.17 52.18 171.26 0.5 0.5 0.5"/>
+               </svg>
+
+                <p class="billContent">Raising the Age for Access to Youth Shelters.</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billSum">The New York State FY2018 Enacted Budget include legislation to expand the application of the New York State Runaway and Homeless Youth Act to include individuals age 24 and younger who need services and are without a place of shelter where supervision and care are available, an increase from the upper limit of 21. The new legislation also allows municipalities to significantly extend the length of stay in Runaway and Homeless Youth (RHY) crisis and transitional beds.</p>
+
+                <h4 class="billTitle">Importance for Ending the AIDS Epidemic</h4>
+                <p class="billImportance">Homeless youth are at high risk for HIV infection. Several factors place homeless youth at risk for HIV including survival sex (trading sex for basic needs), having multiple sexual partners, low frequency of condom use, and injection drug use. The early start of sexual activity and the large number of sexual partners also place some homeless youth at risk for HIV infection. In one study of New York City street youth, 21 percent of males and 24 percent of females reported having had more than 100 lifetime partners. </p>
+                
+                <h4 class="billTitle">ETE Blueprint Recommendation</h4>
+                <div class="billRecomm01"><span class="billRecomm01_bottom">BP17</span>
+                    <span class="Recomm_tooltiptext01">[Explanation]</span>
+                </div>
+            </div> -->
+
+    <!-- 9th -->
+            <div class="timeline-item9">
+                <div class="item-text9">
+                    <p class="item-bpname">Blueprint Recommendation 9</p>
+                </div>
+                <div class="item-timeline9">
+                        <div class="item-line9"></div>
+                        <div class="circle9-1">
+                            <div class="law-title-9-1">Legislation Enacted in 2015</div> 
+                            <div class="law-details-9-1">Modify Various Provisions of Law.</div>
+                        </div>
+                </div>
+            </div>
+            <p class="item-bpbrief9">rovide enhanced services for patients within correctional and other institutions and specific programming for patients returning home from corrections or other institutional settings. <span class="item-learnmore9">LEARN MORE</span></p>
+            <div id="billdetail09">
+                <div class="billNo">
+                    <h3>Modify Various Provisions of Law</h3>
+                    <div id="tri-collapse9"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-enacted.png"></img>
+                
+                <p class="billContent">Modify various provisions of law to remove barriers to obtaining HIV/AIDS treatment and to engaging in appropriate risk reduction activities to limit the spread of HIV/AIDS</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">2015-16 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">The 2015-16 enacted NYS budget authorized the elimination of the requirement of written consent for HIV testing in New York State correctional facilities.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+
+    <!-- 10th -->
+            <div class="timeline-item10">
+                <div class="item-text10">
+                    <p class="item-bpname">Blueprint Recommendation 10</p>
+                </div>
+                <div class="item-timeline10">
+                        <div class="item-line10"></div>
+                    <div class="circle10-1">
+                        <div class="law-title-10-1">Policy Change</div> 
+                        <div class="law-details-10-1">HIV Special Needs Plan.</div>
+                    </div>
+                    <div class="circle10-2">
+                        <div class="law-title-10-2">Policy Change</div> 
+                        <div class="law-details-10-2">Make HIV SNPS Available.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief10">Maximize opportunities through the Delivery System Reform Incentive Payment (DSRIP) process to support programs to achieve goals related to linkage, retention, and viral suppression. <span class="item-learnmore10">LEARN MORE</span></p>
+            <div id="billdetail10-1">
+                <div class="billNo">
+                    <h3>HIV Special Needs Plan</h3>
+                    <div id="tri-collapse10-1"></div>
+                </div>
+
+                <img class="passedGraphic" src="policy-change.png"></img>
+                
+                <p class="billContent">HIV Special Needs Plan (SNP) extender</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">2016-17 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation, Part D</p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">This bill amends chapter 649 of the Laws of 1996 to authorize the continued operation of Special Needs Plans serving persons with mental illness or the Human Immunodeficiency Virus. There are currently three Special Needs Plans statewide serving approximately 14,540 recipients.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance">https://www.budget.
+    ny. gov/pubs/archive/fy17 archive/eBudget1617/f y1617artVIIbills/HMH_ ArticleVII_MS.pdf</p>
+            </div>
+
+            <div id="billdetail10-2">
+                <div class="billNo">
+                    <h3>Modify Various Provisions of Law</h3>
+                    <div id="tri-collapse10-2"></div>
+                </div>
+
+                <img class="passedGraphic" src="policy-change.png"></img>
+                
+                <p class="billContent">Make HIV SNPS available on the New York State of Health Insurance Marketplace as a plan of choice for people living with HIV/AIDS and eligible for Medicaid.</p>
+                <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum"></p>
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">As of January 15, 2016, eligible health care consumers have the ability to select and enroll in an HIV Special Needs Health Plan (SNP) through the New York State of Health (NYSoH) Marketplace, for the first time since the NYSoH was established in 2012.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"></p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"></p>
+            </div>
+
+
+    <!-- 11th -->
+            <div class="timeline-item11">
+                <div class="item-text11">
+                    <p class="item-bpname">Blueprint Recommendation 11</p>
+                </div>
+                <div class="item-timeline11">
+                        <div class="item-line11"></div>
+                </div>
+            </div>
+            <p class="item-bpbrief11">Undertake a statewide education campaign on PrEP and nPEP. <span class="item-learnmore11">LEARN MORE</span></p>
+
+
+    <!-- 12th -->
+            <div class="timeline-item12">
+                <div class="item-text12">
+                    <p class="item-bpname">Blueprint Recommendation 12</p>
+                </div>
+                <div class="item-timeline12">
+                        <div class="item-line12"></div>
+                    <div class="circle12-1">
+                        <div class="law-title-12-1">Legislation Enacted in 2016</div> 
+                        <div class="law-details-12-1">HIV-Related Testing.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief12">Include a variety of statewide programs for distribution and increased access to PrEP and nPEP. <span class="item-learnmore12">LEARN MORE</span></p>
+
+
+    <!-- 13th -->
+            <div class="timeline-item13">
+                <div class="item-text13">
+                    <p class="item-bpname">Blueprint Recommendation 13</p>
+                </div>
+                <div class="item-timeline13">
+                        <div class="item-line13"></div>
+                    <div class="circle13-1">
+                        <div class="law-title-13-1">Policy Change</div> 
+                        <div class="law-details-13-1">New Program Established in 2015.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief13">Create a coordinated statewide mechanism for persons to access PrEP and nPEP and prevention focused care. <span class="item-learnmore13">LEARN MORE</span></p>
+
+
+    <!-- 14th -->
+            <div class="timeline-item14">
+                <div class="item-text14">
+                    <p class="item-bpname">Blueprint Recommendation 14</p>
+                </div>
+                <div class="item-timeline14">
+                        <div class="item-line14"></div>
+                </div>
+            </div>
+            <p class="item-bpbrief14">Develop mecnanisms to determine PrEP and nPEP usage and adherence statewide. <span class="item-learnmore14">LEARN MORE</span></p>
+
+
+    <!-- 15th -->
+            <div class="timeline-item15">
+                <div class="item-text15">
+                    <p class="item-bpname">Blueprint Recommendation 15</p>
+                </div>
+                <div class="item-timeline15">
+                        <div class="item-line15"></div>
+                    <div class="circle15-1">
+                        <div class="law-title-15-1">Executive Action in 2016</div> 
+                        <div class="law-details-15-1">Independent Pharmacies.</div>
+                    </div>
+                    <div class="circle15-2">
+                        <div class="law-title-15-2">New Program Established in 2017</div> 
+                        <div class="law-details-15-2">Naloxone Co-payment Assistance Program.</div>
+                    </div>
+                    <div class="circle15-3">
+                        <div class="law-title-15-3">Legislation Introduced in 2016, 2017</div> 
+                        <div class="law-details-15-3">Expanded Syringe Access Program.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief15">Increase momentum in promoting the health of people who use drugs. <span class="item-learnmore15">LEARN MORE</span></p>
+
+    <!-- 16th -->
+            <div class="timeline-item16">
+                <div class="item-text16">
+                    <p class="item-bpname">Blueprint Recommendation 16</p>
+                </div>
+                <div class="item-timeline16">
+                        <div class="item-line16"></div>
+                    <div class="circle16-1">
+                        <div class="law-title-16-1">Clinical Definition Changed in 2016</div> 
+                        <div class="law-details-16-1">HASA housing and services.</div>
+                    </div>
+                    <div class="circle16-2">
+                        <div class="law-title-16-2">Legislation Introduced in 2016, 2017</div> 
+                        <div class="law-details-16-2">Expand Essential Benefits.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief16">Ensure access to stable housing. <span class="item-learnmore16">LEARN MORE</span></p>
+
+
+    <!-- 17th -->
+            <div class="timeline-item17">
+                <div class="item-text17">
+                    <p class="item-bpname">Blueprint Recommendation 17</p>
+                </div>
+                <div class="item-timeline17">
+                        <div class="item-line17"></div>
+                    <div class="circle17-1">
+                        <div class="law-title-17-1">Legislation Enacted in 2017</div> 
+                        <div class="law-details-17-1">Raising the Maximum Age for RHY.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief17">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore17">LEARN MORE</span></p>
+
+
+    <!-- 18th -->
+            <div class="timeline-item18">
+                <div class="item-text18">
+                    <p class="item-bpname">Blueprint Recommendation 18</p>
+                </div>
+                <div class="item-timeline18">
+                        <div class="item-line18"></div>
+                    <div class="circle18-1">
+                        <div class="law-title-18-1">Regulation adopted in 2016</div> 
+                        <div class="law-details-18-1">Prohibition on Conversion Therapy.</div>
+                    </div>
+                    <div class="circle18-2">
+                        <div class="law-title-18-2">Announced in 2017</div> 
+                        <div class="law-details-18-2">NYC LGBTQ Health Care Bill of Rights.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief18">Health, housing, and human rights for LGBT communities. <span class="item-learnmore18">LEARN MORE</span></p>
+
+            <div id="billdetail18-1">
+                <div class="billNo">
+                    <h3>Prohibition on Conversion Therapy</h3>
+                    <div id="tri-collapse18-1"></div>
+                </div>
+
+                <img class="passedGraphic" src="regulation-adopted.png"></img>
+                
+                <p class="billContent">Prohibition on conversion therapy.</p>
+    <!--             <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">Regulation</p> -->
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">On February 6, 2016, Governor Cuomo announced multi-agency regulations intended to probhibit conversion therapy--practices by mental health providers that seek to change an individuals's sexual orientation or gender identity or expression. The NYS Department of Financial Services issued regulations barring insurers from providing coverage for conversion therapy for minors and prohibitied coverage for conversion therapy under the NYS Medicaid program. The NYS Office of Mental Health issued regulations prohibiting facilities under its jurisdiction from providing conversion therapy treatment to minors.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"> </p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"><a href="https://www. governor.ny. gov/sites/governor.ny. gov/files/atoms/files/ ConversionTherapy. pdf">https://www. governor.ny. gov/sites/governor.ny. gov/files/atoms/files/ ConversionTherapy. pdf</a></p>
+                <p class="billImportance"><a href="https://www.governor. ny.gov/sites/governor. ny. gov/files/atoms/files/O MH_conversiontherap y.pdf">https://www.governor. ny.gov/sites/governor. ny. gov/files/atoms/files/O MH_conversiontherap y.pdf</a></p>
+                <p class="billImportance"><a href="https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/ConversionTherapy_Medicaid_Update.pdf">https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/ConversionTherapy_Medicaid_Update.pdf</a></p>
+            </div>
+            <div id="billdetail18-2">
+                <div class="billNo">
+                    <h3>Prohibition on Conversion Therapy</h3>
+                    <div id="tri-collapse18-2"></div>
+                </div>
+
+                <img class="passedGraphic" src="legislation-introduced.png"></img>
+                
+                <p class="billContent">NYC LGBTQ Health Care Bill of Rights.</p>
+    <!--             <h4 class="billTitle">Identification Number</h4>
+                <p class="billSum">Regulation</p> -->
+                <h4 class="billTitle">Summary</h4>
+                <p class="billImportance">On June 6, 2017, the administration of NYC Mayor Bill de Blasio announced the first-ever LGBTQ Health Care Bill of Rights.</p>
+                <h4 class="billTitle">Importance</h4>
+                <p class="billImportance"> </p>
+                <h4 class="billTitle">Additional Information</h4>
+                <p class="billImportance"><a href="http://www1.nyc. gov/assets/doh/downl oads/pdf/ah/lgbtq- bor-wallet.pdf">http://www1.nyc. gov/assets/doh/downl oads/pdf/ah/lgbtq- bor-wallet.pdf</a></p>
+            </div>
+
+
+    <!-- 19th -->
+            <div class="timeline-item19">
+                <div class="item-text19">
+                    <p class="item-bpname">Blueprint Recommendation 19</p>
+                </div>
+                <div class="item-timeline19">
+                        <div class="item-line19"></div>
+                    <div class="circle19-1">
+                        <div class="law-title-19-1">Regulatory Guidance Issued in 2014</div> 
+                        <div class="law-details-19-1">Health Insurance Coverage.</div>
+                    </div>
+                    <div class="circle19-2">
+                        <div class="law-title-19-2">Regulation Adopted in 2016</div> 
+                        <div class="law-details-19-2">Human Rights Protections.</div>
+                    </div>
+                    <div class="circle19-3">
+                        <div class="law-title-19-3">Policy Change</div> 
+                        <div class="law-details-19-3">Mandating Access to NYC Public Facilities.</div>
+                    </div>
+                    <div class="circle19-4">
+                        <div class="law-title-19-4">Policy Change</div> 
+                        <div class="law-details-19-4">Data Collection Change in 2016.</div>
+                    </div>
+                    <div class="circle19-5">
+                        <div class="law-title-19-5">Regulatory Guidance Issued in 2017</div> 
+                        <div class="law-details-19-5">Coverage for health services.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief19">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore19">LEARN MORE</span></p>
+
+
+    <!-- 20th -->
+            <div class="timeline-item20">
+                <div class="item-text20">
+                    <p class="item-bpname">Blueprint Recommendation 20</p>
+                </div>
+                <div class="item-timeline20">
+                        <div class="item-line20"></div>
+                    <div class="circle20-1">
+                        <div class="law-title-20-1">Policy Change</div> 
+                        <div class="law-details-20-1">New Program Established in 2017.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief20">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore20">LEARN MORE</span></p>
+
+
+    <!-- 21th -->
+            <div class="timeline-item21">
+                <div class="item-text21">
+                    <p class="item-bpname">Blueprint Recommendation 21</p>
+                </div>
+                <div class="item-timeline21">
+                        <div class="item-line21"></div>
+                    <div class="circle21-1">
+                        <div class="law-title-21-1">Peer Certification Process Established in 2015</div>
+                        <div class="law-details-21-1">Peer Worker Certification Program.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief21">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore21">LEARN MORE</span></p>
+
+
+    <!-- 22th -->
+            <div class="timeline-item22">
+                <div class="item-text2">
+                    <p class="item-bpname">Blueprint Recommendation 22</p>
+                </div>
+                <div class="item-timeline22">
+                        <div class="item-line22"></div>
+                </div>
+            </div>
+            <p class="item-bpbrief22">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore22">LEARN MORE</span></p>
+
+
+    <!-- 23th -->
+            <div class="timeline-item23">
+                <div class="item-text23">
+                    <p class="item-bpname">Blueprint Recommendation 23</p>
+                </div>
+                <div class="item-timeline23">
+                        <div class="item-line23"></div>
+                    <div class="circle23-1">
+                        <div class="law-title-23-1">Legislation Introduced in 2016, 2017</div> 
+                        <div class="law-details-23-1">Mandate Sexual Health Education.</div>
+                    </div>
+                    <div class="circle23-2">
+                        <div class="law-title-23-2">Legislation Introduced in 2016, 2017</div> 
+                        <div class="law-details-23-2">Age-Appropriate Sex Education Grant Program</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief23">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore23">LEARN MORE</span></p>
+
+    <!-- 24th -->
+            <div class="timeline-item24">
+                <div class="item-text24">
+                    <p class="item-bpname">Blueprint Recommendation 24</p>
+                </div>
+                <div class="item-timeline24">
+                        <div class="item-line24"></div>
+                    <div class="circle24-1">
+                        <div class="law-title-24-1">Legislation Enacted in 2015</div> 
+                        <div class="law-details-24-1">Limit Admission of Condoms.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief24">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore24">LEARN MORE</span></p>
+
+
+    <!-- 25th -->
+            <div class="timeline-item25">
+                <div class="item-text25">
+                    <p class="item-bpname">Blueprint Recommendation 25</p>
+                </div>
+                <div class="item-timeline25">
+                        <div class="item-line25"></div>
+                    <div class="circle25-1">
+                        <div class="law-title-25-1">Policy Change</div> 
+                        <div class="law-details-25-1">NYS DOH Policy Changed in 2017.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief25">Treatment as prevention information and anti-stigma media campaign. <span class="item-learnmore25">LEARN MORE</span></p>
+
+    <!-- 26th -->
+            <div class="timeline-item26">
+                <div class="item-text26">
+                    <p class="item-bpname">Blueprint Recommendation 26</p>
+                </div>
+                <div class="item-timeline26">
+                        <div class="item-line26"></div>
+                    <div class="circle26-1">
+                        <div class="law-title-26-1">Legislation Enacted in 2016</div> 
+                        <div class="law-details-26-1">NYS HCV testing law.</div>
+                    </div>
+                    <div class="circle26-2">
+                        <div class="law-title-26-2">Policy Change</div> 
+                        <div class="law-details-26-2">DUR Clinical Criteria Amended in 2016.</div>
+                    </div>
+                    <div class="circle26-3">
+                        <div class="law-title-26-3">Policy Change</div> 
+                        <div class="law-details-26-3">NYS ADAP Formulary Amended in 2016.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief26">Provide hepatitis C (HCV) testing to persons with HIV and remove restrictions to HCV treatment access based on financial considerations for individuals co-infected with HIV and HCV. <span class="item-learnmore26">LEARN MORE</span></p>
+
+
+    <!-- 27th -->
+            <div class="timeline-item27">
+                <div class="item-text27">
+                    <p class="item-bpname">Blueprint Recommendation 27</p>
+                </div>
+                <div class="item-timeline27">
+                        <div class="item-line27"></div>
+                </div>
+            </div>
+            <p class="item-bpbrief27">Implement the Compassionate Care Act in a way most likely to improve HIV viral suppression. <span class="item-learnmore27">LEARN MORE</span></p>
+
+    <!-- 28th -->
+            <div class="timeline-item28">
+                <div class="item-text28">
+                    <p class="item-bpname">Blueprint Recommendation 28</p>
+                </div>
+                <div class="item-timeline28">
+                        <div class="item-line28"></div>
+                </div>
+            </div>
+            <p class="item-bpbrief28">Equitable funding where resources follow the statistics of the epidemic. <span class="item-learnmore28">LEARN MORE</span></p>
+
+
+    <!-- 29th -->
+            <div class="timeline-item29">
+                <div class="item-text29">
+                    <p class="item-bpname">Blueprint Recommendation 29</p>
+                </div>
+                <div class="item-timeline29">
+                        <div class="item-line29"></div>
+                    <div class="circle29-1">
+                        <div class="law-title-29-1">Proposed Regulation in 2017</div> 
+                        <div class="law-details-29-1">HIV/AIDS Testing, Reporting and Confidentiality of HIV-Related Information</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief29">Expand and enhance the use of data to track and report progress. <span class="item-learnmore29">LEARN MORE</span></p>
+
+
+    <!-- 30th -->
+            <div class="timeline-item30">
+                <div class="item-text30">
+                    <p class="item-bpname">Blueprint Recommendation 30</p>
+                </div>
+                <div class="item-timeline30">
+                        <div class="item-line30"></div>
+                    <div class="circle30-1">
+                        <div class="law-title-30-1">Policy Change</div> 
+                        <div class="law-details-30-1">Peer Certification Process Established in 2015.</div>
+                    </div>
+                </div>
+            </div>
+            <p class="item-bpbrief30">Increase access to opportunities for employment and vocational services. <span class="item-learnmore30">LEARN MORE</span></p>
+
         </div>
-        <p class="item-bpbrief9">rovide enhanced services for patients within correctional and other institutions and specific programming for patients returning home from corrections or other institutional settings. <span class="item-learnmore9">LEARN MORE</span></p>
-        <div id="billdetail09">
-            <div class="billNo">
-                <h3>Modify Various Provisions of Law</h3>
-                <div id="tri-collapse9"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-enacted.png"></img>
-            
-            <p class="billContent">Modify various provisions of law to remove barriers to obtaining HIV/AIDS treatment and to engaging in appropriate risk reduction activities to limit the spread of HIV/AIDS</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">2015-16 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">The 2015-16 enacted NYS budget authorized the elimination of the requirement of written consent for HIV testing in New York State correctional facilities.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-
-<!-- 10th -->
-        <div class="timeline-item10">
-            <div class="item-text10">
-                <p class="item-bpname">Blueprint Recommendation 10</p>
-            </div>
-            <div class="item-timeline10">
-                    <div class="item-line10"></div>
-                <div class="circle10-1">
-                    <div class="law-title-10-1">Policy Change</div> 
-                    <div class="law-details-10-1">HIV Special Needs Plan.</div>
-                </div>
-                <div class="circle10-2">
-                    <div class="law-title-10-2">Policy Change</div> 
-                    <div class="law-details-10-2">Make HIV SNPS Available.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief10">Maximize opportunities through the Delivery System Reform Incentive Payment (DSRIP) process to support programs to achieve goals related to linkage, retention, and viral suppression. <span class="item-learnmore10">LEARN MORE</span></p>
-        <div id="billdetail10-1">
-            <div class="billNo">
-                <h3>HIV Special Needs Plan</h3>
-                <div id="tri-collapse10-1"></div>
-            </div>
-
-            <img class="passedGraphic" src="policy-change.png"></img>
-            
-            <p class="billContent">HIV Special Needs Plan (SNP) extender</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">2016-17 NYS Executive Budget, Health and Mental Hygiene Article VII Legislation, Part D</p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">This bill amends chapter 649 of the Laws of 1996 to authorize the continued operation of Special Needs Plans serving persons with mental illness or the Human Immunodeficiency Virus. There are currently three Special Needs Plans statewide serving approximately 14,540 recipients.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance">https://www.budget.
-ny. gov/pubs/archive/fy17 archive/eBudget1617/f y1617artVIIbills/HMH_ ArticleVII_MS.pdf</p>
-        </div>
-
-        <div id="billdetail10-2">
-            <div class="billNo">
-                <h3>Modify Various Provisions of Law</h3>
-                <div id="tri-collapse10-2"></div>
-            </div>
-
-            <img class="passedGraphic" src="policy-change.png"></img>
-            
-            <p class="billContent">Make HIV SNPS available on the New York State of Health Insurance Marketplace as a plan of choice for people living with HIV/AIDS and eligible for Medicaid.</p>
-            <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum"></p>
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">As of January 15, 2016, eligible health care consumers have the ability to select and enroll in an HIV Special Needs Health Plan (SNP) through the New York State of Health (NYSoH) Marketplace, for the first time since the NYSoH was established in 2012.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"></p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"></p>
-        </div>
-
-
-<!-- 11th -->
-        <div class="timeline-item11">
-            <div class="item-text11">
-                <p class="item-bpname">Blueprint Recommendation 11</p>
-            </div>
-            <div class="item-timeline11">
-                    <div class="item-line11"></div>
-            </div>
-        </div>
-        <p class="item-bpbrief11">Undertake a statewide education campaign on PrEP and nPEP. <span class="item-learnmore11">LEARN MORE</span></p>
-
-
-<!-- 12th -->
-        <div class="timeline-item12">
-            <div class="item-text12">
-                <p class="item-bpname">Blueprint Recommendation 12</p>
-            </div>
-            <div class="item-timeline12">
-                    <div class="item-line12"></div>
-                <div class="circle12-1">
-                    <div class="law-title-12-1">Legislation Enacted in 2016</div> 
-                    <div class="law-details-12-1">HIV-Related Testing.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief12">Include a variety of statewide programs for distribution and increased access to PrEP and nPEP. <span class="item-learnmore12">LEARN MORE</span></p>
-
-
-<!-- 13th -->
-        <div class="timeline-item13">
-            <div class="item-text13">
-                <p class="item-bpname">Blueprint Recommendation 13</p>
-            </div>
-            <div class="item-timeline13">
-                    <div class="item-line13"></div>
-                <div class="circle13-1">
-                    <div class="law-title-13-1">Policy Change</div> 
-                    <div class="law-details-13-1">New Program Established in 2015.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief13">Create a coordinated statewide mechanism for persons to access PrEP and nPEP and prevention focused care. <span class="item-learnmore13">LEARN MORE</span></p>
-
-
-<!-- 14th -->
-        <div class="timeline-item14">
-            <div class="item-text14">
-                <p class="item-bpname">Blueprint Recommendation 14</p>
-            </div>
-            <div class="item-timeline14">
-                    <div class="item-line14"></div>
-            </div>
-        </div>
-        <p class="item-bpbrief14">Develop mecnanisms to determine PrEP and nPEP usage and adherence statewide. <span class="item-learnmore14">LEARN MORE</span></p>
-
-
-<!-- 15th -->
-        <div class="timeline-item15">
-            <div class="item-text15">
-                <p class="item-bpname">Blueprint Recommendation 15</p>
-            </div>
-            <div class="item-timeline15">
-                    <div class="item-line15"></div>
-                <div class="circle15-1">
-                    <div class="law-title-15-1">Executive Action in 2016</div> 
-                    <div class="law-details-15-1">Independent Pharmacies.</div>
-                </div>
-                <div class="circle15-2">
-                    <div class="law-title-15-2">New Program Established in 2017</div> 
-                    <div class="law-details-15-2">Naloxone Co-payment Assistance Program.</div>
-                </div>
-                <div class="circle15-3">
-                    <div class="law-title-15-3">Legislation Introduced in 2016, 2017</div> 
-                    <div class="law-details-15-3">Expanded Syringe Access Program.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief15">Increase momentum in promoting the health of people who use drugs. <span class="item-learnmore15">LEARN MORE</span></p>
-
-<!-- 16th -->
-        <div class="timeline-item16">
-            <div class="item-text16">
-                <p class="item-bpname">Blueprint Recommendation 16</p>
-            </div>
-            <div class="item-timeline16">
-                    <div class="item-line16"></div>
-                <div class="circle16-1">
-                    <div class="law-title-16-1">Clinical Definition Changed in 2016</div> 
-                    <div class="law-details-16-1">HASA housing and services.</div>
-                </div>
-                <div class="circle16-2">
-                    <div class="law-title-16-2">Legislation Introduced in 2016, 2017</div> 
-                    <div class="law-details-16-2">Expand Essential Benefits.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief16">Ensure access to stable housing. <span class="item-learnmore16">LEARN MORE</span></p>
-
-
-<!-- 17th -->
-        <div class="timeline-item17">
-            <div class="item-text17">
-                <p class="item-bpname">Blueprint Recommendation 17</p>
-            </div>
-            <div class="item-timeline17">
-                    <div class="item-line17"></div>
-                <div class="circle17-1">
-                    <div class="law-title-17-1">Legislation Enacted in 2017</div> 
-                    <div class="law-details-17-1">Raising the Maximum Age for RHY.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief17">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore17">LEARN MORE</span></p>
-
-
-<!-- 18th -->
-        <div class="timeline-item18">
-            <div class="item-text18">
-                <p class="item-bpname">Blueprint Recommendation 18</p>
-            </div>
-            <div class="item-timeline18">
-                    <div class="item-line18"></div>
-                <div class="circle18-1">
-                    <div class="law-title-18-1">Regulation adopted in 2016</div> 
-                    <div class="law-details-18-1">Prohibition on Conversion Therapy.</div>
-                </div>
-                <div class="circle18-2">
-                    <div class="law-title-18-2">Announced in 2017</div> 
-                    <div class="law-details-18-2">NYC LGBTQ Health Care Bill of Rights.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief18">Health, housing, and human rights for LGBT communities. <span class="item-learnmore18">LEARN MORE</span></p>
-
-        <div id="billdetail18-1">
-            <div class="billNo">
-                <h3>Prohibition on Conversion Therapy</h3>
-                <div id="tri-collapse18-1"></div>
-            </div>
-
-            <img class="passedGraphic" src="regulation-adopted.png"></img>
-            
-            <p class="billContent">Prohibition on conversion therapy.</p>
-<!--             <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">Regulation</p> -->
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">On February 6, 2016, Governor Cuomo announced multi-agency regulations intended to probhibit conversion therapy--practices by mental health providers that seek to change an individuals's sexual orientation or gender identity or expression. The NYS Department of Financial Services issued regulations barring insurers from providing coverage for conversion therapy for minors and prohibitied coverage for conversion therapy under the NYS Medicaid program. The NYS Office of Mental Health issued regulations prohibiting facilities under its jurisdiction from providing conversion therapy treatment to minors.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"> </p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"><a href="https://www. governor.ny. gov/sites/governor.ny. gov/files/atoms/files/ ConversionTherapy. pdf">https://www. governor.ny. gov/sites/governor.ny. gov/files/atoms/files/ ConversionTherapy. pdf</a></p>
-            <p class="billImportance"><a href="https://www.governor. ny.gov/sites/governor. ny. gov/files/atoms/files/O MH_conversiontherap y.pdf">https://www.governor. ny.gov/sites/governor. ny. gov/files/atoms/files/O MH_conversiontherap y.pdf</a></p>
-            <p class="billImportance"><a href="https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/ConversionTherapy_Medicaid_Update.pdf">https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/ConversionTherapy_Medicaid_Update.pdf</a></p>
-        </div>
-        <div id="billdetail18-2">
-            <div class="billNo">
-                <h3>Prohibition on Conversion Therapy</h3>
-                <div id="tri-collapse18-2"></div>
-            </div>
-
-            <img class="passedGraphic" src="legislation-introduced.png"></img>
-            
-            <p class="billContent">NYC LGBTQ Health Care Bill of Rights.</p>
-<!--             <h4 class="billTitle">Identification Number</h4>
-            <p class="billSum">Regulation</p> -->
-            <h4 class="billTitle">Summary</h4>
-            <p class="billImportance">On June 6, 2017, the administration of NYC Mayor Bill de Blasio announced the first-ever LGBTQ Health Care Bill of Rights.</p>
-            <h4 class="billTitle">Importance</h4>
-            <p class="billImportance"> </p>
-            <h4 class="billTitle">Additional Information</h4>
-            <p class="billImportance"><a href="http://www1.nyc. gov/assets/doh/downl oads/pdf/ah/lgbtq- bor-wallet.pdf">http://www1.nyc. gov/assets/doh/downl oads/pdf/ah/lgbtq- bor-wallet.pdf</a></p>
-        </div>
-
-
-<!-- 19th -->
-        <div class="timeline-item19">
-            <div class="item-text19">
-                <p class="item-bpname">Blueprint Recommendation 19</p>
-            </div>
-            <div class="item-timeline19">
-                    <div class="item-line19"></div>
-                <div class="circle19-1">
-                    <div class="law-title-19-1">Regulatory Guidance Issued in 2014</div> 
-                    <div class="law-details-19-1">Health Insurance Coverage.</div>
-                </div>
-                <div class="circle19-2">
-                    <div class="law-title-19-2">Regulation Adopted in 2016</div> 
-                    <div class="law-details-19-2">Human Rights Protections.</div>
-                </div>
-                <div class="circle19-3">
-                    <div class="law-title-19-3">Policy Change</div> 
-                    <div class="law-details-19-3">Mandating Access to NYC Public Facilities.</div>
-                </div>
-                <div class="circle19-4">
-                    <div class="law-title-19-4">Policy Change</div> 
-                    <div class="law-details-19-4">Data Collection Change in 2016.</div>
-                </div>
-                <div class="circle19-5">
-                    <div class="law-title-19-5">Regulatory Guidance Issued in 2017</div> 
-                    <div class="law-details-19-5">Coverage for health services.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief19">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore19">LEARN MORE</span></p>
-
-
-<!-- 20th -->
-        <div class="timeline-item20">
-            <div class="item-text20">
-                <p class="item-bpname">Blueprint Recommendation 20</p>
-            </div>
-            <div class="item-timeline20">
-                    <div class="item-line20"></div>
-                <div class="circle20-1">
-                    <div class="law-title-20-1">Policy Change</div> 
-                    <div class="law-details-20-1">New Program Established in 2017.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief20">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore20">LEARN MORE</span></p>
-
-
-<!-- 21th -->
-        <div class="timeline-item21">
-            <div class="item-text21">
-                <p class="item-bpname">Blueprint Recommendation 21</p>
-            </div>
-            <div class="item-timeline21">
-                    <div class="item-line21"></div>
-                <div class="circle21-1">
-                    <div class="law-title-21-1">Peer Certification Process Established in 2015</div>
-                    <div class="law-details-21-1">Peer Worker Certification Program.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief21">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore21">LEARN MORE</span></p>
-
-
-<!-- 22th -->
-        <div class="timeline-item22">
-            <div class="item-text2">
-                <p class="item-bpname">Blueprint Recommendation 22</p>
-            </div>
-            <div class="item-timeline22">
-                    <div class="item-line22"></div>
-            </div>
-        </div>
-        <p class="item-bpbrief22">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore22">LEARN MORE</span></p>
-
-
-<!-- 23th -->
-        <div class="timeline-item23">
-            <div class="item-text23">
-                <p class="item-bpname">Blueprint Recommendation 23</p>
-            </div>
-            <div class="item-timeline23">
-                    <div class="item-line23"></div>
-                <div class="circle23-1">
-                    <div class="law-title-23-1">Legislation Introduced in 2016, 2017</div> 
-                    <div class="law-details-23-1">Mandate Sexual Health Education.</div>
-                </div>
-                <div class="circle23-2">
-                    <div class="law-title-23-2">Legislation Introduced in 2016, 2017</div> 
-                    <div class="law-details-23-2">Age-Appropriate Sex Education Grant Program</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief23">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore23">LEARN MORE</span></p>
-
-<!-- 24th -->
-        <div class="timeline-item24">
-            <div class="item-text24">
-                <p class="item-bpname">Blueprint Recommendation 24</p>
-            </div>
-            <div class="item-timeline24">
-                    <div class="item-line24"></div>
-                <div class="circle24-1">
-                    <div class="law-title-24-1">Legislation Enacted in 2015</div> 
-                    <div class="law-details-24-1">Limit Admission of Condoms.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief24">The legislation amends Public Health Law (PHL) § 2781 to remove provisions related to requiring informed consent from an individual...... <span class="item-learnmore24">LEARN MORE</span></p>
-
-
-<!-- 25th -->
-        <div class="timeline-item25">
-            <div class="item-text25">
-                <p class="item-bpname">Blueprint Recommendation 25</p>
-            </div>
-            <div class="item-timeline25">
-                    <div class="item-line25"></div>
-                <div class="circle25-1">
-                    <div class="law-title-25-1">Policy Change</div> 
-                    <div class="law-details-25-1">NYS DOH Policy Changed in 2017.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief25">Treatment as prevention information and anti-stigma media campaign. <span class="item-learnmore25">LEARN MORE</span></p>
-
-<!-- 26th -->
-        <div class="timeline-item26">
-            <div class="item-text26">
-                <p class="item-bpname">Blueprint Recommendation 26</p>
-            </div>
-            <div class="item-timeline26">
-                    <div class="item-line26"></div>
-                <div class="circle26-1">
-                    <div class="law-title-26-1">Legislation Enacted in 2016</div> 
-                    <div class="law-details-26-1">NYS HCV testing law.</div>
-                </div>
-                <div class="circle26-2">
-                    <div class="law-title-26-2">Policy Change</div> 
-                    <div class="law-details-26-2">DUR Clinical Criteria Amended in 2016.</div>
-                </div>
-                <div class="circle26-3">
-                    <div class="law-title-26-3">Policy Change</div> 
-                    <div class="law-details-26-3">NYS ADAP Formulary Amended in 2016.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief26">Provide hepatitis C (HCV) testing to persons with HIV and remove restrictions to HCV treatment access based on financial considerations for individuals co-infected with HIV and HCV. <span class="item-learnmore26">LEARN MORE</span></p>
-
-
-<!-- 27th -->
-        <div class="timeline-item27">
-            <div class="item-text27">
-                <p class="item-bpname">Blueprint Recommendation 27</p>
-            </div>
-            <div class="item-timeline27">
-                    <div class="item-line27"></div>
-            </div>
-        </div>
-        <p class="item-bpbrief27">Implement the Compassionate Care Act in a way most likely to improve HIV viral suppression. <span class="item-learnmore27">LEARN MORE</span></p>
-
-<!-- 28th -->
-        <div class="timeline-item28">
-            <div class="item-text28">
-                <p class="item-bpname">Blueprint Recommendation 28</p>
-            </div>
-            <div class="item-timeline28">
-                    <div class="item-line28"></div>
-            </div>
-        </div>
-        <p class="item-bpbrief28">Equitable funding where resources follow the statistics of the epidemic. <span class="item-learnmore28">LEARN MORE</span></p>
-
-
-<!-- 29th -->
-        <div class="timeline-item29">
-            <div class="item-text29">
-                <p class="item-bpname">Blueprint Recommendation 29</p>
-            </div>
-            <div class="item-timeline29">
-                    <div class="item-line29"></div>
-                <div class="circle29-1">
-                    <div class="law-title-29-1">Proposed Regulation in 2017</div> 
-                    <div class="law-details-29-1">HIV/AIDS Testing, Reporting and Confidentiality of HIV-Related Information</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief29">Expand and enhance the use of data to track and report progress. <span class="item-learnmore29">LEARN MORE</span></p>
-
-
-<!-- 30th -->
-        <div class="timeline-item30">
-            <div class="item-text30">
-                <p class="item-bpname">Blueprint Recommendation 30</p>
-            </div>
-            <div class="item-timeline30">
-                    <div class="item-line30"></div>
-                <div class="circle30-1">
-                    <div class="law-title-30-1">Policy Change</div> 
-                    <div class="law-details-30-1">Peer Certification Process Established in 2015.</div>
-                </div>
-            </div>
-        </div>
-        <p class="item-bpbrief30">Increase access to opportunities for employment and vocational services. <span class="item-learnmore30">LEARN MORE</span></p>
-
+    <!--  End of BP timeline -->
+    <div id="timeline-GTZ-colla">
+        <p class="timeline-GTZ-title">Getting to Zero Recommendation Timeline</p>
+        <img id="timeline-GTZ-plusSign" src="img/plus-sign.png" />
+    </div>
+     <!--  Begin of GTZ timeline -->
+     <div id="timeline-GTZ">
 <!-- G1ST -->
         <div class="timeline-itemG1">
             <div class="item-textG1">
@@ -917,6 +937,10 @@ ny. gov/pubs/archive/fy17 archive/eBudget1617/f y1617artVIIbills/HMH_ ArticleVII
             </div>
         </div>
         <p class="item-bpbriefG7">Guaranteeing minors the right to consent to HIV and STI treatment, diagnosis, prevention, and prophylaxis, including sexual health- related immunization. <span class="item-learnmoreG7">LEARN MORE</span></p>
+
+
+    </div>
+    <!-- End of GTZ Timeline -->
 
 
     </body>
