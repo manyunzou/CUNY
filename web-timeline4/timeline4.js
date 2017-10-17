@@ -1,5 +1,7 @@
 $(function(){
 
+    alert("Click the plus sign to see the timeline details.")
+
     //1st timeline
     $(".circle1").mouseover(function() {
         $(".law-title-1").show();
