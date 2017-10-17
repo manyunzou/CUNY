@@ -6,7 +6,7 @@ $(function(){
 
         if (bp.style.visibility === "hidden"){
             $("#timeline-bp").css("visibility","visible");
-            $("#timeline-bp").css("height","4450px");
+            $("#timeline-bp").css("height","5200px");
             plusImg.src = "img/minus-sign.png";
             // $("#timeline-plusSign").css("width","20px");
         } else {
@@ -22,7 +22,7 @@ $(function(){
 
         if (GTZ.style.visibility === "hidden"){
             $("#timeline-GTZ").css("visibility","visible");
-            $("#timeline-GTZ").css("height","4450px");
+            $("#timeline-GTZ").css("height","600px");
             plusImg.src = "img/minus-sign.png";
         } else {
             $("#timeline-GTZ").css("visibility","hidden");
