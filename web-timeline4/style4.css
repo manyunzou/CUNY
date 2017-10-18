@@ -78,12 +78,12 @@ body {
 }
 
 #timeline-bp{
-    visibility: hidden;
+    display: none;
     height: 0;
 }
 
 #timeline-GTZ {
-    visibility: hidden;
+    display: none;
     height: 0;
 }
 
