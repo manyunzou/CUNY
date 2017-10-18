@@ -48,6 +48,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.law-details-more {
+    font-style: italic;
+    color: #999;
+}
+
 
 /* Timeline Collapse Area */
 
@@ -191,10 +196,6 @@ body {
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
-}
-
-.circle1::after {
-    background: #fff;
 }
 
 .circle2 {
@@ -1752,12 +1753,12 @@ body {
     position: absolute;
     border-radius: 3px;
     border: 1px solid #168DC5;
-    background: #168DC5;
     color: #fff;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
-    margin-top: 3%;
     width: 20%;
+    margin-top: 3%;
 }
 
 .law-title-2::before {
