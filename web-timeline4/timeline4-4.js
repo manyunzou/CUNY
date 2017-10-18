@@ -93,6 +93,26 @@ $(function(){
         $(".law-details-G4-1").hide();
     });
 
+    $(".circleG4-2").mouseover(function() {
+        $(".law-title-G4-2").show();
+        $(".law-details-G4-2").show();
+    });
+
+    $(".circleG4-2").mouseout(function() {
+        $(".law-title-G4-2").hide();
+        $(".law-details-G4-2").hide();
+    });
+
+    $(".circleG4-3").mouseover(function() {
+        $(".law-title-G4-3").show();
+        $(".law-details-G4-3").show();
+    });
+
+    $(".circleG4-3").mouseout(function() {
+        $(".law-title-G4-3").hide();
+        $(".law-details-G4-3").hide();
+    });
+
     //G5 timeline details expand first circle
     $(".circleG5-1").mouseover(function() {
         $(".law-title-G5-1").show();

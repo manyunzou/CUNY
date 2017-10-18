@@ -238,13 +238,30 @@
 }
 
 .circleG2-1 {
-    border-radius: 25px;
-    background: #ED6F1D;
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
     border: 5px solid #ffffff;
-    padding: 10px; 
-    width: 320px;
-    height: 0px;
-    margin-left: 16%;
+    float: left;
+    margin-left: 23.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG2-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 20%;
+    /*margin-top: 1px;*/
+    z-index: 1;
     cursor: pointer;
 }
 
@@ -526,13 +543,44 @@
 }
 
 .circleG4-1 {
-    border-radius: 25px;
-    background: #ED6F1D;
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
     border: 5px solid #ffffff;
-    padding: 10px; 
-    width: 320px;
-    height: 0px;
-    margin-left: 3.5%;
+    float: left;
+    margin-left: 15%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG4-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 15%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG4-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 10%;
+    /*margin-top: 1px;*/
+    z-index: 1;
     cursor: pointer;
 }
 
@@ -1223,6 +1271,86 @@
 }
 
 .law-title-G4-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #44a3d0;
+    border-top: 0;
+}
+
+.law-details-G4-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-G4-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #44a3d0;
+    color: #fff;
+    background: #44a3d0;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G4-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #44a3d0;
+    border-top: 0;
+}
+
+.law-details-G4-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-G4-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #44a3d0;
+    color: #fff;
+    background: #44a3d0;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G4-3::before {
     content: "";
     position: absolute;
     left: 10px;
