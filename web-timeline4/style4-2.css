@@ -650,7 +650,7 @@
     border-radius: 15px;
     border: 5px solid #ffffff;
     float: left;
-    margin-left: 32%;
+    margin-left: 10%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -679,6 +679,34 @@
     border: 5px solid #ffffff;
     float: left;
     margin-left: 4%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle15-4 {
+    width: 18px;
+    height: 18px;
+    background-color: #168DC5;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 10%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle15-5 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 0%;
     /*margin-top: 1px;*/
     z-index: 1;
     cursor: pointer;
@@ -829,6 +857,20 @@
 }
 
 .circle16-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 4%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle16-3 {
     width: 18px;
     height: 18px;
     background-color: #ED6F1D;
@@ -2017,6 +2059,86 @@
 }
 
 
+.law-title-15-4 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #44a3d0;
+    background: #44a3d0;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-15-4::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #44a3d0;
+    border-top: 0;
+}
+
+.law-details-15-4 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 8%;
+}
+
+.law-title-15-5 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #44a3d0;
+    background: #44a3d0;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-15-5::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #44a3d0;
+    border-top: 0;
+}
+
+.law-details-15-5 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 8%;
+}
+
 /* 6th line */
 
 .law-title-16-1 {
@@ -2100,20 +2222,20 @@
     margin-top: 8%;
 }
 
-/*.law-title-6-2 {
+.law-title-16-3 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #ed6f1d;
-    background: #ed6f1d;
+    border: 1px solid #44a3d0;
     color: #fff;
+    background: #44a3d0;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
     width: 20%;
 }
 
-.law-title-6-2::before {
+.law-title-16-3::before {
     content: "";
     position: absolute;
     left: 10px;
@@ -2122,24 +2244,25 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #ed6f1d;
+    border-bottom-color: #44a3d0;
     border-top: 0;
 }
 
-.law-details-6-2 {
+.law-details-16-3 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
     padding: 10px;
     background: #fff;
     font-size: 15px;
-    margin-top: 6%;
     width: 20%;
+    margin-top: 8%;
 }
-*/
+
+
 
 /* 7th line */
 

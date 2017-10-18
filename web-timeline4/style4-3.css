@@ -404,6 +404,34 @@
     cursor: pointer;
 }
 
+.circle23-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 33%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle23-4 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 0%;
+    /*margin-top: 5px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
 /* 23rd Bill expanded area */
 #billdetail23 {
     margin-top: 10px;
@@ -1601,6 +1629,86 @@
 }
 
 .law-details-23-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 8%;
+}
+
+.law-title-23-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #44a3d0;
+    background: #44a3d0;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-23-3::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #44a3d0;
+    border-top: 0;
+}
+
+.law-details-23-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #44a3d0;
+    border-bottom: 1px solid #44a3d0;
+    border-right: 1px solid #44a3d0;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 8%;
+}
+
+.law-title-23-4 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #44a3d0;
+    background: #44a3d0;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-23-4::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #44a3d0;
+    border-top: 0;
+}
+
+.law-details-23-4 {
     display: none;
     position: absolute;
     border-radius: 3px;

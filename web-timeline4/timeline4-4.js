@@ -50,6 +50,16 @@ $(function(){
         $(".law-details-G1-1").hide();
     });
 
+    $(".circleG1-2").mouseover(function() {
+        $(".law-title-G1-2").show();
+        $(".law-details-G1-2").show();
+    });
+
+    $(".circleG1-2").mouseout(function() {
+        $(".law-title-G1-2").hide();
+        $(".law-details-G1-2").hide();
+    });
+
     //G2 timeline details expand first circle
     $(".circleG2-1").mouseover(function() {
         $(".law-title-G2-1").show();
@@ -122,6 +132,16 @@ $(function(){
     $(".circleG5-1").mouseout(function() {
         $(".law-title-G5-1").hide();
         $(".law-details-G5-1").hide();
+    });
+
+    $(".circleG5-2").mouseover(function() {
+        $(".law-title-G5-2").show();
+        $(".law-details-G5-2").show();
+    });
+
+    $(".circleG5-2").mouseout(function() {
+        $(".law-title-G5-2").hide();
+        $(".law-details-G5-2").hide();
     });
 
     //G7 timeline details expand first circle

@@ -89,6 +89,29 @@ $(function(){
         $(".law-details-23-2").hide();
     });
 
+    $(".circle23-3").mouseover(function() {
+        $(".law-title-23-3").show();
+        $(".law-details-23-3").show();
+    });
+
+    $(".circle23-3").mouseout(function() {
+        $(".law-title-23-3").hide();
+        $(".law-details-23-3").hide();
+    });
+
+    $(".circle23-4").mouseover(function() {
+        $(".law-title-23-4").show();
+        $(".law-details-23-4").show();
+    });
+
+    $(".circle23-4").mouseout(function() {
+        $(".law-title-23-4").hide();
+        $(".law-details-23-4").hide();
+    });
+
+
+
+
     //24th timeline
     $(".circle24-1").mouseover(function() {
         $(".law-title-24-1").show();

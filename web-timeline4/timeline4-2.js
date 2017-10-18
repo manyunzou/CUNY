@@ -119,6 +119,26 @@ $(function(){
         $(".law-details-15-3").hide();
     });
 
+    $(".circle15-4").mouseover(function() {
+        $(".law-title-15-4").show();
+        $(".law-details-15-4").show();
+    });
+
+    $(".circle15-4").mouseout(function() {
+        $(".law-title-15-4").hide();
+        $(".law-details-15-4").hide();
+    });
+
+    $(".circle15-5").mouseover(function() {
+        $(".law-title-15-5").show();
+        $(".law-details-15-5").show();
+    });
+
+    $(".circle15-5").mouseout(function() {
+        $(".law-title-15-5").hide();
+        $(".law-details-15-5").hide();
+    });
+
 
 
     //16th timeline
@@ -141,6 +161,17 @@ $(function(){
         $(".law-title-16-2").hide();
         $(".law-details-16-2").hide();
     });
+
+    $(".circle16-3").mouseover(function() {
+        $(".law-title-16-3").show();
+        $(".law-details-16-3").show();
+    });
+
+    $(".circle16-3").mouseout(function() {
+        $(".law-title-16-3").hide();
+        $(".law-details-16-3").hide();
+    });
+
 
     //17th timeline
     $(".circle17-1").mouseover(function() {
