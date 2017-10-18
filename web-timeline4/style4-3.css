@@ -1521,9 +1521,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1539,7 +1539,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -1547,9 +1547,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -1566,9 +1566,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #44a3d0;
+    border: 1px solid #ED6F1D;
     color: #fff;
-    background: #44a3d0;
+    background: #ED6F1D;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1584,7 +1584,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #44a3d0;
+    border-bottom-color: #ED6F1D;
     border-top: 0;
 }
 
@@ -1592,22 +1592,22 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #44a3d0;
-    border-bottom: 1px solid #44a3d0;
-    border-right: 1px solid #44a3d0;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .law-title-23-2 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #44a3d0;
-    background: #44a3d0;
+    border: 1px solid #ED6F1D;
+    background: #ED6F1D;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -1624,7 +1624,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #44a3d0;
+    border-bottom-color: #ED6F1D;
     border-top: 0;
 }
 
@@ -1632,22 +1632,22 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #44a3d0;
-    border-bottom: 1px solid #44a3d0;
-    border-right: 1px solid #44a3d0;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .law-title-23-3 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #44a3d0;
-    background: #44a3d0;
+    border: 1px solid #ED6F1D;
+    background: #ED6F1D;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -1664,7 +1664,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #44a3d0;
+    border-bottom-color: #ED6F1D;
     border-top: 0;
 }
 
@@ -1672,22 +1672,22 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #44a3d0;
-    border-bottom: 1px solid #44a3d0;
-    border-right: 1px solid #44a3d0;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .law-title-23-4 {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #44a3d0;
-    background: #44a3d0;
+    border: 1px solid #ED6F1D;
+    background: #ED6F1D;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -1704,7 +1704,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #44a3d0;
+    border-bottom-color: #ED6F1D;
     border-top: 0;
 }
 
@@ -1712,14 +1712,14 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #44a3d0;
-    border-bottom: 1px solid #44a3d0;
-    border-right: 1px solid #44a3d0;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
     padding: 10px;
     background: #fff;
     font-size: 15px;
     width: 20%;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 
@@ -1775,9 +1775,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1793,7 +1793,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -1801,9 +1801,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999999;
-    border-bottom: 1px solid #999999;
-    border-right: 1px solid #999999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -1859,9 +1859,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1877,7 +1877,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -1885,9 +1885,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -1900,9 +1900,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1918,7 +1918,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -1926,9 +1926,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -1995,9 +1995,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2013,7 +2013,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -2021,9 +2021,9 @@
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;

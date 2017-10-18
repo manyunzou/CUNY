@@ -1917,9 +1917,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -1935,7 +1935,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -1943,9 +1943,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2341,9 +2341,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2359,7 +2359,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -2367,9 +2367,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
@@ -2381,9 +2381,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #168DC5;
     color: #fff;
-    background: #999;
+    background: #168DC5;
     font-size: 20px;
     padding: 10px;
     margin-top: 3%;
@@ -2399,7 +2399,7 @@ body {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #999;
+    border-bottom-color: #168DC5;
     border-top: 0;
 }
 
@@ -2407,9 +2407,9 @@ body {
     display: none;
     position: absolute;
     border-radius: 3px;
-    border-left: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
+    border-left: 1px solid #168DC5;
+    border-bottom: 1px solid #168DC5;
+    border-right: 1px solid #168DC5;
     padding: 10px;
     background: #fff;
     font-size: 15px;
