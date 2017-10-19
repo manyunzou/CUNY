@@ -267,6 +267,145 @@ $(function(){
         $(".law-details-20-1").hide();
     });
 
+    //12th timeline details expand first circle
+    $(".circle12-1").click(function(){
+        $("#billdetail12-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse12-1").click(function(){
+        $("#billdetail12-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //13th timeline details expand first circle
+    $(".circle13-1").click(function(){
+        $("#billdetail13-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse13-1").click(function(){
+        $("#billdetail13-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //15th timeline details expand first circle
+    $(".circle15-1").click(function(){
+        $("#billdetail15-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse15-1").click(function(){
+        $("#billdetail15-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle15-2").click(function(){
+        $("#billdetail15-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse15-2").click(function(){
+        $("#billdetail15-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle15-3").click(function(){
+        $("#billdetail15-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse15-3").click(function(){
+        $("#billdetail15-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle15-4").click(function(){
+        $("#billdetail15-4").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse15-4").click(function(){
+        $("#billdetail15-4").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle15-5").click(function(){
+        $("#billdetail15-5").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse15-5").click(function(){
+        $("#billdetail15-5").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+
+    //16th timeline details expand first circle
+    $(".circle16-1").click(function(){
+        $("#billdetail16-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse16-1").click(function(){
+        $("#billdetail16-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle16-2").click(function(){
+        $("#billdetail16-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse16-2").click(function(){
+        $("#billdetail16-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle16-3").click(function(){
+        $("#billdetail16-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse16-3").click(function(){
+        $("#billdetail16-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+
+    //17th timeline details expand first circle
+    $(".circle17-1").click(function(){
+        $("#billdetail17-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse17-1").click(function(){
+        $("#billdetail17-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
 
     //18th timeline details expand first circle
     $(".circle18-1").click(function(){
@@ -289,6 +428,80 @@ $(function(){
 
     $("#tri-collapse18-2").click(function(){
         $("#billdetail18-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //19th timeline details expand first circle
+    $(".circle19-1").click(function(){
+        $("#billdetail19-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse19-1").click(function(){
+        $("#billdetail19-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle19-2").click(function(){
+        $("#billdetail19-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse19-2").click(function(){
+        $("#billdetail19-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle19-3").click(function(){
+        $("#billdetail19-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse19-3").click(function(){
+        $("#billdetail19-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle19-4").click(function(){
+        $("#billdetail19-4").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse19-4").click(function(){
+        $("#billdetail19-4").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circle19-5").click(function(){
+        $("#billdetail19-5").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse19-5").click(function(){
+        $("#billdetail19-5").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //20th timeline details expand first circle
+    $(".circle20-1").click(function(){
+        $("#billdetail20-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapse20-1").click(function(){
+        $("#billdetail20-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
     });
