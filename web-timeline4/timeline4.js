@@ -1,6 +1,6 @@
 $(function(){
 
-    swal("Click the plus sign to see the timeline details.")
+    swal({ text:"Click + to see the timeline details."})
 
     //1st timeline
     $(".circle1").mouseover(function() {
