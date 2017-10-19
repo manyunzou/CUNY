@@ -87,16 +87,16 @@
 
 
 /* G1 Bill expanded area */
-#billdetailG1 {
+#billdetailG1-1 {
     margin-top: 10px;
     margin-left: 15%;å
     width: 78%;
-    height: 640px;
+    height: 680px;
     border: 3px #999 solid;
     display: none;
 }
 
-#billdetailG1 p {
+#billdetailG1-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -104,12 +104,12 @@
     line-height: 20px;
 }
 
-#billdetailG1 h4 {
+#billdetailG1-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogressG1 {
+#billprogressG1-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -137,7 +137,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#tri-collapseG1 {
+#tri-collapseG1-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -148,7 +148,7 @@
     cursor: pointer;
 }
 
-#tri-collapseG1:hover {
+#tri-collapseG1-1:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -159,40 +159,60 @@
     cursor: pointer;
 }
 
-.billRecommG1 {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+
+/* G1 Second circle */
+
+#billdetailG1-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    height: 680px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG1-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG1-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG1-2 {
+    width:30%;
     margin-left: 20px;
-    cursor: default;
+    margin-bottom: 10px;
 }
 
-.billRecommG1_bottom {
-    border-bottom: 1px dotted #4CC2FF;
+#tri-collapseG1-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
 }
 
-.Recomm_tooltiptextG1 {
-    visibility: hidden;
-    width: 120px;
-    background-color: #FFF;
-    color: #000000;
-    text-align: center;
-    padding: 5px 0;
-    border: 1px solid #4CC2FF;
-    border-radius: 6px;
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
+#tri-collapseG1-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
 }
 
-.billRecommG1:hover .Recomm_tooltiptextG1 {
-    visibility: visible;
-    opacity: 1;
-}
+
 
 
 /* G2th item */
@@ -280,17 +300,17 @@
 }
 
 
-/* 22th Bill expanded area */
-#billdetailG2 {
+/* G2 Bill expanded area */
+#billdetailG2-1 {
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 15%;å
     width: 78%;
-    height: 660px;
+    height: 840px;
     border: 3px #999 solid;
     display: none;
 }
 
-#billdetailG2 p {
+#billdetailG2-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -298,40 +318,18 @@
     line-height: 20px;
 }
 
-#billdetailG2 h4 {
+#billdetailG2-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogressG2 {
+#billprogressG2-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.billNo {
-    background-color: #999;
-    color: #ffffff;
-    height: 30px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.billNo h3{
-    margin-top: 3px;
-    margin-bottom: auto;
-    margin-left: 40%;
-    float: left;
-}
-
-.billTitle {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#tri-collapseG2 {
+#tri-collapseG2-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -342,7 +340,7 @@
     cursor: pointer;
 }
 
-#tri-collapseG2:hover {
+#tri-collapseG2-1:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -352,6 +350,61 @@
     padding-top: 5px;
     cursor: pointer;
 }
+
+
+/* G2 Second circle */
+
+#billdetailG2-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    height: 840px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG2-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG2-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG2-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG2-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG2-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
 
 
 /* G3rd item */
@@ -432,17 +485,17 @@
 
 
 
-/* G3rd Bill expanded area */
-#billdetailG3 {
+/* G3 Bill expanded area */
+#billdetailG3-1 {
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 15%;å
     width: 78%;
-    height: 530px;
+    height: 550px;
     border: 3px #999 solid;
     display: none;
 }
 
-#billdetailG3 p {
+#billdetailG3-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -450,34 +503,18 @@
     line-height: 20px;
 }
 
-#billdetailG3 h4 {
+#billdetailG3-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-.billNo {
-    background-color: #999;
-    color: #ffffff;
-    height: 30px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.billNo h3{
-    margin-top: 3px;
-    margin-bottom: auto;
-    margin-left: 40%;
-    float: left;
-}
-
-.billTitle {
-    font-size: 20px;
+#billprogressG3-1 {
+    width:30%;
+    margin-left: 20px;
     margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
 }
 
-#tri-collapseG3 {
+#tri-collapseG3-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -488,7 +525,7 @@
     cursor: pointer;
 }
 
-#tri-collapseG3:hover {
+#tri-collapseG3-1:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -599,17 +636,18 @@
 }
 
 
-/* G4th Bill expanded area */
-#billdetailG4 {
+/* G4 Expanded area -1 */
+
+#billdetailG4-1 {
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 15%;å
     width: 78%;
-    height: 500px;
+    height: 650px;
     border: 3px #999 solid;
     display: none;
 }
 
-#billdetailG4 p {
+#billdetailG4-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -617,40 +655,18 @@
     line-height: 20px;
 }
 
-#billdetailG4 h4 {
+#billdetailG4-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogressG4 {
+#billprogressG4-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.billNo {
-    background-color: #999;
-    color: #ffffff;
-    height: 30px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.billNo h3{
-    margin-top: 3px;
-    margin-bottom: auto;
-    margin-left: 40%;
-    float: left;
-}
-
-.billTitle {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#tri-collapseG4 {
+#tri-collapseG4-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -661,7 +677,7 @@
     cursor: pointer;
 }
 
-#tri-collapseG4:hover {
+#tri-collapseG4-1:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -671,6 +687,111 @@
     padding-top: 5px;
     cursor: pointer;
 }
+
+/* G4 Expanded area -2 */
+
+#billdetailG4-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    height: 650px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG4-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG4-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG4-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG4-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG4-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/* G4 Expanded area -3 */
+
+#billdetailG4-3 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    height: 650px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG4-3 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG4-3 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG4-3 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG4-3 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG4-3:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
 
 
 /* G5th item */
@@ -758,17 +879,18 @@
 }
 
 
-/* G5th Bill expanded area */
-#billdetailG5 {
+/* G5 Expanded area -1 */
+
+#billdetailG5-1 {
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 15%;å
     width: 78%;
-    height: 580px;
+    height: 750px;
     border: 3px #999 solid;
     display: none;
 }
 
-#billdetailG5 p {
+#billdetailG5-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -776,40 +898,18 @@
     line-height: 20px;
 }
 
-#billdetailG5 h4 {
+#billdetailG5-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogressG5 {
+#billprogressG5-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.billNo {
-    background-color: #999;
-    color: #ffffff;
-    height: 30px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.billNo h3{
-    margin-top: 3px;
-    margin-bottom: auto;
-    margin-left: 40%;
-    float: left;
-}
-
-.billTitle {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#tri-collapseG5 {
+#tri-collapseG5-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -820,7 +920,59 @@
     cursor: pointer;
 }
 
-#tri-collapseG5:hover {
+#tri-collapseG5-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/* G5 Expanded area -2 */
+
+#billdetailG5-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    height: 750px;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG5-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG5-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG5-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG5-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG5-2:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -1034,17 +1186,18 @@
 }
 
 
-/* G7th Bill expanded area */
-#billdetailG7 {
+/* G7 Expanded area -1 */
+
+#billdetailG7-1 {
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 15%;å
     width: 78%;
-    height: 730px;
+    height: 650px;
     border: 3px #999 solid;
     display: none;
 }
 
-#billdetailG7 p {
+#billdetailG7-1 p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Lora', serif;
@@ -1052,40 +1205,18 @@
     line-height: 20px;
 }
 
-#billdetailG7 h4 {
+#billdetailG7-1 h4 {
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-#billprogressG7 {
+#billprogressG7-1 {
     width:30%;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.billNo {
-    background-color: #999;
-    color: #ffffff;
-    height: 30px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.billNo h3{
-    margin-top: 3px;
-    margin-bottom: auto;
-    margin-left: 40%;
-    float: left;
-}
-
-.billTitle {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#tri-collapseG7 {
+#tri-collapseG7-1 {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -1096,7 +1227,7 @@
     cursor: pointer;
 }
 
-#tri-collapseG7:hover {
+#tri-collapseG7-1:hover {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -1106,6 +1237,7 @@
     padding-top: 5px;
     cursor: pointer;
 }
+
 
 /* Circles style */
 

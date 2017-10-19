@@ -156,4 +156,147 @@ $(function(){
     });
 
 
+    //G1 timeline details expand first circle
+    $(".circleG1-1").click(function(){
+        $("#billdetailG1-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG1-1").click(function(){
+        $("#billdetailG1-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //G1 timeline details expand second circle
+    $(".circleG1-2").click(function(){
+        $("#billdetailG1-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG1-2").click(function(){
+        $("#billdetailG1-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+
+    //G2 timeline details expand first circle
+    $(".circleG2-1").click(function(){
+        $("#billdetailG2-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG2-1").click(function(){
+        $("#billdetailG2-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //G2 timeline details expand second circle
+    $(".circleG2-2").click(function(){
+        $("#billdetailG2-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG2-2").click(function(){
+        $("#billdetailG2-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //G3 timeline details expand first circle
+    $(".circleG3-1").click(function(){
+        $("#billdetailG3-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG3-1").click(function(){
+        $("#billdetailG3-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //G4 timeline details expand first circle
+    $(".circleG4-1").click(function(){
+        $("#billdetailG4-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG4-1").click(function(){
+        $("#billdetailG4-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circleG4-2").click(function(){
+        $("#billdetailG4-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG4-2").click(function(){
+        $("#billdetailG4-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circleG4-3").click(function(){
+        $("#billdetailG4-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG4-3").click(function(){
+        $("#billdetailG4-3").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+
+    //G5 timeline details expand first circle
+    $(".circleG5-1").click(function(){
+        $("#billdetailG5-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG5-1").click(function(){
+        $("#billdetailG5-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $(".circleG5-2").click(function(){
+        $("#billdetailG5-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG5-2").click(function(){
+        $("#billdetailG5-2").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    //G7 timeline details expand first circle
+    $(".circleG7-1").click(function(){
+        $("#billdetailG7-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+    $("#tri-collapseG7-1").click(function(){
+        $("#billdetailG7-1").slideToggle(100, function(){
+            $(this).is(":visible")?"Collapse" : "Expand";
+        });
+    });
+
+
 })
