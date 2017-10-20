@@ -1,5 +1,37 @@
 /* Styles for 11- 20 */
 
+/* For show items from 11 to 20 */
+
+#timeline-show1120 p{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+
+#timeline-1120 {
+    display: none;
+}
+
+#timeline-show2130 p{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+
+#timeline-2130 {
+    display: none;
+}
+
 /* 11 item */
 
 .timeline-item11 {
