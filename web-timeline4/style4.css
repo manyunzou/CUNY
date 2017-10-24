@@ -35,8 +35,8 @@ body {
 /* Timeline Legend */
 
 #timeline-legend {
-    width: 200px;
-    height: 110px;
+    width: 600px;
+    height: 55px;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
@@ -49,6 +49,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.timeline-legend-blue {
+    width: 50%;
+    float: left;
+}
+
 .timeline-blueCircle {
     width: 18px;
     height: 18px;
@@ -59,9 +64,14 @@ body {
     float: left;
     margin-left: 3.5%;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 13px;
     z-index: 1;
     cursor: pointer;
+}
+
+.timeline-legend-orange {
+    width: 50%;
+    float: left;
 }
 
 .timeline-orangeCircle {
@@ -74,7 +84,7 @@ body {
     float: left;
     margin-left: 3.5%;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 13px;
     z-index: 1;
     cursor: pointer;
     clear: left;
@@ -153,7 +163,7 @@ body {
 }
 
 #timeline-bp-colla{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #timeline-bp-colla:hover {
