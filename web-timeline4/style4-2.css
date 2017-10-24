@@ -13,7 +13,22 @@
     cursor: pointer;
 }
 
+#timeline-hide1120 p{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+
 #timeline-1120 {
+    display: none;
+}
+
+#timeline-hide1120 {
     display: none;
 }
 
@@ -28,7 +43,22 @@
     cursor: pointer;
 }
 
+#timeline-hide2130 p{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+
 #timeline-2130 {
+    display: none;
+}
+
+#timeline-hide2130 {
     display: none;
 }
 

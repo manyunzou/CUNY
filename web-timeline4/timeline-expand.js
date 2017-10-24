@@ -28,6 +28,52 @@ $(function(){
         }
     });
 
+    // to show items from 01-11
+    $("#timeline-show0110").mouseover(function(){
+        $("#timeline-show0110 p").css("color","#168DC5");
+    });
+
+    $("#timeline-show0110").mouseout(function(){
+        $("#timeline-show0110 p").css("color","#000000");
+    });
+
+    $("#timeline-show0110").click(function(){
+        var part1 = document.getElementById("timeline-0110");
+        var part1open = document.getElementById("timeline-show0110");
+
+        if (part1.style.display === "none"){
+            $("#timeline-0110").css("display","inline");
+            $("#timeline-show0110").css("display","none");
+            $("#timeline-hide0110").css("display","inline");
+        } else {
+            $("#timeline-0110").css("display","none");
+            $("#timeline-show0110").css("visibility","visible");
+        }
+    });
+
+    // to hide items from 01-11
+    $("#timeline-hide0110").mouseover(function(){
+        $("#timeline-hide0110 p").css("color","#168DC5");
+    });
+
+    $("#timeline-hide0110").mouseout(function(){
+        $("#timeline-hide0110 p").css("color","#000000");
+    });
+
+    $("#timeline-hide0110").click(function(){
+        var part1 = document.getElementById("timeline-0110");
+        var part1open = document.getElementById("timeline-hide0110");
+
+        if (part1.style.display === "inline"){
+            $("#timeline-0110").css("display","none");
+            $("#timeline-show0110").css("display","block");
+            $("#timeline-hide0110").css("display","none");
+        } else {
+            $("#timeline-0110").css("display","visible");
+            $("#timeline-show0110").css("visibility","hidden");
+        }
+    });
+
     // to show items from 11-20
     $("#timeline-show1120").mouseover(function(){
         $("#timeline-show1120 p").css("color","#168DC5");
@@ -43,10 +89,34 @@ $(function(){
 
         if (part2.style.display === "none"){
             $("#timeline-1120").css("display","inline");
-            $("#timeline-show1120").css("visibility","hidden");
+            $("#timeline-show1120").css("display","none");
+            $("#timeline-hide1120").css("display","inline");
         } else {
             $("#timeline-1120").css("display","none");
             $("#timeline-show1120").css("visibility","visible");
+        }
+    });
+
+    // to hide items from 11-20
+    $("#timeline-hide1120").mouseover(function(){
+        $("#timeline-hide1120 p").css("color","#168DC5");
+    });
+
+    $("#timeline-hide1120").mouseout(function(){
+        $("#timeline-hide1120 p").css("color","#000000");
+    });
+
+    $("#timeline-hide1120").click(function(){
+        var part1 = document.getElementById("timeline-1120");
+        var part1open = document.getElementById("timeline-hide1120");
+
+        if (part1.style.display === "inline"){
+            $("#timeline-1120").css("display","none");
+            $("#timeline-show1120").css("display","block");
+            $("#timeline-hide1120").css("display","none");
+        } else {
+            $("#timeline-1120").css("display","visible");
+            $("#timeline-show1120").css("visibility","hidden");
         }
     });
 
@@ -65,10 +135,34 @@ $(function(){
 
         if (part2.style.display === "none"){
             $("#timeline-2130").css("display","inline");
-            $("#timeline-show2130").css("visibility","hidden");
+            $("#timeline-show2130").css("display","none");
+            $("#timeline-hide2130").css("display","inline");
         } else {
             $("#timeline-2130").css("display","none");
             $("#timeline-show2130").css("visibility","visible");
+        }
+    });
+
+    // to hide items from 21-30
+    $("#timeline-hide2130").mouseover(function(){
+        $("#timeline-hide2130 p").css("color","#168DC5");
+    });
+
+    $("#timeline-hide2130").mouseout(function(){
+        $("#timeline-hide2130 p").css("color","#000000");
+    });
+
+    $("#timeline-hide2130").click(function(){
+        var part1 = document.getElementById("timeline-2130");
+        var part1open = document.getElementById("timeline-hide2130");
+
+        if (part1.style.display === "inline"){
+            $("#timeline-2130").css("display","none");
+            $("#timeline-show2130").css("display","block");
+            $("#timeline-hide2130").css("display","none");
+        } else {
+            $("#timeline-2130").css("display","visible");
+            $("#timeline-show2130").css("visibility","hidden");
         }
     });
 

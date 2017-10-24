@@ -183,6 +183,40 @@ body {
     margin-bottom: 40px;
 }
 
+/* Show/Hide 01-10 */
+#timeline-show0110 {
+    margin-top: 90px;
+}
+
+#timeline-0110 {
+    display: none;
+}
+
+#timeline-show0110 p{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+
+#timeline-hide0110 p{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+
+#timeline-hide0110 {
+    display: none;
+}
 
 /* 1st item */
 .passedGraphic {
