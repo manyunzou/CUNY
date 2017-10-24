@@ -6,6 +6,7 @@ $(function(){
 
         if (bp.style.display === "none"){
             $("#timeline-bp").css("display","inline");
+            $("#timeline-legend").css("display","block");
             plusImg.src = "img/minus-sign.png";
         } else {
             $("#timeline-bp").css("display","none");
@@ -19,6 +20,7 @@ $(function(){
 
         if (GTZ.style.display === "none"){
             $("#timeline-GTZ").css("display","inline");
+            $("#timeline-legend").css("display","block");
             plusImg.src = "img/minus-sign.png";
         } else {
             $("#timeline-GTZ").css("display","none");

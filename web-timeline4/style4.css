@@ -32,6 +32,56 @@ body {
     padding-right: 10px;
 }
 
+/* Timeline Legend */
+
+#timeline-legend {
+    width: 200px;
+    height: 110px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    margin-top: 25px;
+    display: none;
+}
+
+#timeline-legend p{
+    font-family: "Roboto", sans-serif;
+}
+
+.timeline-blueCircle {
+    width: 18px;
+    height: 18px;
+    background-color: #168DC5;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    margin-right: 10px;
+    margin-top: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.timeline-orangeCircle {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    margin-right: 10px;
+    margin-top: 5px;
+    z-index: 1;
+    cursor: pointer;
+    clear: left;
+}
+
+
+
 /* Timeline Intro */
 
 .timeline-introText {
@@ -63,6 +113,7 @@ body {
     color: #4C4C4C;
     /*text-transform: uppercase;*/
     margin-bottom: 0px;
+    clear: left;
     float: left;
 }
 
