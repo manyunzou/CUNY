@@ -5,6 +5,7 @@
 #timeline-show1120{
     margin-left: 30px;
     clear: left;
+    cursor: pointer;
 }
 
 
@@ -23,6 +24,7 @@
     margin-left: 30px;
     display: none;
     clear: left;
+    cursor: pointer;
 }
 
 #timeline-hide1120 p{
@@ -55,6 +57,7 @@
 #timeline-show2130{
     margin-left: 30px;
     clear: left;
+    cursor: pointer;
 }
 
 #timeline-show2130 p{
@@ -92,6 +95,7 @@
     margin-left: 30px;
     display: none;
     clear: left;
+    cursor: pointer;
 }
 
 #timeline-bp2130-plusSign {

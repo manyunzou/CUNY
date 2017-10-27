@@ -17,7 +17,7 @@ $(function(){
 
         if (GTZ.style.display === "none"){
             $("#timeline-GTZ").css("display","inline");
-            $("#timeline-legend").css("display","block");
+            $("#timeline-legend-underGTZ").css("display","block");
             plusImg.src = "img/minus-sign.png";
         } else {
             $("#timeline-GTZ").css("display","none");
@@ -42,6 +42,7 @@ $(function(){
             $("#timeline-0110").css("display","inline");
             $("#timeline-show0110").css("display","none");
             $("#timeline-hide0110").css("display","block");
+            $("#timeline-legend").css("display","block");
         } else {
             $("#timeline-0110").css("display","none");
             $("#timeline-show0110").css("visibility","visible");
@@ -65,6 +66,7 @@ $(function(){
             $("#timeline-0110").css("display","none");
             $("#timeline-show0110").css("display","block");
             $("#timeline-hide0110").css("display","none");
+            $("#timeline-legend").css("display","none");
         } else {
             $("#timeline-0110").css("display","visible");
             $("#timeline-show0110").css("visibility","hidden");
@@ -88,6 +90,7 @@ $(function(){
             $("#timeline-1120").css("display","inline");
             $("#timeline-show1120").css("display","none");
             $("#timeline-hide1120").css("display","block");
+            $("#timeline-legend").css("display","block");
         } else {
             $("#timeline-1120").css("display","none");
             $("#timeline-show1120").css("visibility","visible");
@@ -111,6 +114,7 @@ $(function(){
             $("#timeline-1120").css("display","none");
             $("#timeline-show1120").css("display","block");
             $("#timeline-hide1120").css("display","none");
+            $("#timeline-legend").css("display","none");
         } else {
             $("#timeline-1120").css("display","visible");
             $("#timeline-show1120").css("visibility","hidden");
@@ -134,6 +138,7 @@ $(function(){
             $("#timeline-2130").css("display","inline");
             $("#timeline-show2130").css("display","none");
             $("#timeline-hide2130").css("display","block");
+            $("#timeline-legend").css("display","block");
         } else {
             $("#timeline-2130").css("display","none");
             $("#timeline-show2130").css("visibility","visible");
@@ -157,6 +162,7 @@ $(function(){
             $("#timeline-2130").css("display","none");
             $("#timeline-show2130").css("display","block");
             $("#timeline-hide2130").css("display","none");
+            $("#timeline-legend").css("display","none");
         } else {
             $("#timeline-2130").css("display","visible");
             $("#timeline-show2130").css("visibility","hidden");

@@ -43,6 +43,19 @@ body {
     border-right: 1px solid #999;
     margin-top: 25px;
     display: none;
+    clear: both;
+}
+
+#timeline-legend-underGTZ {
+    width: 600px;
+    height: 63px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    margin-top: 25px;
+    display: none;
+    clear: both;
 }
 
 .timeline-legend-title{
@@ -129,7 +142,7 @@ body {
     font-size: 20px;
     color: #4C4C4C;
     /*text-transform: uppercase;*/
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     clear: left;
     float: left;
 }
@@ -140,7 +153,7 @@ body {
     font-size: 20px;
     color: #4C4C4C;
     /*text-transform: uppercase;*/
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     float: left;
     clear: left;
 }
@@ -182,6 +195,7 @@ body {
 #timeline-show0110 {
     margin-left: 30px;
     clear: left;
+    cursor: pointer;
 }
 
 #timeline-0110 {
@@ -202,6 +216,7 @@ body {
     margin-left: 30px;
     display: none;
     clear: left;
+    cursor: pointer;
 }
 
 #timeline-hide0110 p{
