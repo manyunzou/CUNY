@@ -2,14 +2,19 @@
 
 /* For show items from 11 to 20 */
 
+#timeline-show1120{
+    margin-left: 30px;
+    clear: left;
+}
+
+
 #timeline-show1120 p{
-    width: 60%;
+    width: 31%;
     font-size: 18px;
-    text-align: center;
-    margin-top: 40px;
-    text-transform: uppercase;
-    text-decoration: underline;
+/*    text-decoration: underline;*/
     font-family: "Roboto",sans-serif;
+    margin-top: 0px;
+    float: left;
     cursor: pointer;
 }
 
@@ -18,10 +23,16 @@
     font-size: 18px;
     text-align: center;
     margin-top: 40px;
-    text-transform: uppercase;
     text-decoration: underline;
     font-family: "Roboto",sans-serif;
     cursor: pointer;
+}
+
+#timeline-bp1120-plusSign {
+    width: 20px;
+    margin-top: 2px;
+/*    margin-left: 10px;*/
+    float: left;
 }
 
 #timeline-1120 {
@@ -32,14 +43,20 @@
     display: none;
 }
 
+/* Show/hide item 21-30 */
+
+#timeline-show2130{
+    margin-left: 30px;
+    clear: left;
+}
+
 #timeline-show2130 p{
-    width: 60%;
+    width: 31%;
     font-size: 18px;
-    text-align: center;
-    margin-top: 40px;
-    text-transform: uppercase;
-    text-decoration: underline;
+/*    text-decoration: underline;*/
     font-family: "Roboto",sans-serif;
+    margin-top: 0px;
+    float: left;
     cursor: pointer;
 }
 
@@ -48,7 +65,6 @@
     font-size: 18px;
     text-align: center;
     margin-top: 40px;
-    text-transform: uppercase;
     text-decoration: underline;
     font-family: "Roboto",sans-serif;
     cursor: pointer;
@@ -60,6 +76,13 @@
 
 #timeline-hide2130 {
     display: none;
+}
+
+#timeline-bp2130-plusSign {
+    width: 20px;
+    margin-top: 2px;
+/*    margin-left: 10px;*/
+    float: left;
 }
 
 /* 11 item */
