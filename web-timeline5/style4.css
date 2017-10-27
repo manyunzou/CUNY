@@ -36,7 +36,7 @@ body {
 
 #timeline-legend {
     width: 600px;
-    height: 55px;
+    height: 63px;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
@@ -45,12 +45,19 @@ body {
     display: none;
 }
 
+.timeline-legend-title{
+    color: #5B5B5B;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 13px;
+}
+
 #timeline-legend p{
     font-family: "Roboto", sans-serif;
 }
 
 .timeline-legend-blue {
-    width: 50%;
+    width: 30%;
     float: left;
 }
 
@@ -64,7 +71,7 @@ body {
     float: left;
     margin-left: 3.5%;
     margin-right: 10px;
-    margin-top: 13px;
+    margin-top: 8px;
     z-index: 1;
     cursor: pointer;
 }
@@ -84,7 +91,7 @@ body {
     float: left;
     margin-left: 3.5%;
     margin-right: 10px;
-    margin-top: 13px;
+    margin-top: 8px;
     z-index: 1;
     cursor: pointer;
     clear: left;
