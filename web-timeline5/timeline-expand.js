@@ -1,18 +1,15 @@
 $(function(){
 
-    // $("#timeline-bp-colla").click(function(){
-    //     var bp = document.getElementById("timeline-bp");
-    //     var plusImg = document.getElementById("timeline-bp-plusSign");
+    $("#timeline-bp-colla").click(function(){
+        var bp = document.getElementById("timeline-0110");
+        var plusImg = document.getElementById("timeline-bp-plusSign");
 
-    //     if (bp.style.display === "none"){
-    //         $("#timeline-bp").css("display","inline");
-    //         $("#timeline-legend").css("display","block");
-    //         plusImg.src = "img/minus-sign.png";
-    //     } else {
-    //         $("#timeline-bp").css("display","none");
-    //         plusImg.src = "img/plus-sign.png";
-    //     }
-    // });
+        if (bp.style.display === "none"){
+            $("#timeline-0110").css("display","inline");
+            $("#timeline-legend").css("display","block");
+            plusImg.src = "img/minus-sign.png";
+        } 
+    });
 
     $("#timeline-GTZ-colla").click(function(){
         var GTZ = document.getElementById("timeline-GTZ");
@@ -34,7 +31,7 @@ $(function(){
     });
 
     $("#timeline-show0110").mouseout(function(){
-        $("#timeline-show0110 p").css("color","#000000");
+        $("#timeline-show0110 p").css("color","#5B5B5B");
     });
 
     $("#timeline-show0110").click(function(){
@@ -44,7 +41,7 @@ $(function(){
         if (part1.style.display === "none"){
             $("#timeline-0110").css("display","inline");
             $("#timeline-show0110").css("display","none");
-            $("#timeline-hide0110").css("display","inline");
+            $("#timeline-hide0110").css("display","block");
         } else {
             $("#timeline-0110").css("display","none");
             $("#timeline-show0110").css("visibility","visible");
@@ -57,7 +54,7 @@ $(function(){
     });
 
     $("#timeline-hide0110").mouseout(function(){
-        $("#timeline-hide0110 p").css("color","#000000");
+        $("#timeline-hide0110 p").css("color","#5B5B5B");
     });
 
     $("#timeline-hide0110").click(function(){
@@ -80,7 +77,7 @@ $(function(){
     });
 
     $("#timeline-show1120").mouseout(function(){
-        $("#timeline-show1120 p").css("color","#000000");
+        $("#timeline-show1120 p").css("color","#5B5B5B");
     });
 
     $("#timeline-show1120").click(function(){
@@ -90,7 +87,7 @@ $(function(){
         if (part2.style.display === "none"){
             $("#timeline-1120").css("display","inline");
             $("#timeline-show1120").css("display","none");
-            $("#timeline-hide1120").css("display","inline");
+            $("#timeline-hide1120").css("display","block");
         } else {
             $("#timeline-1120").css("display","none");
             $("#timeline-show1120").css("visibility","visible");
@@ -103,7 +100,7 @@ $(function(){
     });
 
     $("#timeline-hide1120").mouseout(function(){
-        $("#timeline-hide1120 p").css("color","#000000");
+        $("#timeline-hide1120 p").css("color","#5B5B5B");
     });
 
     $("#timeline-hide1120").click(function(){
@@ -126,7 +123,7 @@ $(function(){
     });
 
     $("#timeline-show2130").mouseout(function(){
-        $("#timeline-show2130 p").css("color","#000000");
+        $("#timeline-show2130 p").css("color","#5B5B5B");
     });
 
     $("#timeline-show2130").click(function(){
@@ -136,7 +133,7 @@ $(function(){
         if (part2.style.display === "none"){
             $("#timeline-2130").css("display","inline");
             $("#timeline-show2130").css("display","none");
-            $("#timeline-hide2130").css("display","inline");
+            $("#timeline-hide2130").css("display","block");
         } else {
             $("#timeline-2130").css("display","none");
             $("#timeline-show2130").css("visibility","visible");
@@ -149,7 +146,7 @@ $(function(){
     });
 
     $("#timeline-hide2130").mouseout(function(){
-        $("#timeline-hide2130 p").css("color","#000000");
+        $("#timeline-hide2130 p").css("color","#5B5B5B");
     });
 
     $("#timeline-hide2130").click(function(){
