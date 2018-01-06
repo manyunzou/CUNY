@@ -7,9 +7,11 @@ body {
 
 /* Year Section */
 
-.years-container{
+#years-container-bp14{
     width: 100%;
     margin-left: 8%;
+    margin-top: 30px;
+    display: none;
 }
 
 .year{
@@ -30,6 +32,27 @@ body {
     color: #fff;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#years-container-bp510{
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 30px;
+    display: none;
+}
+
+#years-container-bp1114{
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 30px;
+    display: none;
+}
+
+#years-container-bp1530{
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 30px;
+    display: none;
 }
 
 /* Timeline Legend */

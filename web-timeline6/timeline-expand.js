@@ -25,7 +25,7 @@ $(function(){
         }
     });
 
-    // to show items from 01-11
+    // to show items from 01-04
     $("#timeline-show0110").mouseover(function(){
         $("#timeline-show0110 p").css("color","#168DC5");
     });
@@ -43,6 +43,7 @@ $(function(){
             $("#timeline-show0110").css("display","none");
             $("#timeline-hide0110").css("display","block");
             $("#timeline-legend").css("display","block");
+            $("#years-container-bp14").css("display","block");
         } else {
             $("#timeline-0110").css("display","none");
             $("#timeline-show0110").css("visibility","visible");
@@ -67,13 +68,14 @@ $(function(){
             $("#timeline-show0110").css("display","block");
             $("#timeline-hide0110").css("display","none");
             $("#timeline-legend").css("display","none");
+            $("#years-container-bp14").css("display","none");
         } else {
             $("#timeline-0110").css("display","visible");
             $("#timeline-show0110").css("visibility","hidden");
         }
     });
 
-    // to show items from 11-20
+    // to show items from 05-10
     $("#timeline-show1120").mouseover(function(){
         $("#timeline-show1120 p").css("color","#168DC5");
     });
@@ -91,6 +93,7 @@ $(function(){
             $("#timeline-show1120").css("display","none");
             $("#timeline-hide1120").css("display","block");
             $("#timeline-legend").css("display","block");
+            $("#years-container-bp510").css("display","block");
         } else {
             $("#timeline-1120").css("display","none");
             $("#timeline-show1120").css("visibility","visible");
@@ -115,13 +118,14 @@ $(function(){
             $("#timeline-show1120").css("display","block");
             $("#timeline-hide1120").css("display","none");
             $("#timeline-legend").css("display","none");
+            $("#years-container-bp510").css("display","none");
         } else {
             $("#timeline-1120").css("display","visible");
             $("#timeline-show1120").css("visibility","hidden");
         }
     });
 
-    // to show items from 21-30
+    // to show items from 11-14
     $("#timeline-show2130").mouseover(function(){
         $("#timeline-show2130 p").css("color","#168DC5");
     });
@@ -139,6 +143,7 @@ $(function(){
             $("#timeline-show2130").css("display","none");
             $("#timeline-hide2130").css("display","block");
             $("#timeline-legend").css("display","block");
+            $("#years-container-bp1114").css("display","block");
         } else {
             $("#timeline-2130").css("display","none");
             $("#timeline-show2130").css("visibility","visible");
@@ -163,6 +168,7 @@ $(function(){
             $("#timeline-show2130").css("display","block");
             $("#timeline-hide2130").css("display","none");
             $("#timeline-legend").css("display","none");
+            $("#years-container-bp1114").css("display","none");
         } else {
             $("#timeline-2130").css("display","visible");
             $("#timeline-show2130").css("visibility","hidden");
