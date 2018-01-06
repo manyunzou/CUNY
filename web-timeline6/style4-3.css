@@ -2,7 +2,7 @@
 #timeline-show1530 {
     width: 720px;
     height: 80px;
-    background-color: #999;
+    background-color: #ccc;
     border-radius: 15px;
     clear: left;
     cursor: pointer;
@@ -13,29 +13,10 @@
     display: none;
 }
 
-.timeline-maintitle {
-    color: #fff;
-    font-size: 18px;
-    font-family: "Roboto",sans-serif;
-    float: left;
-    cursor: pointer;
-    margin: 10 0 10 15;
-}
-
-.timeline-title{
-    color: #fff;
-    font-size: 15px;
-    font-family: "Roboto",sans-serif;
-    font-weight: lighter;
-    clear: left;
-    float: left;
-    margin: 0 0 10 15;
-}
-
 #timeline-hide1530 {
     width: 720px;
     height: 80px;
-    background-color: #999;
+    background-color: #ccc;
     border-radius: 15px;
     clear: left;
     cursor: pointer;

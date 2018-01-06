@@ -42,6 +42,7 @@ body {
     border-left: 1px solid #999;
     border-right: 1px solid #999;
     margin-top: 25px;
+    margin-bottom: 20px;
     display: none;
     clear: both;
 }
@@ -190,15 +191,6 @@ body {
     cursor: pointer;
 }
 
-/* Legend box style */
-.timeline-legend {
-    height: 140px;
-    width: 380px;
-    background-color: #fff;
-    border: 1px solid #999;
-    margin-bottom: 40px;
-}
-
 /* Show/Hide 01-10 */
 .timeline-textIcon-div {
     float: left;
@@ -207,7 +199,7 @@ body {
 #timeline-show0110 {
     width: 720px;
     height: 80px;
-    background-color: #999;
+    background-color: #ccc;
     border-radius: 15px;
     clear: left;
     cursor: pointer;
@@ -218,7 +210,7 @@ body {
 }
 
 .timeline-maintitle {
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-family: "Roboto",sans-serif;
     float: left;
@@ -227,7 +219,7 @@ body {
 }
 
 .timeline-title{
-    color: #fff;
+    color: #5B5B5B;
     font-size: 15px;
     font-family: "Roboto",sans-serif;
     font-weight: lighter;
@@ -239,7 +231,7 @@ body {
 #timeline-hide0110 {
     width: 720px;
     height: 80px;
-    background-color: #999;
+    background-color: #ccc;
     border-radius: 15px;
     clear: left;
     cursor: pointer;
