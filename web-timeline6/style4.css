@@ -201,6 +201,13 @@ body {
     float: left;
 }
 
+#timeline-bp-all-plusSign {
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 16px;
+    float: left;
+}
+
 #timeline-bp-colla{
     margin-top: 10px;
 }
