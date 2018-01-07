@@ -193,8 +193,7 @@
 .item-line22 {
     width: 50%;
     height: 2px;
-    /*background-color: #999;*/
-    border-bottom: 3px dotted #999;
+    background-color: #999;
     border-radius: 5px;
     margin-top: 40px;
     position: relative;
@@ -1039,8 +1038,7 @@
 .item-line27 {
     width: 50%;
     height: 2px;
-    /*background-color: #999;*/
-    border-bottom: 3px dotted #999;
+    background-color: #999;
     border-radius: 5px;
     margin-top: 40px;
     position: relative;
@@ -1098,8 +1096,7 @@
 .item-line28 {
     width: 50%;
     height: 2px;
-    /*background-color: #999;*/
-    border-bottom: 3px dotted #999;
+    background-color: #999;
     border-radius: 5px;
     margin-top: 40px;
     position: relative;

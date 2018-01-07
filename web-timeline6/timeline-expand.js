@@ -18,10 +18,11 @@ $(function(){
         if (GTZ.style.display === "none"){
             $("#timeline-GTZ").css("display","inline");
             $("#timeline-legend-underGTZ").css("display","block");
-            plusImg.src = "img/minus-sign.png";
+            plusImg.src = "img/minus-sign-gray.png";
         } else {
             $("#timeline-GTZ").css("display","none");
             plusImg.src = "img/plus-sign.png";
+            $("#timeline-legend-underGTZ").css("display","none");
         }
     });
 
