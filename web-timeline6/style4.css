@@ -225,7 +225,7 @@ body {
     float: left;
 }
 
-#timeline-show0110 {
+#timeline-show0104 {
     width: 720px;
     height: 80px;
     background-color: #ccc;
@@ -234,7 +234,7 @@ body {
     cursor: pointer;
 }
 
-#timeline-0110 {
+#timeline-0104 {
     display: none;
 }
 
@@ -257,7 +257,7 @@ body {
     margin: 0 0 10 15;
 }
 
-#timeline-hide0110 {
+#timeline-hide0104 {
     width: 720px;
     height: 80px;
     background-color: #ccc;

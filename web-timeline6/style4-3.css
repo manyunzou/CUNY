@@ -21,6 +21,7 @@
     clear: left;
     cursor: pointer;
     display: none;
+    margin-top: 20px;
 }
 
 #timeline-bp1530-plusSign {
@@ -32,9 +33,8 @@
 #timeline-bp1530-minusSign {
     width: 60px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 224px;
 }
-
 
 
 
