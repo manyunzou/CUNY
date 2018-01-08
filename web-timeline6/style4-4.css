@@ -1,5 +1,12 @@
 /* Style for BP21- 30 */
 
+#years-container-GTZ{
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 30px;
+    display: none;
+}
+
 /* G1 item */
 
 .timeline-itemG1 {
