@@ -297,60 +297,100 @@ $(function(){
     $(".circle15-1").click(function(){
         $("#billdetail15-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-2").css("display","none");
+            $("#billdetail15-3").css("display","none");
+            $("#billdetail15-4").css("display","none");
+            $("#billdetail15-5").css("display","none");
         });
     });
 
     $("#tri-collapse15-1").click(function(){
         $("#billdetail15-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-2").css("display"," ");
+            $("#billdetail15-3").css("display"," ");
+            $("#billdetail15-4").css("display"," ");
+            $("#billdetail15-5").css("display"," ");
         });
     });
 
     $(".circle15-2").click(function(){
         $("#billdetail15-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display","none");
+            $("#billdetail15-3").css("display","none");
+            $("#billdetail15-4").css("display","none");
+            $("#billdetail15-5").css("display","none");
         });
     });
 
     $("#tri-collapse15-2").click(function(){
         $("#billdetail15-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display"," ");
+            $("#billdetail15-3").css("display"," ");
+            $("#billdetail15-4").css("display"," ");
+            $("#billdetail15-5").css("display"," ");
         });
     });
 
     $(".circle15-3").click(function(){
         $("#billdetail15-3").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display","none");
+            $("#billdetail15-2").css("display","none");
+            $("#billdetail15-4").css("display","none");
+            $("#billdetail15-5").css("display","none");
         });
     });
 
     $("#tri-collapse15-3").click(function(){
         $("#billdetail15-3").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display"," ");
+            $("#billdetail15-2").css("display"," ");
+            $("#billdetail15-4").css("display"," ");
+            $("#billdetail15-5").css("display"," ");
         });
     });
 
     $(".circle15-4").click(function(){
         $("#billdetail15-4").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display","none");
+            $("#billdetail15-2").css("display","none");
+            $("#billdetail15-3").css("display","none");
+            $("#billdetail15-5").css("display","none");
         });
     });
 
     $("#tri-collapse15-4").click(function(){
         $("#billdetail15-4").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display"," ");
+            $("#billdetail15-2").css("display"," ");
+            $("#billdetail15-3").css("display"," ");
+            $("#billdetail15-5").css("display"," ");
         });
     });
 
     $(".circle15-5").click(function(){
         $("#billdetail15-5").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display","none");
+            $("#billdetail15-2").css("display","none");
+            $("#billdetail15-3").css("display","none");
+            $("#billdetail15-4").css("display","none");
         });
     });
 
     $("#tri-collapse15-5").click(function(){
         $("#billdetail15-5").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail15-1").css("display"," ");
+            $("#billdetail15-2").css("display"," ");
+            $("#billdetail15-3").css("display"," ");
+            $("#billdetail15-4").css("display"," ");
         });
     });
 
@@ -359,36 +399,28 @@ $(function(){
     $(".circle16-1").click(function(){
         $("#billdetail16-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail16-2").css("display","none");
         });
     });
 
     $("#tri-collapse16-1").click(function(){
         $("#billdetail16-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail16-2").css("display"," ");
         });
     });
 
     $(".circle16-2").click(function(){
         $("#billdetail16-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail16-1").css("display","none");
         });
     });
 
     $("#tri-collapse16-2").click(function(){
         $("#billdetail16-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
-        });
-    });
-
-    $(".circle16-3").click(function(){
-        $("#billdetail16-3").slideToggle(100, function(){
-            $(this).is(":visible")?"Collapse" : "Expand";
-        });
-    });
-
-    $("#tri-collapse16-3").click(function(){
-        $("#billdetail16-3").slideToggle(100, function(){
-            $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail16-1").css("display"," ");
         });
     });
 
@@ -411,24 +443,28 @@ $(function(){
     $(".circle18-1").click(function(){
         $("#billdetail18-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail18-2").css("display","none");
         });
     });
 
     $("#tri-collapse18-1").click(function(){
         $("#billdetail18-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail18-2").css("display"," ");
         });
     });
 
     $(".circle18-2").click(function(){
         $("#billdetail18-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail18-1").css("display","none");
         });
     });
 
     $("#tri-collapse18-2").click(function(){
         $("#billdetail18-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail18-1").css("display"," ");
         });
     });
 
@@ -436,60 +472,100 @@ $(function(){
     $(".circle19-1").click(function(){
         $("#billdetail19-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-2").css("display","none");
+            $("#billdetail19-3").css("display","none");
+            $("#billdetail19-4").css("display","none");
+            $("#billdetail19-5").css("display","none");
         });
     });
 
     $("#tri-collapse19-1").click(function(){
         $("#billdetail19-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-2").css("display"," ");
+            $("#billdetail19-3").css("display"," ");
+            $("#billdetail19-4").css("display"," ");
+            $("#billdetail19-5").css("display"," ");
         });
     });
 
     $(".circle19-2").click(function(){
         $("#billdetail19-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display","none");
+            $("#billdetail19-3").css("display","none");
+            $("#billdetail19-4").css("display","none");
+            $("#billdetail19-5").css("display","none");
         });
     });
 
     $("#tri-collapse19-2").click(function(){
         $("#billdetail19-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display"," ");
+            $("#billdetail19-3").css("display"," ");
+            $("#billdetail19-4").css("display"," ");
+            $("#billdetail19-5").css("display"," ");
         });
     });
 
     $(".circle19-3").click(function(){
         $("#billdetail19-3").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display","none");
+            $("#billdetail19-2").css("display","none");
+            $("#billdetail19-4").css("display","none");
+            $("#billdetail19-5").css("display","none");
         });
     });
 
     $("#tri-collapse19-3").click(function(){
         $("#billdetail19-3").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display"," ");
+            $("#billdetail19-2").css("display"," ");
+            $("#billdetail19-4").css("display"," ");
+            $("#billdetail19-5").css("display"," ");
         });
     });
 
     $(".circle19-4").click(function(){
         $("#billdetail19-4").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display","none");
+            $("#billdetail19-2").css("display","none");
+            $("#billdetail19-3").css("display","none");
+            $("#billdetail19-5").css("display","none");
         });
     });
 
     $("#tri-collapse19-4").click(function(){
         $("#billdetail19-4").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display"," ");
+            $("#billdetail19-2").css("display"," ");
+            $("#billdetail19-3").css("display"," ");
+            $("#billdetail19-5").css("display"," ");
         });
     });
 
     $(".circle19-5").click(function(){
         $("#billdetail19-5").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display","none");
+            $("#billdetail19-2").css("display","none");
+            $("#billdetail19-3").css("display","none");
+            $("#billdetail19-4").css("display","none");
         });
     });
 
     $("#tri-collapse19-5").click(function(){
         $("#billdetail19-5").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
+            $("#billdetail19-1").css("display"," ");
+            $("#billdetail19-2").css("display"," ");
+            $("#billdetail19-3").css("display"," ");
+            $("#billdetail19-4").css("display"," ");
         });
     });
 

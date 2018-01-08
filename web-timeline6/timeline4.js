@@ -28,12 +28,14 @@ $(function(){
         $("#billdetail01-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail01-2").css("display","none");
     });
 
     $("#tri-collapse1").click(function(){
         $("#billdetail01-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail01-2").css("display","")
     });
 
     //1st timeline details expand second circle
@@ -41,12 +43,14 @@ $(function(){
         $("#billdetail01-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail01-1").css("display","none");
     });
 
     $("#tri-collapse1-2").click(function(){
         $("#billdetail01-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail01-1").css("display"," ");
     });
 
 
@@ -327,12 +331,14 @@ $(function(){
         $("#billdetail10-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail10-2").css("display","none");
     });
 
     $("#tri-collapse10-1").click(function(){
         $("#billdetail10-1").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail10-2").css("display"," ");
     });
 
     //10th timeline details expand second circle
@@ -340,12 +346,14 @@ $(function(){
         $("#billdetail10-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail10-1").css("display","none");
     });
 
     $("#tri-collapse10-2").click(function(){
         $("#billdetail10-2").slideToggle(100, function(){
             $(this).is(":visible")?"Collapse" : "Expand";
         });
+        $("#billdetail10-1").css("display"," ");
     });
 
 
