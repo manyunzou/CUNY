@@ -4,6 +4,16 @@ body {
     margin-left: 30px;
 }
 
+.timeline-headline {
+    font-family: 'Catamaran', sans-serif;
+    color: #ed6f1d; 
+    margin-bottom: 0px; 
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 70%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
 /* Year Section */
 
