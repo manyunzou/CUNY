@@ -9,6 +9,10 @@
     margin-top: 20px;
 }
 
+#timeline-show1530:hover {
+    background-color: #b7b7b7;
+}
+
 #timeline-1530 {
     display: none;
 }

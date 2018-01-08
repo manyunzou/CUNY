@@ -12,6 +12,11 @@
     margin-top: 20px;
 }
 
+#timeline-show0510:hover {
+    background-color: #b7b7b7;
+}
+
+
 #timeline-hide0510 {
     width: 720px;
     height: 100px;
@@ -59,6 +64,10 @@
     clear: left;
     cursor: pointer;
     margin-top: 20px;
+}
+
+#timeline-show1114:hover {
+    background-color: #b7b7b7;
 }
 
 #timeline-hide1114 {
