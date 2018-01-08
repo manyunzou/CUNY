@@ -55,6 +55,42 @@ body {
     display: none;
 }
 
+/* Fixed Menu */
+#timeline-fixedMenu {
+    width: 140px;
+    height: 50px;
+    overflow: hidden;
+    background-color: #999;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 900;
+    cursor: pointer;
+}
+
+#timeline-fixedMenu:hover {
+    background-color: #4c4c4c;
+}
+
+#timeline-fixedMenu-item {
+    margin-top: 15px;
+    padding-left: 25px;
+    font-weight: 500;
+    letter-spacing: 3;
+    float: left;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.timeline-fixedMenu-icon {
+    width: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+    float: left;
+}
+
 /* Timeline Legend */
 
 #timeline-legend {
