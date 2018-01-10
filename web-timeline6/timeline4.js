@@ -1,6 +1,6 @@
 $(function(){
 
-    swal({ text:"Click + to see the timeline details."});
+    // swal({ text:"Click + to see the timeline details."});
 
     $("#timeline-fixedMenu").on("click", function(){
         window.location.reload();

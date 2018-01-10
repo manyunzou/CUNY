@@ -12,15 +12,15 @@ $(function(){
         } 
     });
 
-    $("#timeline-GTZ-colla").click(function(){
+    $("#timeline-showGTZ").click(function(){
         var GTZ = document.getElementById("timeline-GTZ");
-        var plusImg = document.getElementById("timeline-GTZ-plusSign");
 
         if (GTZ.style.display === "none"){
             $("#timeline-GTZ").css("display","inline");
             $("#timeline-legend-underGTZ").css("display","block");
             $("#years-container-GTZ").css("display","block");
-            plusImg.src = "img/minus-sign-gray.png";
+            $("#timeline-showGTZ").css("display","none");
+            $("#timeline-hideGTZ").css("display","block");
 
             $("#timeline-0104").css("display","none");
             $("#years-container-bp14").css("display","none");
@@ -43,11 +43,26 @@ $(function(){
             $("#timeline-hide1530").css("display","none");
         } else {
             $("#timeline-GTZ").css("display","none");
-            plusImg.src = "img/plus-sign.png";
             $("#timeline-legend-underGTZ").css("display","none");
+            $("#timeline-showGTZ").css("display","block");
+            $("#timeline-hideGTZ").css("display","none");
             $("#years-container-GTZ").css("display","none");
         }
     });
+
+
+    $("#timeline-hideGTZ").click(function(){
+        var GTZ = document.getElementById("timeline-GTZ");
+
+        if (GTZ.style.display === "inline"){
+            $("#timeline-GTZ").css("display","none");
+            $("#timeline-legend-underGTZ").css("display","none");
+            $("#timeline-showGTZ").css("display","block");
+            $("#timeline-hideGTZ").css("display","none");
+            $("#years-container-GTZ").css("display","none");
+        }
+    });
+
 
     // to show items from 01-04
 
@@ -81,8 +96,9 @@ $(function(){
             
             $("#timeline-GTZ").css("display","none");
             $("#timeline-legend-underGTZ").css("display","none");
+            $("#timeline-showGTZ").css("display","block");
+            $("#timeline-hideGTZ").css("display","none");
             $("#years-container-GTZ").css("display","none");
-            plusImg.src = "img/plus-sign.png";
 
         } else {
             $("#timeline-0104").css("display","none");
@@ -141,8 +157,9 @@ $(function(){
             
             $("#timeline-GTZ").css("display","none");
             $("#timeline-legend-underGTZ").css("display","none");
+            $("#timeline-showGTZ").css("display","block");
+            $("#timeline-hideGTZ").css("display","none");
             $("#years-container-GTZ").css("display","none");
-            plusImg.src = "img/plus-sign.png";
 
         } else {
             $("#timeline-0510").css("display","none");
@@ -199,8 +216,9 @@ $(function(){
             
             $("#timeline-GTZ").css("display","none");
             $("#timeline-legend-underGTZ").css("display","none");
+            $("#timeline-showGTZ").css("display","block");
+            $("#timeline-hideGTZ").css("display","none");
             $("#years-container-GTZ").css("display","none");
-            plusImg.src = "img/plus-sign.png";
         } else {
             $("#timeline-1114").css("display","none");
             $("#timeline-show1114").css("visibility","visible");
@@ -256,8 +274,9 @@ $(function(){
             
             $("#timeline-GTZ").css("display","none");
             $("#timeline-legend-underGTZ").css("display","none");
+            $("#timeline-showGTZ").css("display","block");
+            $("#timeline-hideGTZ").css("display","none");
             $("#years-container-GTZ").css("display","none");
-            plusImg.src = "img/plus-sign.png";
 
         } else {
             $("#timeline-1530").css("display","none");
