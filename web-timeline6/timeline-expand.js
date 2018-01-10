@@ -117,7 +117,6 @@ $(function(){
             $("#timeline-0104").css("display","none");
             $("#timeline-show0104").css("display","block");
             $("#timeline-hide0104").css("display","none");
-            $("#timeline-legend").css("display","none");
             $("#years-container-bp14").css("display","none");
         } else {
             $("#timeline-0104").css("display","visible");
@@ -177,7 +176,6 @@ $(function(){
             $("#timeline-0510").css("display","none");
             $("#timeline-show0510").css("display","block");
             $("#timeline-hide0510").css("display","none");
-            $("#timeline-legend").css("display","none");
             $("#years-container-bp510").css("display","none");
         } else {
             $("#timeline-0510").css("display","visible");
@@ -235,7 +233,6 @@ $(function(){
             $("#timeline-1114").css("display","none");
             $("#timeline-show1114").css("display","block");
             $("#timeline-hide1114").css("display","none");
-            $("#timeline-legend").css("display","none");
             $("#years-container-bp1114").css("display","none");
         } else {
             $("#timeline-1114").css("display","visible");
@@ -294,7 +291,6 @@ $(function(){
             $("#timeline-1530").css("display","none");
             $("#timeline-show1530").css("display","block");
             $("#timeline-hide1530").css("display","none");
-            $("#timeline-legend").css("display","none");
             $("#years-container-bp1530").css("display","none");
         } else {
             $("#timeline-1530").css("display","visible");

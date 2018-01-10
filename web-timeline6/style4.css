@@ -104,26 +104,29 @@ body {
 /* Timeline Legend */
 
 #timeline-legend {
-    width: 600px;
-    height: 110px;
+    width: 550px;
+    height: 70px;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
     border-right: 1px solid #999;
+    border-radius: 9px;
     margin-top: 25px;
     margin-bottom: 20px;
-    display: none;
+/*    display: none;*/
     clear: both;
 }
 
 #timeline-legend-underGTZ {
-    width: 600px;
-    height: 100px;
+    width: 550px;
+    height: 70px;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
     border-right: 1px solid #999;
+    border-radius: 9px;
     margin-top: 25px;
+    margin-bottom: 20px;
     display: none;
     clear: both;
 }
@@ -139,8 +142,14 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+#timeline-legend-underGTZ p{
+    font-family: "Roboto", sans-serif;
+}
+
+
 .timeline-legend-blue {
     width: 30%;
+    margin-left: 20px;
     float: left;
 }
 
@@ -183,7 +192,7 @@ body {
 .timeline-legend-info {
     clear: left;
     color: #5b5b5b;
-    margin-left: 13px;
+    margin-left: 30px;
     font-style: italic;
     font-size: 13px;
 }
@@ -216,7 +225,7 @@ body {
 .timeline-bp-title {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #4C4C4C;
     /*text-transform: uppercase;*/
     margin-bottom: 20px;
@@ -227,9 +236,10 @@ body {
 .timeline-GTZ-title {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #4C4C4C;
     /*text-transform: uppercase;*/
+    margin-top: 40px;
     margin-bottom: 20px;
     float: left;
     clear: left;
