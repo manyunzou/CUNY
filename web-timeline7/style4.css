@@ -308,6 +308,11 @@ body {
     margin: 10 0 10 15;
 }
 
+.years-container-title {
+    margin-left: 102px;
+    color: #999;
+}
+
 .timeline-title{
     color: #5B5B5B;
     font-size: 15px;
