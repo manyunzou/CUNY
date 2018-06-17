@@ -1,0 +1,15 @@
+.timeline-maintitle-ETE {
+    width: ;
+    margin-left: 20px;
+    float: left;
+}
+
+.timeline-maintitle-ETE p {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.timeline-maintitle-rest {
+    float: left;
+}
