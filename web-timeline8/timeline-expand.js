@@ -1,17 +1,5 @@
 $(function(){
 
-    // $("#timeline-bp-colla").click(function(){
-    //     var bp = document.getElementById("timeline-0104");
-    //     var plusImg = document.getElementById("timeline-bp-plusSign");
-
-    //     if (bp.style.display === "none"){
-    //         $("#timeline-0104").css("display","inline");
-    //         $("#timeline-legend").css("display","block");
-    //         $("#timeline-legend").css("display","block");
-    //         plusImg.src = "img/minus-sign.png";
-    //     } 
-    // });
-
     $("#timeline-showGTZ").click(function(){
         var GTZ = document.getElementById("timeline-GTZ");
 
