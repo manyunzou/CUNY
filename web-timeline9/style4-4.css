@@ -1,0 +1,1850 @@
+/* Style for BP21- 30 */
+
+#years-container-GTZ{
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 30px;
+    display: none;
+}
+
+
+/* For GTZ expanding */
+
+#timeline-showGTZ {
+    width: 720px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 15px;
+    clear: left;
+    cursor: pointer;
+}
+
+#timeline-showGTZ:hover {
+    background-color: #b7b7b7;
+}
+
+/*#timeline-GTZ {
+    display: none;
+}*/
+
+.timeline-GTZ-maintitle {
+    color: #000;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    float: left;
+    cursor: pointer;
+    margin: 30 0 10 15;
+}
+
+
+#timeline-hideGTZ {
+    width: 720px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 15px;
+    clear: left;
+    cursor: pointer;
+    display: none;
+}
+
+#timeline-GTZ-plusSign {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+#timeline-GTZ-minusSign {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+
+/* G1 item */
+
+.timeline-itemG1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-textG1 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-textG1 p {
+    margin-bottom: 0px;
+}
+
+.item-timelineG1 {
+    margin-left: 180px;
+}
+
+.item-lineG1 {
+    width: 64%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-bpbriefG1 {
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmoreG1 {
+    border: 2px solid #4CC2FF;
+    color: #4CC2FF;
+    padding: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmoreG1:hover {
+    color: white;
+    background-color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circleG1-1 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG1-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 11.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+
+/* G1 Bill expanded area */
+#billdetailG1-1 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG1-1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG1-1 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG1-1 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 35%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapseG1-1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG1-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* G1 Second circle */
+
+#billdetailG1-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG1-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG1-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG1-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG1-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG1-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* G2th item */
+
+.timeline-itemG2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-textG2 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-textG2 p {
+    margin-bottom: 0px;
+}
+
+.item-timelineG2 {
+    margin-left: 180px;
+}
+
+.item-lineG2 {
+    width: 64%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-bpbriefG2 {
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmoreG2 {
+    border: 2px solid #4CC2FF;
+    color: #4CC2FF;
+    padding: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmoreG2:hover {
+    color: white;
+    background-color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circleG2-1 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG2-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 26%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/* G2 Bill expanded area */
+#billdetailG2-1 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG2-1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG2-1 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG2-1 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG2-1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG2-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* G2 Second circle */
+
+#billdetailG2-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG2-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG2-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG2-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG2-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG2-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* G3rd item */
+
+.timeline-itemG3 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-textG3 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-textG3 p {
+    margin-bottom: 0px;
+}
+
+.item-timelineG3 {
+    margin-left: 180px;
+}
+
+.item-lineG3 {
+    width: 64%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+#billprogressG3 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.item-bpbriefG3 {
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmoreG3 {
+    border: 2px solid #4CC2FF;
+    color: #4CC2FF;
+    padding: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmoreG3:hover {
+    color: white;
+    background-color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circleG3-1 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 46.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+
+/* G3 Bill expanded area */
+#billdetailG3-1 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG3-1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG3-1 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG3-1 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG3-1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG3-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* G4th item */
+
+.timeline-itemG4 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-textG4 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-textG4 p {
+    margin-bottom: 0px;
+}
+
+.item-timelineG4 {
+    margin-left: 180px;
+}
+
+.item-lineG4 {
+    width: 64%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-bpbriefG4 {
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmoreG4 {
+    border: 2px solid #4CC2FF;
+    color: #4CC2FF;
+    padding: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmoreG4:hover {
+    color: white;
+    background-color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circleG4-1 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 3.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG4-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 12%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG4-3 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 11%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/* G4 Expanded area -1 */
+
+#billdetailG4-1 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG4-1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG4-1 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG4-1 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG4-1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG4-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/* G4 Expanded area -2 */
+
+#billdetailG4-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG4-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG4-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG4-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG4-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG4-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/* G4 Expanded area -3 */
+
+#billdetailG4-3 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG4-3 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG4-3 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG4-3 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG4-3 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG4-3:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+
+/* G5th item */
+
+.timeline-itemG5 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-textG5 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-textG5 p {
+    margin-bottom: 0px;
+}
+
+.item-timelineG5 {
+    margin-left: 180px;
+}
+
+.item-lineG5 {
+    width: 64%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-bpbriefG5 {
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmoreG5 {
+    border: 2px solid #4CC2FF;
+    color: #4CC2FF;
+    padding: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmoreG5:hover {
+    color: white;
+    background-color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circleG5-1 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 18%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circleG5-2 {
+    width: 18px;
+    height: 18px;
+    background-color: #ED6F1D;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 11%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/* G5 Expanded area -1 */
+
+#billdetailG5-1 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG5-1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG5-1 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG5-1 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG5-1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG5-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/* G5 Expanded area -2 */
+
+#billdetailG5-2 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG5-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG5-2 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG5-2 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG5-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG5-2:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* G6th item */
+
+.timeline-itemG6 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-textG6 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-textG6 p {
+    margin-bottom: 0px;
+}
+
+.item-timelineG6 {
+    margin-left: 180px;
+}
+
+.item-lineG6 {
+    width: 64%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-bpbriefG6 {
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmoreG6 {
+    border: 2px solid #4CC2FF;
+    color: #4CC2FF;
+    padding: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmoreG6:hover {
+    color: white;
+    background-color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+
+/* G6th Bill expanded area */
+#billdetailG6 {
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG6 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG6 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG6 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.billNo {
+    background-color: #999;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billNo h3{
+    margin-top: 3px;
+    margin-bottom: auto;
+    margin-left: 40%;
+    float: left;
+}
+
+.billTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tri-collapseG6 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG6:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* G7th item */
+
+.timeline-itemG7 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item-textG7 {
+    width: 120px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-textG7 p {
+    margin-bottom: 0px;
+}
+
+.item-timelineG7 {
+    margin-left: 180px;
+}
+
+.item-lineG7 {
+    width: 64%;
+    height: 2px;
+    background-color: #999;
+    border-radius: 5px;
+    margin-top: 40px;
+    top: 15px;
+    position: relative;
+    z-index:-1;
+}
+
+.item-bpbriefG7 {
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: #999;
+}
+
+.item-learnmoreG7 {
+    border: 2px solid #4CC2FF;
+    color: #4CC2FF;
+    padding: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item-learnmoreG7:hover {
+    color: white;
+    background-color: #4CC2FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #4CC2FF;
+    cursor: pointer;
+}
+
+.circleG7-1 {
+    width: 18px;
+    height: 18px;
+    background-color: #168dc5;
+    /* Key to set a circle */
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 46.5%;
+    /*margin-top: 1px;*/
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/* G7 Expanded area -1 */
+
+#billdetailG7-1 {
+    margin-top: 10px;
+    margin-left: 15%;å
+    width: 78%;
+    border: 3px #999 solid;
+    display: none;
+}
+
+#billdetailG7-1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#billdetailG7-1 h4 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#billprogressG7-1 {
+    width:30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#tri-collapseG7-1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#tri-collapseG7-1:hover {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #5b5b5b;
+    margin-left: 5%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* Circles style */
+
+
+/* G1th */
+.law-title-G1-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G1-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G1-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-G1-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G1-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G1-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+/* G2nd line */
+
+.law-title-G2-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G2-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G2-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-G2-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G2-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G2-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+
+
+/* G3rd line */
+
+.law-title-G3-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G3-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G3-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+
+
+
+/* G4th line */
+
+.law-title-G4-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G4-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G4-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-G4-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G4-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G4-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-G4-3 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G4-3::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top:-9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G4-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+/* G5th line */
+
+
+.law-title-G5-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    color: #fff;
+    background: #ED6F1D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G5-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G5-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+.law-title-G5-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #ED6F1D;
+    background: #ED6F1D;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G5-2::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #ED6F1D;
+    border-top: 0;
+}
+
+.law-details-G5-2 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #ED6F1D;
+    border-bottom: 1px solid #ED6F1D;
+    border-right: 1px solid #ED6F1D;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
+
+
+/* G6th line */
+
+/*.law-title-G6-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #EAEFB1;
+    color: #fff;
+    background: #EAEFB1;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G6-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #EAEFB1;
+    border-top: 0;
+}
+
+.law-details-G6-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #EAEFB1;
+    border-bottom: 1px solid #EAEFB1;
+    border-right: 1px solid #EAEFB1;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}*/
+
+/* G7th line */
+
+.law-title-G7-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #168dc5;
+    color: #fff;
+    background: #168dc5;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.law-title-G7-1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -9px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #168dc5;
+    border-top: 0;
+}
+
+.law-details-G7-1 {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    border-left: 1px solid #168dc5;
+    border-bottom: 1px solid #168dc5;
+    border-right: 1px solid #168dc5;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 6%;
+}
